@@ -1,0 +1,155 @@
+[
+  {
+    "slug": "inter",
+    "name": "Inter",
+    "category": "sans",
+    "mood": ["modern", "neutral", "clean", "tech"],
+    "weights": [400, 500, 600, 700],
+    "bestFor": ["saas", "ui", "blog"],
+    "partners": ["playfair-display", "merriweather", "lora", "inter"]
+  },
+  {
+    "slug": "roboto",
+    "name": "Roboto",
+    "category": "sans",
+    "mood": ["modern", "neutral", "tech"],
+    "weights": [400, 500, 700],
+    "bestFor": ["ui", "app", "blog"],
+    "partners": ["roboto-slab", "lora", "merriweather"]
+  },
+  {
+    "slug": "open-sans",
+    "name": "Open Sans",
+    "category": "sans",
+    "mood": ["friendly", "clean", "neutral"],
+    "weights": [400, 500, 600, 700],
+    "bestFor": ["blog", "ui", "startup"],
+    "partners": ["merriweather", "playfair-display", "bitter"]
+  },
+  {
+    "slug": "poppins",
+    "name": "Poppins",
+    "category": "sans",
+    "mood": ["playful", "friendly", "modern"],
+    "weights": [400, 500, 600, 700],
+    "bestFor": ["startup", "landing page", "agency"],
+    "partners": ["lora", "merriweather", "pt-serif"]
+  },
+  {
+    "slug": "manrope",
+    "name": "Manrope",
+    "category": "sans",
+    "mood": ["modern", "tech", "clean"],
+    "weights": [400, 500, 600, 700],
+    "bestFor": ["saas", "tech", "startup"],
+    "partners": ["dm-serif-display", "playfair-display", "eb-garamond"]
+  },
+  {
+    "slug": "work-sans",
+    "name": "Work Sans",
+    "category": "sans",
+    "mood": ["friendly", "quirky", "modern"],
+    "weights": [400, 500, 600, 700],
+    "bestFor": ["agency", "portfolio", "blog"],
+    "partners": ["cormorant-garamond", "libre-baskerville"]
+  },
+  {
+    "slug": "source-sans-3",
+    "name": "Source Sans 3",
+    "category": "sans",
+    "mood": ["neutral", "professional", "clean"],
+    "weights": [400, 500, 600, 700],
+    "bestFor": ["ui", "saas", "dashboard"],
+    "partners": ["source-serif-4", "merriweather"]
+  },
+  {
+    "slug": "nunito",
+    "name": "Nunito",
+    "category": "sans",
+    "mood": ["friendly", "playful", "soft"],
+    "weights": [400, 500, 600, 700],
+    "bestFor": ["startup", "app", "blog"],
+    "partners": ["lora", "merriweather", "pt-serif"]
+  },
+  {
+    "slug": "playfair-display",
+    "name": "Playfair Display",
+    "category": "serif",
+    "mood": ["elegant", "luxury", "editorial", "premium"],
+    "weights": [400, 500, 600, 700],
+    "bestFor": ["brand", "magazine", "portfolio", "wedding"],
+    "partners": ["inter", "open-sans", "source-sans-3", "lato"]
+  },
+  {
+    "slug": "merriweather",
+    "name": "Merriweather",
+    "category": "serif",
+    "mood": ["classic", "editorial", "readable"],
+    "weights": [400, 700],
+    "bestFor": ["blog", "magazine", "article"],
+    "partners": ["inter", "open-sans", "roboto", "source-sans-3"]
+  },
+  {
+    "slug": "lora",
+    "name": "Lora",
+    "category": "serif",
+    "mood": ["elegant", "contemporary", "literary"],
+    "weights": [400, 500, 600, 700],
+    "bestFor": ["blog", "portfolio", "editorial"],
+    "partners": ["inter", "poppins", "roboto", "nunito"]
+  },
+  {
+    "slug": "cormorant-garamond",
+    "name": "Cormorant Garamond",
+    "category": "serif",
+    "mood": ["elegant", "classic", "formal"],
+    "weights": [400, 500, 600, 700],
+    "bestFor": ["luxury", "wedding", "portfolio", "brand"],
+    "partners": ["montserrat", "proza-libre", "work-sans"]
+  },
+  {
+    "slug": "libre-baskerville",
+    "name": "Libre Baskerville",
+    "category": "serif",
+    "mood": ["classic", "traditional", "readable"],
+    "weights": [400, 700],
+    "bestFor": ["blog", "article", "magazine"],
+    "partners": ["source-sans-3", "montserrat", "work-sans"]
+  },
+  {
+    "slug": "dm-serif-display",
+    "name": "DM Serif Display",
+    "category": "display",
+    "mood": ["modern", "impactful", "elegant"],
+    "weights": [400],
+    "bestFor": ["brand", "portfolio", "landing page"],
+    "partners": ["dm-sans", "inter", "manrope"]
+  },
+  {
+    "slug": "abril-fatface",
+    "name": "Abril Fatface",
+    "category": "display",
+    "mood": ["bold", "editorial", "impactful"],
+    "weights": [400],
+    "bestFor": ["magazine", "poster", "brand"],
+    "partners": ["lato", "open-sans", "roboto"]
+  },
+  {
+    "slug": "bebas-neue",
+    "name": "Bebas Neue",
+    "category": "display",
+    "mood": ["impactful", "modern", "sporty", "clean"],
+    "weights": [400],
+    "bestFor": ["poster", "header", "brand"],
+    "partners": ["montserrat", "lato", "inter"]
+  },
+  {
+    "slug": "oswald",
+    "name": "Oswald",
+    "category": "display",
+    "mood": ["modern", "impactful", "technical"],
+    "weights": [400, 500, 600, 700],
+    "bestFor": ["header", "magazine", "brand"],
+    "partners": ["open-sans", "roboto", "quicksand"]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "playfair-display-inter",
+    "headingFont": "Playfair Display",
+    "bodyFont": "Inter",
+    "mood": ["editorial", "premium", "elegant"],
+    "useCases": ["brand", "blog", "portfolio", "magazine"],
+    "description": "An elegant, high-contrast serif paired with an extremely readable, neutral modern sans."
+  },
+  {
+    "slug": "inter-inter",
+    "headingFont": "Inter",
+    "bodyFont": "Inter",
+    "mood": ["modern", "neutral", "tech", "minimalist"],
+    "useCases": ["saas", "ui", "startup", "app"],
+    "description": "A clean, monochromatic pairing using different weights of Inter for perfect harmony and a highly technical feel."
+  },
+  {
+    "slug": "poppins-lora",
+    "headingFont": "Poppins",
+    "bodyFont": "Lora",
+    "mood": ["friendly", "contemporary", "literary"],
+    "useCases": ["blog", "agency", "landing page"],
+    "description": "A friendly, geometric sans heading meets an elegant, highly readable serif for the body. Approachable yet sophisticated."
+  },
+  {
+    "slug": "merriweather-open-sans",
+    "headingFont": "Merriweather",
+    "bodyFont": "Open Sans",
+    "mood": ["classic", "readable", "neutral"],
+    "useCases": ["article", "blog", "magazine"],
+    "description": "A highly functional and readable classic. Merriweather provides a sturdy serif heading while Open Sans ensures crisp body text."
+  },
+  {
+    "slug": "dm-serif-display-manrope",
+    "headingFont": "DM Serif Display",
+    "bodyFont": "Manrope",
+    "mood": ["modern", "impactful", "premium"],
+    "useCases": ["portfolio", "landing page", "brand"],
+    "description": "A striking, high-contrast display serif paired with a sleek, modern geometric sans."
+  },
+  {
+    "slug": "lora-nunito",
+    "headingFont": "Lora",
+    "bodyFont": "Nunito",
+    "mood": ["soft", "elegant", "friendly"],
+    "useCases": ["blog", "portfolio", "startup"],
+    "description": "A gentle combination. Lora provides a literary touch, while Nunito's rounded terminals offer a soft, friendly read."
+  },
+  {
+    "slug": "abril-fatface-roboto",
+    "headingFont": "Abril Fatface",
+    "bodyFont": "Roboto",
+    "mood": ["bold", "editorial", "impactful"],
+    "useCases": ["poster", "magazine", "brand"],
+    "description": "A classic editorial pairing. The heavy, high-contrast Abril Fatface grabs attention, supported by the pragmatic and neutral Roboto."
+  },
+  {
+    "slug": "bebas-neue-inter",
+    "headingFont": "Bebas Neue",
+    "bodyFont": "Inter",
+    "mood": ["impactful", "clean", "modern"],
+    "useCases": ["poster", "header", "brand", "startup"],
+    "description": "Strong, condensed, and impactful headers with Bebas Neue, paired with the ultimate neutral utility sans, Inter."
+  },
+  {
+    "slug": "cormorant-garamond-work-sans",
+    "headingFont": "Cormorant Garamond",
+    "bodyFont": "Work Sans",
+    "mood": ["elegant", "formal", "quirky"],
+    "useCases": ["luxury", "portfolio", "agency"],
+    "description": "A beautiful contrast between the extremely delicate Cormorant Garamond and the slightly quirky, sturdy Work Sans."
+  },
+  {
+    "slug": "oswald-open-sans",
+    "headingFont": "Oswald",
+    "bodyFont": "Open Sans",
+    "mood": ["technical", "modern", "impactful"],
+    "useCases": ["magazine", "brand", "header"],
+    "description": "A condensed, technical sans heading paired with a wide, friendly sans body for excellent structural contrast."
+  },
+  {
+    "slug": "libre-baskerville-source-sans-3",
+    "headingFont": "Libre Baskerville",
+    "bodyFont": "Source Sans 3",
+    "mood": ["classic", "traditional", "professional"],
+    "useCases": ["blog", "article", "magazine"],
+    "description": "A traditional, robust serif designed for web reading, paired with a clean and highly legible sans."
+  },
+  {
+    "slug": "manrope-playfair-display",
+    "headingFont": "Manrope",
+    "bodyFont": "Playfair Display",
+    "mood": ["modern", "elegant", "premium"],
+    "useCases": ["portfolio", "luxury", "brand"],
+    "description": "Inverting the typical serif-heading model. A modern sans heading paired with an elegant serif body for a highly stylized, editorial feel."
+  }
+]
