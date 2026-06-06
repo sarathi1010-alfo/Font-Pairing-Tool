@@ -1,0 +1,68 @@
+import { notFound } from "next/navigation";
+import { getAllGuideSlugs, getGuideMeta } from "@/lib/mdx";
+import fs from "fs";
+import path from "path";
+import { MDXRemote } from "next-mdx-remote/rsc";
+
+export function generateStaticParams() {
+  const slugs = getAllGuideSlugs();
+  return slugs.map((slug) => ({
+    slug,
+  }));
+}
+
+export async function generateMetadata({ params }: { params: { slug: string } }) {
+  const { slug } = await params;
+  if (!slug) return { title: 'Guide Not Found' };
+
+  const meta = getGuideMeta(slug);
+  if (!meta) return { title: 'Guide Not Found' };
+
+  return {
+    title: `${meta.title} | FontPair Guides`,
+    description: meta.description,
+  };
+}
+
+// Ensure the styles match our global typography settings
+const components = {
+  h1: (props: React.HTMLAttributes<HTMLHeadingElement>) => <h1 className="text-4xl md:text-5xl font-bold mt-12 mb-6 tracking-tight" {...props} />,
+  h2: (props: React.HTMLAttributes<HTMLHeadingElement>) => <h2 className="text-3xl font-bold mt-12 mb-4 tracking-tight" {...props} />,
+  h3: (props: React.HTMLAttributes<HTMLHeadingElement>) => <h3 className="text-2xl font-bold mt-8 mb-4 tracking-tight" {...props} />,
+  p: (props: React.HTMLAttributes<HTMLParagraphElement>) => <p className="text-lg leading-relaxed text-zinc-700 dark:text-zinc-300 mb-6" {...props} />,
+  ul: (props: React.HTMLAttributes<HTMLUListElement>) => <ul className="list-disc pl-6 mb-6 space-y-2 text-lg text-zinc-700 dark:text-zinc-300" {...props} />,
+  strong: (props: React.HTMLAttributes<HTMLElement>) => <strong className="font-semibold text-zinc-900 dark:text-zinc-50" {...props} />,
+};
+
+export default async function GuidePage({ params }: { params: { slug: string } }) {
+  const { slug } = await params;
+
+  if (!slug) notFound();
+
+  let fileContent;
+  let meta;
+  try {
+    const filePath = path.join(process.cwd(), 'src/content/guides', `${slug}.mdx`);
+    fileContent = fs.readFileSync(filePath, 'utf8');
+    meta = getGuideMeta(slug);
+  } catch {
+    notFound();
+  }
+
+  if (!meta) notFound();
+
+  // We strip frontmatter manually for next-mdx-remote
+  const content = fileContent.replace(/---[\s\S]*?---/, '');
+
+  return (
+    <article className="container mx-auto px-4 py-16 max-w-3xl">
+      <header className="mb-12">
+        <h1 className="text-5xl font-bold mb-4 tracking-tight">{meta.title}</h1>
+        <p className="text-xl text-zinc-500">{meta.description}</p>
+      </header>
+      <div className="prose prose-zinc dark:prose-invert max-w-none">
+        <MDXRemote source={content} components={components} />
+      </div>
+    </article>
+  );
+}

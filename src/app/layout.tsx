@@ -11,6 +11,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "FontPair - Best Font Combinations for Designers",
   description: "Find font pairs that look premium, readable, and ready to ship. A fast, beautiful font pairing tool that helps designers and founders discover, compare, and save the perfect typography combinations.",
+  other: {
+    "google-adsense-account": "ca-pub-6393936268623951"
+  }
 };
 
 export default function RootLayout({
