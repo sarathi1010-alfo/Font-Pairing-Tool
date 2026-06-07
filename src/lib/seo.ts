@@ -69,3 +69,37 @@ export function constructMetadata({
     },
   };
 }
+
+/**
+ * Automated Metadata Generation Pipeline for programmatic tools.
+ * Helps rapidly create optimized metadata for dynamically generated clusters.
+ */
+interface ToolData {
+  tool_name: string;
+  cluster: string;
+  primary_action?: string;
+  input_type?: string;
+  output_type?: string;
+  key_benefit?: string;
+}
+
+export function generateToolMetadata(toolData: ToolData, path: string): Metadata {
+  const { tool_name, primary_action, key_benefit = "Free Online Tool" } = toolData;
+
+  const titleTemplates = [
+    `${tool_name} - ${key_benefit} | FontPair`,
+    `${tool_name} | Free Typography ${toolData.cluster} | FontPair`,
+    `${primary_action ? primary_action + ' with ' : ''}${tool_name} | FontPair`
+  ];
+
+  // Select the shortest title that makes sense, or the primary one
+  const title = titleTemplates[0];
+
+  const description = `Use our free online ${tool_name.toLowerCase()} to ${primary_action ? primary_action : 'improve your typography and design workflow'}. No signup required.`;
+
+  return constructMetadata({
+    title,
+    description,
+    path,
+  });
+}
