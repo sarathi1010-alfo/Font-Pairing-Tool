@@ -4,8 +4,10 @@ import { getAllGuideSlugs } from '@/lib/mdx';
 
 export const dynamic = 'force-static';
 
+import { SITE_URL } from '@/lib/config';
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://fontpairing.com'; // Example domain
+  const baseUrl = SITE_URL;
 
   const fonts = getAllFonts().map((font) => ({
     url: `${baseUrl}/fonts/${font.slug}`,
