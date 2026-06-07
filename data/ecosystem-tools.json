@@ -1,0 +1,42 @@
+[
+  {
+    "id": "pdf-utility",
+    "name": "PDF Utility",
+    "url": "https://pdfutility.app",
+    "description": "Compress, merge, and split PDFs securely in your browser.",
+    "tags": ["document", "productivity"],
+    "launchDate": "2024-01-15"
+  },
+  {
+    "id": "qr-generator",
+    "name": "QR Generator",
+    "url": "https://qr.alfo.online",
+    "description": "Generate custom QR codes for URLs, text, and documents.",
+    "tags": ["marketing", "productivity", "document"],
+    "launchDate": "2024-02-01"
+  },
+  {
+    "id": "resume-forge",
+    "name": "Resume Forge",
+    "url": "https://resumeforge.alfo.online",
+    "description": "Create professional resumes that beat ATS systems.",
+    "tags": ["document", "productivity"],
+    "launchDate": "2024-03-10"
+  },
+  {
+    "id": "palette-flow",
+    "name": "Palette Flow",
+    "url": "https://paletteflow.alfo.online",
+    "description": "Generate accessible color palettes for your brand.",
+    "tags": ["design", "brand"],
+    "launchDate": "2024-04-22"
+  },
+  {
+    "id": "font-pair",
+    "name": "FontPair",
+    "url": "https://fontpair.alfo.online",
+    "description": "Find font pairs that look premium and ready to ship.",
+    "tags": ["design", "brand"],
+    "launchDate": "2024-06-01"
+  }
+]
