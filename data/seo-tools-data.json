@@ -1,0 +1,36 @@
+[
+  {
+    "tool": "font-pair",
+    "basePath": "generator",
+    "useCases": [
+      {
+        "slug": "portfolio-website-fonts",
+        "keyword": "best fonts for portfolio website",
+        "title": "Best Fonts for Portfolio Websites (2025)",
+        "intro": "A portfolio needs to let the work shine while showing off your design taste. Discover the best font pairings for designers and creatives building their personal site."
+      },
+      {
+        "slug": "saas-landing-page-fonts",
+        "keyword": "fonts for SaaS landing page",
+        "title": "High-Converting Fonts for SaaS Landing Pages",
+        "intro": "Trust, readability, and modern aesthetics are crucial for SaaS. Here are the best font combinations to increase conversion rates on your software landing page."
+      }
+    ],
+    "comparisons": [
+      {
+        "competitor": "google-fonts",
+        "keyword": "google fonts alternative for pairing",
+        "title": "FontPair vs Manual Google Fonts Searching",
+        "intro": "Stop endlessly scrolling through Google Fonts. See why using curated, ready-to-ship typography pairs saves you hours of design time."
+      }
+    ],
+    "templates": [
+      {
+        "category": "minimalist",
+        "keyword": "minimalist font combinations",
+        "title": "Minimalist Typography Templates",
+        "intro": "Clean lines, high contrast, zero clutter. Copy these minimalist font stacks directly into your CSS."
+      }
+    ]
+  }
+]

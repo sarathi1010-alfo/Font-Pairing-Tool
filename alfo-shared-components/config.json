@@ -1,0 +1,11 @@
+{
+  "siteName": "Tool Name",
+  "primaryKeyword": "Main Keyword",
+  "toolType": "Tool Category",
+  "description": "Benefit-driven description for the tool.",
+  "keywords": "comma, separated, list, of, keywords",
+  "canonicalUrl": "https://tool.alfo.online",
+  "ogImage": "https://tool.alfo.online/og-image.jpg",
+  "toolCategory": "UtilityApplication",
+  "relatedTools": ["tool1", "tool2", "tool3"]
+}
