@@ -24,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta name="monetag" content="86950f5308b2a836fd804730ef0e5e7d" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
