@@ -1,13 +1,17 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
 import { Badge } from "@/components/ui/badge";
 import { getAllFonts, getAllPairs, FontPair, Font } from "@/lib/fonts";
 import { DynamicFontLoader } from "@/components/DynamicFontLoader";
 import { useFavorites } from "@/lib/storage";
-import { RefreshCw, Heart, Share, SlidersHorizontal, ArrowLeftRight } from "lucide-react";
+import { RefreshCw, Heart, Share, SlidersHorizontal, ArrowLeftRight, Sparkles, ExternalLink } from "lucide-react";
+import { LiveWebsitePreview } from "@/components/LiveWebsitePreview";
+import { generateTypographySystem } from "@/lib/typography-system";
+import { calculatePairingConfidence } from "@/lib/recommendation";
+import Link from "next/link";
 
 export default function GeneratorPage() {
   const allPairs = getAllPairs();
@@ -21,6 +25,9 @@ export default function GeneratorPage() {
   // Settings
   const [fontSize, setFontSize] = useState([100]); // Percentage
   const [lineHeight, setLineHeight] = useState([150]); // Percentage
+  const [selectedMood, setSelectedMood] = useState<string>("all");
+
+  const uniqueMoods = Array.from(new Set(allFonts.flatMap(f => f.mood))).sort();
 
   // Update font data when pair changes
   const handleSetPair = (pair: FontPair) => {
@@ -30,18 +37,38 @@ export default function GeneratorPage() {
   };
 
   const randomize = () => {
-    const currentIndex = allPairs.findIndex(p => p.slug === currentPair.slug);
-    let nextIndex;
-    do {
-      nextIndex = Math.floor(Math.random() * allPairs.length);
-    } while (nextIndex === currentIndex && allPairs.length > 1);
+    const validPairs = selectedMood === "all"
+      ? allPairs
+      : allPairs.filter(p => {
+          const hFont = allFonts.find(f => f.name === p.headingFont);
+          const bFont = allFonts.find(f => f.name === p.bodyFont);
+          return (hFont?.mood.includes(selectedMood) || bFont?.mood.includes(selectedMood));
+        });
 
-    handleSetPair(allPairs[nextIndex]);
+    if (validPairs.length === 0) return;
+
+    const currentIndex = validPairs.findIndex(p => p.slug === currentPair.slug);
+    // eslint-disable-next-line react-hooks/purity
+    let nextIndex = Math.floor(Math.random() * validPairs.length);
+
+    if (validPairs.length > 1 && nextIndex === currentIndex) {
+      nextIndex = (nextIndex + 1) % validPairs.length;
+    }
+
+    handleSetPair(validPairs[nextIndex]);
   };
 
   if (!currentPair) return null;
 
   const fontNames = [currentPair.headingFont, currentPair.bodyFont];
+
+  const system = headingFontData && bodyFontData
+    ? generateTypographySystem(headingFontData, bodyFontData)
+    : null;
+
+  const confidenceScore = headingFontData && bodyFontData
+    ? calculatePairingConfidence(headingFontData, bodyFontData)
+    : 50;
 
   return (
     <div className="flex flex-col md:flex-row min-h-[calc(100vh-4rem)]">
@@ -52,8 +79,22 @@ export default function GeneratorPage() {
         <div>
           <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-500 mb-4 flex items-center gap-2">
             <SlidersHorizontal className="h-4 w-4" />
-            Controls
+            Intelligence Workspace
           </h2>
+
+          <div className="mb-6">
+            <label className="text-sm font-medium mb-2 block">Brand Mood</label>
+            <select
+              className="w-full h-10 px-3 rounded-md border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 text-sm"
+              value={selectedMood}
+              onChange={(e) => setSelectedMood(e.target.value)}
+            >
+              <option value="all">Any Mood</option>
+              {uniqueMoods.map(mood => (
+                <option key={mood} value={mood} className="capitalize">{mood}</option>
+              ))}
+            </select>
+          </div>
 
           <Button onClick={randomize} className="w-full mb-4 h-12 text-md" variant="default">
             <RefreshCw className="mr-2 h-4 w-4" />
@@ -112,6 +153,10 @@ export default function GeneratorPage() {
           <h3 className="text-sm font-semibold uppercase tracking-wider text-zinc-500 mb-4">
             Current Pair Specs
           </h3>
+          <div className="mb-4 p-3 bg-zinc-100 dark:bg-zinc-800 rounded-lg flex items-center justify-between">
+            <span className="text-sm font-medium flex items-center gap-1"><Sparkles className="w-4 h-4 text-amber-500"/> Confidence</span>
+            <span className="font-bold text-amber-500">{confidenceScore}/100</span>
+          </div>
           <div className="space-y-4">
             <div className="p-4 bg-white dark:bg-zinc-950 rounded-lg border border-zinc-200 dark:border-zinc-800">
               <div className="text-xs text-zinc-500 mb-1">Heading</div>
@@ -128,11 +173,34 @@ export default function GeneratorPage() {
             </div>
           </div>
         </div>
+        <div className="mt-8 pt-8 border-t border-zinc-200 dark:border-zinc-800">
+          <Link href="https://paletteflow.alfo.online/" target="_blank" className="group block p-4 bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-950/30 dark:to-purple-950/30 rounded-xl border border-indigo-100 dark:border-indigo-900/50 hover:border-indigo-300 transition-all">
+            <h4 className="text-sm font-bold text-indigo-900 dark:text-indigo-300 flex items-center gap-1 mb-1">
+              Need Colors? <ExternalLink className="w-3 h-3 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+            </h4>
+            <p className="text-xs text-indigo-700/80 dark:text-indigo-400/80">Generate a matching brand palette with PaletteFlow.</p>
+          </Link>
+        </div>
       </aside>
 
       {/* Main Preview Area */}
       <main className="flex-1 bg-white dark:bg-zinc-950 p-6 md:p-12 overflow-y-auto">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
+
+          {/* Contextual Preview */}
+          {system && (
+            <div className="mb-16">
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-2xl font-bold tracking-tight">Live Context</h2>
+                <div className="flex gap-2">
+                  <Badge variant="outline" className="bg-green-50 text-green-700 border-green-200 dark:bg-green-950/30 dark:text-green-400 dark:border-green-900">
+                    A11y Score: {system.accessibilityScore}/100
+                  </Badge>
+                </div>
+              </div>
+              <LiveWebsitePreview system={system} />
+            </div>
+          )}
 
           {/* Tags */}
           <div className="flex flex-wrap gap-2 mb-10">

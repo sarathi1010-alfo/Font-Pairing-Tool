@@ -6,9 +6,12 @@ export interface Font {
   name: string;
   category: 'sans' | 'serif' | 'display' | 'mono';
   mood: string[];
+  psychologicalTags?: string[]; // E.g., 'trustworthy', 'luxury', 'friendly'
   weights: number[];
   bestFor: string[];
   partners: string[];
+  premiumAlternative?: string; // The premium font this simulates or is closest to
+  accessibilityScore?: number; // Base score (0-100) for legibility and readability
 }
 
 export interface FontPair {
