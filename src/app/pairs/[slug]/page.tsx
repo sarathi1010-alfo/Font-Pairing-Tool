@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import { getAllPairs, getPairBySlug } from "@/lib/fonts";
 import { DynamicFontLoader } from "@/components/DynamicFontLoader";
-import { constructMetadata } from "@/lib/seo";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -21,11 +20,10 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const pair = getPairBySlug(slug);
   if (!pair) return { title: 'Pairing Not Found' };
 
-  return constructMetadata({
+  return {
     title: `${pair.headingFont} & ${pair.bodyFont} Font Pairing | FontPair`,
     description: `Discover why ${pair.headingFont} and ${pair.bodyFont} make a perfect typography combination. Explore live previews and CSS snippets.`,
-    path: `/pairs/${slug}`,
-  });
+  };
 }
 
 export default async function PairDetailPage({ params }: { params: { slug: string } }) {

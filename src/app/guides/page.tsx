@@ -1,13 +1,11 @@
 import { getAllGuideSlugs, getGuideMeta } from "@/lib/mdx";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { constructMetadata } from "@/lib/seo";
 
-export const metadata = constructMetadata({
+export const metadata = {
   title: "Typography Guides & Tutorials | FontPair",
   description: "Learn how to pair fonts, understand typography basics, and improve your design skills with our comprehensive guides.",
-  path: "/guides",
-});
+};
 
 export default function GuidesIndexPage() {
   const slugs = getAllGuideSlugs();

@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import { getAllFonts, getFontBySlug } from "@/lib/fonts";
 import { DynamicFontLoader } from "@/components/DynamicFontLoader";
-import { constructMetadata } from "@/lib/seo";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
@@ -20,11 +19,10 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const font = getFontBySlug(slug);
   if (!font) return { title: 'Font Not Found' };
 
-  return constructMetadata({
+  return {
     title: `${font.name} Font Details, Pairings & Alternatives | FontPair`,
     description: `Discover the best font pairings, use cases, and design details for ${font.name}, a popular ${font.category} typeface.`,
-    path: `/fonts/${slug}`,
-  });
+  };
 }
 
 export default async function FontDetailPage({ params }: { params: { slug: string } }) {
