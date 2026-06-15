@@ -1,0 +1,66 @@
+name: SEO & Performance CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  lint-and-build:
+    name: Lint, Typecheck, and Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Lint
+        run: pnpm run lint
+
+      - name: Typecheck
+        run: pnpm exec tsc --noEmit
+
+      - name: Build Next.js
+        run: pnpm run build
+
+      # You can add custom SEO checks here
+      # - name: SEO Checks
+      #   run: node scripts/seo-checks.js
+
+  # Post-deploy sitemap submission (mock trigger example)
+  submit-sitemap:
+    name: Submit Sitemap
+    needs: lint-and-build
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+
+      - name: Install googleapis
+        run: npm install googleapis dotenv
+
+      - name: Submit Sitemap
+        run: node scripts/submit-sitemap.js
+        env:
+          NEXT_PUBLIC_SITE_URL: "https://fontpair.alfo.online"
+          # Require secret in actual repo: GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GCP_CREDENTIALS }}
