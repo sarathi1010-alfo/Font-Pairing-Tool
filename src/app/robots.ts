@@ -11,6 +11,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/favorites'], // Don't index local user state pages
     },
-    sitemap: `${SITE_URL}/sitemap.xml`,
+    sitemap: 'https://fontpair.alfo.online/sitemap.xml',
   };
 }

@@ -1,0 +1,79 @@
+ INFO  Accepting connections at http://localhost:34801
+ HTTP  6/13/2026 5:44:51 AM ::1 GET /generator
+ HTTP  6/13/2026 5:44:51 AM ::1 Returned 200 in 258 ms
+ HTTP  6/13/2026 5:44:51 AM ::1 GET /_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2
+ HTTP  6/13/2026 5:44:51 AM ::1 GET /_next/static/chunks/00bdhnbajgy5n.css
+ HTTP  6/13/2026 5:44:51 AM ::1 Returned 200 in 4 ms
+ HTTP  6/13/2026 5:44:51 AM ::1 Returned 200 in 4 ms
+ HTTP  6/13/2026 5:44:51 AM ::1 GET /_next/static/chunks/08yp44oc0kc-l.js
+ HTTP  6/13/2026 5:44:51 AM ::1 GET /_next/static/chunks/2zwjqt-_5zs77.js
+ HTTP  6/13/2026 5:44:51 AM ::1 GET /_next/static/chunks/3eqcg8vvl570c.js
+ HTTP  6/13/2026 5:44:51 AM ::1 GET /_next/static/chunks/2doesmj8uwy66.js
+ HTTP  6/13/2026 5:44:51 AM ::1 GET /_next/static/chunks/turbopack-2-w-6cx0cibgf.js
+ HTTP  6/13/2026 5:44:51 AM ::1 GET /_next/static/chunks/2sjoin-hxqzqx.js
+ HTTP  6/13/2026 5:44:51 AM ::1 Returned 200 in 15 ms
+ HTTP  6/13/2026 5:44:51 AM ::1 Returned 200 in 15 ms
+ HTTP  6/13/2026 5:44:51 AM ::1 Returned 200 in 10 ms
+ HTTP  6/13/2026 5:44:51 AM ::1 Returned 200 in 7 ms
+ HTTP  6/13/2026 5:44:51 AM ::1 Returned 200 in 13 ms
+ HTTP  6/13/2026 5:44:51 AM ::1 Returned 200 in 14 ms
+ HTTP  6/13/2026 5:44:51 AM ::1 GET /_next/static/chunks/1124ddmj5g_p8.js
+ HTTP  6/13/2026 5:44:51 AM ::1 GET /_next/static/chunks/34ardoyo14rrr.js
+ HTTP  6/13/2026 5:44:51 AM ::1 GET /_next/static/chunks/27xvozgod6nkq.js
+ HTTP  6/13/2026 5:44:51 AM ::1 GET /_next/static/chunks/0p9s0q42paeei.js
+ HTTP  6/13/2026 5:44:51 AM ::1 Returned 200 in 3 ms
+ HTTP  6/13/2026 5:44:51 AM ::1 Returned 200 in 4 ms
+ HTTP  6/13/2026 5:44:51 AM ::1 Returned 200 in 4 ms
+ HTTP  6/13/2026 5:44:51 AM ::1 Returned 200 in 4 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 HEAD /guides
+ HTTP  6/13/2026 5:44:52 AM ::1 HEAD /favorites
+ HTTP  6/13/2026 5:44:52 AM ::1 HEAD /browse
+ HTTP  6/13/2026 5:44:52 AM ::1 HEAD /
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 3 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 4 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 4 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 3 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /guides/__next._tree.txt?_rsc=RRt2g5AqryrOUgUK
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 2 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /favorites/__next._tree.txt?_rsc=RRt2g5AqryrOUgUK
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /browse/__next._tree.txt?_rsc=RRt2g5AqryrOUgUK
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /__next._tree.txt?_rsc=RRt2g5AqryrOUgUK
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /guides/__next._head.txt?_rsc=Aq4eueLxJRHqThm_
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /guides/__next._index.txt?_rsc=mwDheZGuzxGHqX0d
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 7 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 4 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 4 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 5 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 6 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /guides/__next.guides.txt?_rsc=rlT3B6QamW2djAAT
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /guides/__next.guides.__PAGE__.txt?_rsc=zv0FBKVa8BxekRFd
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 1 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 2 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /favorites/__next._head.txt?_rsc=Aq4eueLxJRHqThm_
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /favorites/__next.favorites.txt?_rsc=dD3L5Pv2BdsIcYRE
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 1 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 1 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /favorites/__next.favorites.__PAGE__.txt?_rsc=zISCLpYu7pD52ZdD
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /browse/__next._head.txt?_rsc=Aq4eueLxJRHqThm_
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 2 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /browse/__next.browse.txt?_rsc=9gPhklx8OzsQNw1B
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /browse/__next.browse.__PAGE__.txt?_rsc=t4Mxk9MrYhkzc_5X
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 4 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 3 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 3 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /_next/static/chunks/1vmyahiz0i_u8.js
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /generator/__next._head.txt?_rsc=Aq4eueLxJRHqThm_
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 1 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 2 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /generator/__next.generator.txt?_rsc=4cAHC4erGNYXqhdx
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /generator/__next.generator.__PAGE__.txt?_rsc=GGLd7yZBHR9Zzmgx
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /_next/static/chunks/41v5k932zc-tc.js
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /__next._head.txt?_rsc=Aq4eueLxJRHqThm_
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 3 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 2 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /__next.__PAGE__.txt?_rsc=n4gyrc6p9Gv3jdBT
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 4 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 4 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 3 ms
+ HTTP  6/13/2026 5:44:52 AM ::1 GET /_next/static/chunks/2obpw9b25oaqw.js
+ HTTP  6/13/2026 5:44:52 AM ::1 Returned 200 in 1 ms

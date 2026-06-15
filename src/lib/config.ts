@@ -7,6 +7,7 @@
 // If running on Vercel preview, use NEXT_PUBLIC_VERCEL_URL.
 // Otherwise, default to localhost.
 export const getBaseUrl = () => {
+ fix-sitemap-domain-10105491013897075260
   if (process.env.NEXT_PUBLIC_SITE_URL) {
     return process.env.NEXT_PUBLIC_SITE_URL;
   }
@@ -28,6 +29,8 @@ export const getBaseUrl = () => {
   return process.env.NODE_ENV === "development"
     ? "http://localhost:3000"
     : "https://fontfusion.alfo.online"; // Fallback production URL
+  return "https://fontpair.alfo.online";
+jules-1134815465466981712-097bc9f0
 };
 
 export const SITE_URL = getBaseUrl();

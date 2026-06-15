@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getAllGuideSlugs, getGuideMeta } from "@/lib/mdx";
 import fs from "fs";
 import path from "path";
+import { constructMetadata } from "@/lib/seo";
 import { MDXRemote } from "next-mdx-remote/rsc";
 
 export function generateStaticParams() {
@@ -18,10 +19,11 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const meta = getGuideMeta(slug);
   if (!meta) return { title: 'Guide Not Found' };
 
-  return {
+  return constructMetadata({
     title: `${meta.title} | FontPair Guides`,
     description: meta.description,
-  };
+    path: `/guides/${slug}`,
+  });
 }
 
 // Ensure the styles match our global typography settings
