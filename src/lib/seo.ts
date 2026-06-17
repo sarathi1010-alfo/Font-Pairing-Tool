@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { siteConfig } from "./config";
+import { generateCanonicalUrl } from "./seo-utils";
 
 /**
  * Centralized Metadata constructor for Next.js App Router.
@@ -24,7 +25,7 @@ export function constructMetadata({
 }: ConstructMetadataProps = {}): Metadata {
 
   // Calculate canonical URL securely
-  const canonicalUrl = path ? `${siteConfig.url}${path}` : siteConfig.url;
+  const canonicalUrl = generateCanonicalUrl(path);
 
   return {
     title,
