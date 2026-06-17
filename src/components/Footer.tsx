@@ -36,8 +36,8 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-zinc-200 dark:border-zinc-800 text-sm text-zinc-500 flex flex-col md:flex-row justify-between items-center gap-4">
           <p>© {new Date().getFullYear()} FontPair. All rights reserved.</p>
           <div className="flex gap-4">
-            <Link href="#" className="hover:text-zinc-900 dark:hover:text-zinc-50">Privacy</Link>
-            <Link href="#" className="hover:text-zinc-900 dark:hover:text-zinc-50">Terms</Link>
+            <Link href="/privacy-policy" className="hover:text-zinc-900 dark:hover:text-zinc-50">Privacy</Link>
+            <Link href="/terms-and-conditions" className="hover:text-zinc-900 dark:hover:text-zinc-50">Terms</Link>
           </div>
         </div>
       </div>
