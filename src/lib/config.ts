@@ -18,7 +18,7 @@ export const getBaseUrl = () => {
     if (process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL) {
       return `https://${process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL}`;
     }
-    return "https://fontpair.alfo.online";
+    return "https://fontfusion.alfo.online";
   }
 
   if (process.env.NEXT_PUBLIC_VERCEL_URL) {
@@ -27,13 +27,13 @@ export const getBaseUrl = () => {
 
   return process.env.NODE_ENV === "development"
     ? "http://localhost:3000"
-    : "https://fontpair.alfo.online"; // Fallback production URL
+    : "https://fontfusion.alfo.online"; // Fallback production URL
 };
 
 export const SITE_URL = getBaseUrl();
 
 export const siteConfig = {
-  name: "FontPair | alfo.online",
+  name: "FontFusion | alfo.online",
   description: "Find font pairs that look premium, readable, and ready to ship.",
   url: SITE_URL,
   ogImage: `${SITE_URL}/og-image.jpg`,
