@@ -1,9 +1,9 @@
-# Section 1: Programmatic SEO Architecture (FontPair)
+# Section 1: Programmatic SEO Architecture (FontFusion)
 
 ## 1.1 Full Architecture Blueprint
 
 ### Requirements
-- **Goal:** Scale the FontPair ecosystem to 1,000+ indexed pages in 12 months.
+- **Goal:** Scale the FontFusion ecosystem to 1,000+ indexed pages in 12 months.
 - **Tech Stack:** Next.js (App Router), deployed on Vercel.
 - **Rendering:** Hybrid rendering strategy (SSR/SSG/ISR).
 - **URL Structure:** Flat hierarchy under tools, browse, compare, and guides.
@@ -40,7 +40,7 @@ src/
 
 ## 1.2 Rendering Strategy Selector
 
-For the FontPair ecosystem, different page types require different rendering mechanisms based on user interactivity, data freshness, and SEO requirements.
+For the FontFusion ecosystem, different page types require different rendering mechanisms based on user interactivity, data freshness, and SEO requirements.
 
 | Tool / Page Type | Recommended Strategy | Rationale |
 |------------------|----------------------|-----------|
@@ -80,14 +80,14 @@ export default async function Page({ searchParams }) {
 4. **Guides Cluster:** `/guides/[slug]`
 
 ### Sample URLs
-- `https://fontpair.alfo.online/tools/contrast-checker`
-- `https://fontpair.alfo.online/tools/font-scaler`
-- `https://fontpair.alfo.online/fonts/inter`
-- `https://fontpair.alfo.online/pairs/inter-roboto`
-- `https://fontpair.alfo.online/guides/pairing-sans-with-serif`
+- `https://fontfusion.alfo.online/tools/contrast-checker`
+- `https://fontfusion.alfo.online/tools/font-scaler`
+- `https://fontfusion.alfo.online/fonts/inter`
+- `https://fontfusion.alfo.online/pairs/inter-roboto`
+- `https://fontfusion.alfo.online/guides/pairing-sans-with-serif`
 
 ### Why Subfolders Beat Subdomains
-Using subfolders (e.g., `/tools/...`) consolidates all domain authority into a single entity. Subdomains (e.g., `tools.fontpair.com`) are often treated as separate websites by Googlebot, diluting link equity and making it harder for new tools to rank based on the main site's existing authority.
+Using subfolders (e.g., `/tools/...`) consolidates all domain authority into a single entity. Subdomains (e.g., `tools.fontfusion.com`) are often treated as separate websites by Googlebot, diluting link equity and making it harder for new tools to rank based on the main site's existing authority.
 
 ### Internal Linking Logic (Pseudocode)
 ```typescript

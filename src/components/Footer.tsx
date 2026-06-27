@@ -9,7 +9,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center gap-2 font-bold text-lg tracking-tight mb-4">
               <Layers className="h-5 w-5" />
-              <span>FontPair</span>
+              <span>FontFusion</span>
             </Link>
             <p className="text-zinc-600 dark:text-zinc-400 text-sm max-w-sm">
               A fast, beautiful font pairing tool that helps designers and founders discover, compare, and save the perfect typography combinations.
@@ -34,7 +34,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-zinc-200 dark:border-zinc-800 text-sm text-zinc-500 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p>© {new Date().getFullYear()} FontPair. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} FontFusion. All rights reserved.</p>
           <div className="flex gap-4">
             <Link href="/privacy-policy" className="hover:text-zinc-900 dark:hover:text-zinc-50">Privacy</Link>
             <Link href="/terms-and-conditions" className="hover:text-zinc-900 dark:hover:text-zinc-50">Terms</Link>

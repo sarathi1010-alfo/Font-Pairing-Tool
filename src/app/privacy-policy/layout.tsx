@@ -1,8 +1,8 @@
 import { constructMetadata } from "@/lib/seo";
 
 export const metadata = constructMetadata({
-  title: "Privacy Policy | FontPair",
-  description: "Privacy Policy for FontPair.",
+  title: "Privacy Policy | FontFusion",
+  description: "Privacy Policy for FontFusion.",
   path: "/privacy-policy",
 });
 

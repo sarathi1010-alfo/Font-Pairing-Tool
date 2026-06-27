@@ -1,8 +1,8 @@
 import { constructMetadata } from "@/lib/seo";
 
 export const metadata = constructMetadata({
-  title: "Contact Us | FontPair",
-  description: "Get in touch with the FontPair team.",
+  title: "Contact Us | FontFusion",
+  description: "Get in touch with the FontFusion team.",
   path: "/contact",
 });
 

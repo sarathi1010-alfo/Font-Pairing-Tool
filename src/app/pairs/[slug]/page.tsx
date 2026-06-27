@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!pair) return { title: 'Pairing Not Found' };
 
   return constructMetadata({
-    title: `${pair.headingFont} & ${pair.bodyFont} Font Pairing | FontPair`,
+    title: `${pair.headingFont} & ${pair.bodyFont} Font Pairing | FontFusion`,
     description: `Discover why ${pair.headingFont} and ${pair.bodyFont} make a perfect typography combination. Explore live previews and CSS snippets.`,
     path: `/pairs/${slug}`,
   });

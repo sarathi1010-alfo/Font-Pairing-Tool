@@ -1,4 +1,4 @@
-# Section 6: 12-Month Roadmap Execution (FontPair)
+# Section 6: 12-Month Roadmap Execution (FontFusion)
 
 ## 6.1 Phase 1 Execution Plan (Months 1-3)
 

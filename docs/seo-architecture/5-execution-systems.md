@@ -1,4 +1,4 @@
-# Section 5: High-Leverage Execution Systems (FontPair)
+# Section 5: High-Leverage Execution Systems (FontFusion)
 
 ## 5.1 Component-Driven Tool Template System
 
@@ -38,9 +38,9 @@ Include an FAQ array with 3 questions about REM vs PX.
 Our `seo.ts` needs to be able to dynamically construct highly clickable titles.
 
 **Pipeline Logic:**
-- If it's a Tool: `{Tool Name} - Free Online Calculator | FontPair`
-- If it's a Pair: `{Heading Font} & {Body Font} Pairing | FontPair`
-- If it's a Guide: `{Guide Title} | FontPair Typography Guides`
+- If it's a Tool: `{Tool Name} - Free Online Calculator | FontFusion`
+- If it's a Pair: `{Heading Font} & {Body Font} Pairing | FontFusion`
+- If it's a Guide: `{Guide Title} | FontFusion Typography Guides`
 
 ---
 

@@ -62,5 +62,5 @@ jobs:
       - name: Submit Sitemap
         run: node scripts/submit-sitemap.js
         env:
-          NEXT_PUBLIC_SITE_URL: "https://fontpair.alfo.online"
+          NEXT_PUBLIC_SITE_URL: "https://fontfusion.alfo.online"
           # Require secret in actual repo: GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GCP_CREDENTIALS }}

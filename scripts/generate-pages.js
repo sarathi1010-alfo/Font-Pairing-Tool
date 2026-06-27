@@ -44,7 +44,7 @@ The typography you choose dictates how users perceive your brand.
 
 <div className="my-8">
   <a href="/generator" className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-black hover:bg-zinc-800">
-    Try FontPair Generator
+    Try FontFusion Generator
   </a>
 </div>
 
@@ -57,7 +57,7 @@ The typography you choose dictates how users perceive your brand.
 
 <details>
   <summary>Are these fonts free for commercial use?</summary>
-  <p>Yes, FontPair exclusively features open-source fonts from Google Fonts.</p>
+  <p>Yes, FontFusion exclusively features open-source fonts from Google Fonts.</p>
 </details>
 `;
 }

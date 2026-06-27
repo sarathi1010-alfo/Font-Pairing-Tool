@@ -6,7 +6,7 @@ const { google } = require('googleapis');
  * Submits the sitemap index to Google Search Console programmatically.
  */
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://fontpair.alfo.online';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://fontfusion.alfo.online';
 const SITEMAP_URLS = [
   `${SITE_URL}/sitemap.xml`,
 ];
