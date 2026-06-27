@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 // Define the root URL
-const BASE_URL = 'https://fontpair.alfo.online';
+const BASE_URL = 'https://fontfusion.alfo.online';
 
 function validateSitemap() {
   const sitemapPath = path.join(process.cwd(), 'out', 'sitemap.xml');

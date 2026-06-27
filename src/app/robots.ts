@@ -16,6 +16,6 @@ export default function robots(): MetadataRoute.Robots {
         '/admin/',         // Future admin paths
       ],
     },
-    sitemap: 'https://fontpair.alfo.online/sitemap.xml',
+    sitemap: 'https://fontfusion.alfo.online/sitemap.xml',
   };
 }
