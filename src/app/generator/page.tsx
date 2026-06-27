@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
 import { Badge } from "@/components/ui/badge";
@@ -13,18 +14,23 @@ import { generateTypographySystem } from "@/lib/typography-system";
 import { calculatePairingConfidence } from "@/lib/recommendation";
 import Link from "next/link";
 
-export default function GeneratorPage() {
+function GeneratorContent() {
+  const searchParams = useSearchParams();
+  const pairSlug = searchParams.get("pair");
   const allPairs = getAllPairs();
   const allFonts = getAllFonts();
   const { toggleFavorite, isFavorite, isLoaded } = useFavorites();
 
-  const [currentPair, setCurrentPair] = useState<FontPair>(allPairs[0]);
-  const [headingFontData, setHeadingFontData] = useState<Font | undefined>(allFonts.find(f => f.name === allPairs[0].headingFont));
-  const [bodyFontData, setBodyFontData] = useState<Font | undefined>(allFonts.find(f => f.name === allPairs[0].bodyFont));
+  const initialPair = pairSlug ? (allPairs.find(p => p.slug === pairSlug) || allPairs[0]) : allPairs[0];
+  const [currentPair, setCurrentPair] = useState<FontPair>(initialPair);
+  const [headingFontData, setHeadingFontData] = useState<Font | undefined>(allFonts.find(f => f.name === initialPair.headingFont));
+  const [bodyFontData, setBodyFontData] = useState<Font | undefined>(allFonts.find(f => f.name === initialPair.bodyFont));
 
   // Settings
-  const [fontSize, setFontSize] = useState([100]); // Percentage
-  const [lineHeight, setLineHeight] = useState([150]); // Percentage
+  const [headingSize, setHeadingSize] = useState([48]);
+  const [bodySize, setBodySize] = useState([16]);
+  const [headingWeight, setHeadingWeight] = useState([700]);
+  const [bodyWeight, setBodyWeight] = useState([400]);
   const [selectedMood, setSelectedMood] = useState<string>("all");
 
   const uniqueMoods = Array.from(new Set(allFonts.flatMap(f => f.mood))).sort();
@@ -62,9 +68,25 @@ export default function GeneratorPage() {
 
   const fontNames = [currentPair.headingFont, currentPair.bodyFont];
 
-  const system = headingFontData && bodyFontData
+  let system = headingFontData && bodyFontData
     ? generateTypographySystem(headingFontData, bodyFontData)
     : null;
+
+  if (system) {
+    system = {
+      ...system,
+      heading: { ...system.heading, weight: headingWeight[0] },
+      body: { ...system.body, weight: bodyWeight[0] },
+      scale: {
+        ...system.scale,
+        sizes: {
+          ...system.scale.sizes,
+          '4xl': `${headingSize[0]}px`,
+          base: `${bodySize[0]}px`,
+        }
+      }
+    };
+  }
 
   const confidenceScore = headingFontData && bodyFontData
     ? calculatePairingConfidence(headingFontData, bodyFontData)
@@ -122,29 +144,57 @@ export default function GeneratorPage() {
         <div className="space-y-6">
           <div>
             <div className="flex justify-between mb-2">
-              <label className="text-sm font-medium">Font Size</label>
-              <span className="text-sm text-zinc-500">{fontSize[0]}%</span>
+              <label className="text-sm font-medium">Heading Size</label>
+              <span className="text-sm text-zinc-500">{headingSize[0]}px</span>
             </div>
             <Slider
-              value={fontSize}
-              onValueChange={setFontSize}
-              min={80}
-              max={150}
+              value={headingSize}
+              onValueChange={setHeadingSize}
+              min={24}
+              max={96}
               step={1}
             />
           </div>
 
           <div>
             <div className="flex justify-between mb-2">
-              <label className="text-sm font-medium">Line Height</label>
-              <span className="text-sm text-zinc-500">{lineHeight[0]}%</span>
+              <label className="text-sm font-medium">Body Size</label>
+              <span className="text-sm text-zinc-500">{bodySize[0]}px</span>
             </div>
             <Slider
-              value={lineHeight}
-              onValueChange={setLineHeight}
-              min={120}
-              max={200}
-              step={5}
+              value={bodySize}
+              onValueChange={setBodySize}
+              min={12}
+              max={24}
+              step={1}
+            />
+          </div>
+
+          <div>
+            <div className="flex justify-between mb-2">
+              <label className="text-sm font-medium">Heading Weight</label>
+              <span className="text-sm text-zinc-500">{headingWeight[0]}</span>
+            </div>
+            <Slider
+              value={headingWeight}
+              onValueChange={setHeadingWeight}
+              min={100}
+              max={900}
+              step={100}
+            />
+          </div>
+
+          <div>
+            <div className="flex justify-between mb-2">
+              <label className="text-sm font-medium">Body Weight</label>
+              <span className="text-sm text-zinc-500">{bodyWeight[0]}</span>
+            </div>
+            <Slider
+              value={bodyWeight}
+              onValueChange={setBodyWeight}
+              min={100}
+              max={900}
+              step={100}
             />
           </div>
         </div>
@@ -213,26 +263,26 @@ export default function GeneratorPage() {
           </div>
 
           {/* Typography Specimen */}
-          <div
-            className="space-y-10 transition-all duration-200"
-            style={{
-              transform: `scale(${fontSize[0] / 100})`,
-              transformOrigin: 'top left',
-              width: `${100 / (fontSize[0] / 100)}%`
-            }}
-          >
+          <div className="space-y-10 transition-all duration-200">
             <div>
               <h1
-                className="text-6xl md:text-8xl font-bold tracking-tight mb-4 text-zinc-900 dark:text-zinc-50"
-                style={{ fontFamily: `"${currentPair.headingFont}", sans-serif` }}
+                className="tracking-tight mb-4 text-zinc-900 dark:text-zinc-50"
+                style={{
+                  fontFamily: `"${currentPair.headingFont}", sans-serif`,
+                  fontSize: `${headingSize[0]}px`,
+                  fontWeight: headingWeight[0],
+                  lineHeight: 1.1
+                }}
               >
                 The quick brown fox jumps over the lazy dog.
               </h1>
               <p
-                className="text-xl md:text-2xl text-zinc-600 dark:text-zinc-400 max-w-3xl"
+                className="text-zinc-600 dark:text-zinc-400 max-w-3xl"
                 style={{
                   fontFamily: `"${currentPair.bodyFont}", sans-serif`,
-                  lineHeight: lineHeight[0] / 100
+                  fontSize: `${bodySize[0]}px`,
+                  fontWeight: bodyWeight[0],
+                  lineHeight: 1.5
                 }}
               >
                 Typography is the craft of endowing human language with a durable visual form.
@@ -245,8 +295,12 @@ export default function GeneratorPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div>
                 <h2
-                  className="text-3xl font-bold mb-4"
-                  style={{ fontFamily: `"${currentPair.headingFont}", sans-serif` }}
+                  className="mb-4"
+                  style={{
+                    fontFamily: `"${currentPair.headingFont}", sans-serif`,
+                    fontSize: `${Math.max(24, headingSize[0] * 0.5)}px`,
+                    fontWeight: headingWeight[0]
+                  }}
                 >
                   Clear Hierarchy
                 </h2>
@@ -254,7 +308,9 @@ export default function GeneratorPage() {
                   className="mb-4"
                   style={{
                     fontFamily: `"${currentPair.bodyFont}", sans-serif`,
-                    lineHeight: lineHeight[0] / 100
+                    fontSize: `${bodySize[0]}px`,
+                    fontWeight: bodyWeight[0],
+                    lineHeight: 1.5
                   }}
                 >
                   Establishing hierarchy is one of the primary goals of typography. By pairing <strong>{currentPair.headingFont}</strong> and <strong>{currentPair.bodyFont}</strong>, you create a distinct visual separation between the structural elements of your page and the long-form content.
@@ -262,7 +318,9 @@ export default function GeneratorPage() {
                 <p
                   style={{
                     fontFamily: `"${currentPair.bodyFont}", sans-serif`,
-                    lineHeight: lineHeight[0] / 100
+                    fontSize: `${bodySize[0]}px`,
+                    fontWeight: bodyWeight[0],
+                    lineHeight: 1.5
                   }}
                 >
                   Notice how the heading font draws the eye, while the body font recedes to allow for comfortable reading. {currentPair.description}
@@ -271,35 +329,51 @@ export default function GeneratorPage() {
 
               <div className="bg-zinc-50 dark:bg-zinc-900 p-8 rounded-xl border border-zinc-200 dark:border-zinc-800">
                 <h3
-                  className="text-xl font-bold mb-2"
-                  style={{ fontFamily: `"${currentPair.headingFont}", sans-serif` }}
+                  className="mb-2"
+                  style={{
+                    fontFamily: `"${currentPair.headingFont}", sans-serif`,
+                    fontSize: `${Math.max(20, headingSize[0] * 0.4)}px`,
+                    fontWeight: headingWeight[0]
+                  }}
                 >
                   UI Element Preview
                 </h3>
                 <p
-                  className="text-sm mb-6 text-zinc-500"
-                  style={{ fontFamily: `"${currentPair.bodyFont}", sans-serif` }}
+                  className="mb-6 text-zinc-500"
+                  style={{
+                    fontFamily: `"${currentPair.bodyFont}", sans-serif`,
+                    fontSize: `${Math.max(12, bodySize[0] * 0.875)}px`,
+                    fontWeight: bodyWeight[0]
+                  }}
                 >
                   How this looks in a product card or small component.
                 </p>
                 <div className="space-y-4">
                   <div className="h-32 bg-zinc-200 dark:bg-zinc-800 rounded-lg w-full mb-4"></div>
                   <h4
-                    className="font-bold text-lg"
-                    style={{ fontFamily: `"${currentPair.headingFont}", sans-serif` }}
+                    style={{
+                      fontFamily: `"${currentPair.headingFont}", sans-serif`,
+                      fontSize: `${Math.max(18, headingSize[0] * 0.35)}px`,
+                      fontWeight: headingWeight[0]
+                    }}
                   >
                     Project Alpha
                   </h4>
                   <p
-                    className="text-sm"
                     style={{
                       fontFamily: `"${currentPair.bodyFont}", sans-serif`,
-                      lineHeight: lineHeight[0] / 100
+                      fontSize: `${Math.max(12, bodySize[0] * 0.875)}px`,
+                      fontWeight: bodyWeight[0],
+                      lineHeight: 1.5
                     }}
                   >
                     A brief description of the project goes here, utilizing the body font at a smaller size.
                   </p>
-                  <Button className="w-full mt-2" style={{ fontFamily: `"${currentPair.bodyFont}", sans-serif` }}>
+                  <Button className="w-full mt-2" style={{
+                    fontFamily: `"${currentPair.bodyFont}", sans-serif`,
+                    fontSize: `${Math.max(12, bodySize[0] * 0.875)}px`,
+                    fontWeight: bodyWeight[0]
+                  }}>
                     View Details
                   </Button>
                 </div>
@@ -309,5 +383,13 @@ export default function GeneratorPage() {
         </div>
       </main>
     </div>
+  );
+}
+
+export default function GeneratorPage() {
+  return (
+    <Suspense fallback={<div className="p-12 text-center text-zinc-500">Loading generator...</div>}>
+      <GeneratorContent />
+    </Suspense>
   );
 }
