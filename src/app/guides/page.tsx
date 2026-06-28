@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { constructMetadata } from "@/lib/seo";
 
 export const metadata = constructMetadata({
-  title: "Typography Guides & Tutorials | FontPair",
+  title: "Typography Guides & Tutorials | FontFusion",
   description: "Learn how to pair fonts, understand typography basics, and improve your design skills with our comprehensive guides.",
   path: "/guides",
 });

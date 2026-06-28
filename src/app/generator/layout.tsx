@@ -1,7 +1,7 @@
 import { constructMetadata } from "@/lib/seo";
 
 export const metadata = constructMetadata({
-  title: "Font Generator | FontPair",
+  title: "Font Generator | FontFusion",
   description: "Generate and test font pairings on live UI components. Find the perfect typography stack for your website.",
   path: "/generator",
 });

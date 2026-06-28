@@ -1,4 +1,4 @@
-# Section 4: Topical Authority Cluster Engine (FontPair)
+# Section 4: Topical Authority Cluster Engine (FontFusion)
 
 ## 4.1 Cluster Architecture Designer
 
@@ -45,7 +45,7 @@
 
 ## 4.4 EEAT Signal Audit for Utility Tools
 
-For FontPair's tools, EEAT is demonstrated by:
+For FontFusion's tools, EEAT is demonstrated by:
 1. **Expertise:** The tools are mathematically accurate (e.g., WCAG 2.1 formulas for contrast).
 2. **Authoritativeness:** Clear explanations of *how* the math works below the tool.
 3. **Trustworthiness:** No ads blocking the tool, clear privacy policy (no data saved).

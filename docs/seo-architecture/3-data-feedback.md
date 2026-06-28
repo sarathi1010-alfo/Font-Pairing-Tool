@@ -1,4 +1,4 @@
-# Section 3: Data Feedback Loops (FontPair)
+# Section 3: Data Feedback Loops (FontFusion)
 
 ## 3.1 Weekly SEO Review Framework
 

@@ -1,4 +1,4 @@
-# Section 2: Indexing Domination (FontPair)
+# Section 2: Indexing Domination (FontFusion)
 
 ## 2.1 Indexing Audit Checklist
 
@@ -17,7 +17,7 @@ Before considering a batch of micro-tools (e.g., Font Contrast Checker, Font Sca
 
 ## 2.2 Crawl Budget Optimization Plan
 
-### 10 Crawl Budget Optimizations for FontPair
+### 10 Crawl Budget Optimizations for FontFusion
 1. **Flat URL Structure:** Keep all tools at `/tools/[name]`. No deep nesting.
 2. **Aggressive `robots.txt` Blocking:** Block `/api/`, `/_next/`, and user-state paths like `/favorites`.
 3. **Dynamic XML Sitemap:** Ensure sitemap updates automatically on deploy (already implemented in `sitemap.ts`).

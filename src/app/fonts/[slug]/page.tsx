@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!font) return { title: 'Font Not Found' };
 
   return constructMetadata({
-    title: `${font.name} Font Details, Pairings & Alternatives | FontPair`,
+    title: `${font.name} Font Details, Pairings & Alternatives | FontFusion`,
     description: `Discover the best font pairings, use cases, and design details for ${font.name}, a popular ${font.category} typeface.`,
     path: `/fonts/${slug}`,
   });

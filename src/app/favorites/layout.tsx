@@ -1,7 +1,7 @@
 import { constructMetadata } from "@/lib/seo";
 
 export const metadata = constructMetadata({
-  title: "Your Saved Font Pairings | FontPair",
+  title: "Your Saved Font Pairings | FontFusion",
   description: "View and manage your saved font combinations.",
   path: "/favorites",
   noIndex: true, // we already disallow in robots.txt, but it's good practice

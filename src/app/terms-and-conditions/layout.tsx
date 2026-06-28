@@ -1,8 +1,8 @@
 import { constructMetadata } from "@/lib/seo";
 
 export const metadata = constructMetadata({
-  title: "Terms and Conditions | FontPair",
-  description: "Terms and Conditions for FontPair.",
+  title: "Terms and Conditions | FontFusion",
+  description: "Terms and Conditions for FontFusion.",
   path: "/terms-and-conditions",
 });
 

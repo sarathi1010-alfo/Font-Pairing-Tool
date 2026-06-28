@@ -12,7 +12,7 @@ import { constructMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = constructMetadata({
-  title: "FontPair - Best Font Combinations for Designers",
+  title: "FontFusion - Best Font Combinations for Designers",
   description: "Find font pairs that look premium, readable, and ready to ship. A fast, beautiful font pairing tool that helps designers and founders discover, compare, and save the perfect typography combinations.",
 });
 
@@ -69,7 +69,7 @@ export default function RootLayout({
           <Footer />
         </ThemeProvider>
         {/* Placeholder for future lightweight analytics like Plausible or Umami */}
-        {/* <Script defer data-domain="fontpairing.com" src="https://plausible.io/js/script.js" strategy="afterInteractive" /> */}
+        {/* <Script defer data-domain="fontfusion.alfo.online" src="https://plausible.io/js/script.js" strategy="afterInteractive" /> */}
       </body>
     </html>
   );

@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!meta) return { title: 'Guide Not Found' };
 
   return constructMetadata({
-    title: `${meta.title} | FontPair Guides`,
+    title: `${meta.title} | FontFusion Guides`,
     description: meta.description,
     path: `/guides/${slug}`,
   });

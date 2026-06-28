@@ -1,7 +1,7 @@
 import { constructMetadata } from "@/lib/seo";
 
 export const metadata = constructMetadata({
-  title: "Compare Font Pairings | FontPair",
+  title: "Compare Font Pairings | FontFusion",
   description: "Compare multiple font combinations side-by-side to find the perfect typography for your next design project.",
   path: "/compare",
 });

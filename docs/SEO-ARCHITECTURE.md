@@ -6,7 +6,7 @@ This document outlines the production-grade SEO architecture for the Next.js too
 Previously, Google was crawling default `*.vercel.app` URLs due to missing indexing protection and hardcoded fallback domains. This caused duplicate content penalties and dilution of domain authority.
 
 By centralizing the `SITE_URL` logic based on environments, and using middleware to inject `X-Robots-Tag: noindex`, we ensure:
-1. Only your custom production subdomain (e.g. `fontpair.alfo.online`) is indexed.
+1. Only your custom production subdomain (e.g. `fontfusion.alfo.online`) is indexed.
 2. Canonical tags accurately report the primary domain.
 3. Open Graph & Twitter Cards resolve images using absolute URLs correctly.
 4. The `sitemap.xml` generated uses the correct hostname.
@@ -14,7 +14,7 @@ By centralizing the `SITE_URL` logic based on environments, and using middleware
 ## Before vs After
 
 ### 1. Sitemap Generation (`src/app/sitemap.ts`)
-**Before:** Hardcoded domain string (`https://fontpairing.com`).
+**Before:** Hardcoded domain string (`https://fontfusion.alfo.online`).
 **After:** Uses dynamic `SITE_URL` from environment config.
 
 ### 2. Layout Metadata (`src/app/layout.tsx`)
@@ -32,7 +32,7 @@ By centralizing the `SITE_URL` logic based on environments, and using middleware
 
 ## Search Console Validation Steps
 1. Navigate to Google Search Console -> URL Inspection.
-2. Enter your custom domain (e.g., `https://fontpair.alfo.online`).
+2. Enter your custom domain (e.g., `https://fontfusion.alfo.online`).
 3. Ensure "User-declared canonical" matches the URL.
 4. Open the "Sitemaps" tab, add `sitemap.xml`, and hit "Submit".
 5. Wait for the success status and verify "Discovered pages" count matches.

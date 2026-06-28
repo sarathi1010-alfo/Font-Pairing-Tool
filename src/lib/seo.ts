@@ -88,9 +88,9 @@ export function generateToolMetadata(toolData: ToolData, path: string): Metadata
   const { tool_name, primary_action, key_benefit = "Free Online Tool" } = toolData;
 
   const titleTemplates = [
-    `${tool_name} - ${key_benefit} | FontPair`,
-    `${tool_name} | Free Typography ${toolData.cluster} | FontPair`,
-    `${primary_action ? primary_action + ' with ' : ''}${tool_name} | FontPair`
+    `${tool_name} - ${key_benefit} | FontFusion`,
+    `${tool_name} | Free Typography ${toolData.cluster} | FontFusion`,
+    `${primary_action ? primary_action + ' with ' : ''}${tool_name} | FontFusion`
   ];
 
   // Select the shortest title that makes sense, or the primary one

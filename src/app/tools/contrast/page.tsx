@@ -3,7 +3,7 @@ import { ContrastCheckerInteractive } from '@/components/tools/ContrastCheckerIn
 import { constructMetadata } from '@/lib/seo';
 
 export const metadata = constructMetadata({
-  title: "Font Contrast Checker - Free Online WCAG Tool | FontPair",
+  title: "Font Contrast Checker - Free Online WCAG Tool | FontFusion",
   description: "Check the color contrast ratio of your foreground and background colors to ensure your typography meets WCAG accessibility guidelines.",
   path: "/tools/contrast"
 });

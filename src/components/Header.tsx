@@ -8,7 +8,7 @@ export function Header() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg tracking-tight">
           <Layers className="h-5 w-5" />
-          <span>FontPair</span>
+          <span>FontFusion</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-zinc-600 dark:text-zinc-400">
           <Link href="/generator" className="hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors">Generator</Link>
