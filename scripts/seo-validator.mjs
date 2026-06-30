@@ -4,10 +4,10 @@ import path from 'path';
 // Define the root URL
 const BASE_URL = 'https://fontfusion.alfo.online';
 
-function validateSitemap() {
-  const sitemapPath = path.join(process.cwd(), 'out', 'sitemap.xml');
+function validateSitemap(filename) {
+  const sitemapPath = path.join(process.cwd(), 'out', filename);
   if (!fs.existsSync(sitemapPath)) {
-    console.warn("WARNING: sitemap.xml not found in 'out' directory. Skipping check.");
+    console.warn(`WARNING: ${filename} not found in 'out' directory. Skipping check.`);
     return true; // Don't fail if we can't find it (maybe not exported yet)
   }
 
@@ -19,39 +19,42 @@ function validateSitemap() {
   let match;
   let count = 0;
 
-  console.log('Validating sitemap URLs:');
+  console.log(`Validating ${filename} URLs:`);
   while ((match = urlRegex.exec(sitemapContent)) !== null) {
     count++;
     const url = match[1];
 
     if (!url.startsWith(BASE_URL)) {
-      console.error(`❌ Invalid base URL: ${url}`);
+      console.error(`❌ Invalid base URL in ${filename}: ${url}`);
       hasErrors = true;
-    }
-
-    if (url.endsWith('/') && url !== BASE_URL + '/') {
-       // Wait, usually Next.js sitemap builder doesn't add trailing slashes, but let's check
-       // If it's the root, it's fine.
     }
 
     // Check for duplicate slashes
     const urlWithoutProtocol = url.replace('https://', '');
     if (urlWithoutProtocol.includes('//')) {
-      console.error(`❌ Duplicate slashes found: ${url}`);
+      console.error(`❌ Duplicate slashes found in ${filename}: ${url}`);
       hasErrors = true;
     }
   }
 
-  console.log(`Checked ${count} URLs in sitemap.`);
+  console.log(`Checked ${count} URLs in ${filename}.`);
   return !hasErrors;
 }
 
 function main() {
   console.log('Running SEO Validator Pipeline...');
 
-  const sitemapValid = validateSitemap();
+  const sitemaps = ['sitemap.xml', 'sitemap-articles.xml', 'sitemap-products.xml'];
+  let allValid = true;
 
-  if (!sitemapValid) {
+  for (const sitemap of sitemaps) {
+    const isValid = validateSitemap(sitemap);
+    if (!isValid) {
+      allValid = false;
+    }
+  }
+
+  if (!allValid) {
     console.error('\n❌ SEO Validation Failed!');
     process.exit(1);
   }

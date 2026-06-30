@@ -1,33 +1,9 @@
 import { MetadataRoute } from 'next';
-import { getAllFonts, getAllPairs } from '@/lib/fonts';
-import { getAllGuideSlugs } from '@/lib/mdx';
 import { generateCanonicalUrl } from '@/lib/seo-utils';
 
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-
-  const fonts = getAllFonts().map((font) => ({
-    url: generateCanonicalUrl(`/fonts/${font.slug}`),
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  }));
-
-  const pairs = getAllPairs().map((pair) => ({
-    url: generateCanonicalUrl(`/pairs/${pair.slug}`),
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.9,
-  }));
-
-  const guides = getAllGuideSlugs().map((slug) => ({
-    url: generateCanonicalUrl(`/guides/${slug}`),
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
-
   const tools = [
     {
       url: generateCanonicalUrl('/tools/contrast'),
@@ -94,5 +70,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  return [...staticPages, ...fonts, ...pairs, ...guides, ...tools];
+  return [...staticPages, ...tools];
 }
