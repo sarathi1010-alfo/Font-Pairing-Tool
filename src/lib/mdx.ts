@@ -3,6 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 
 const guidesDirectory = path.join(process.cwd(), 'src/content/guides');
+const seoDirectory = path.join(process.cwd(), 'src/content/seo');
 
 export interface GuideMeta {
   slug: string;
@@ -46,4 +47,33 @@ export function getAllGuides(): GuideMeta[] {
     .filter((guide): guide is GuideMeta => guide !== null);
 
   return guides;
+}
+
+export function getAllSeoSlugs(): string[] {
+  try {
+    const fileNames = fs.readdirSync(seoDirectory);
+    return fileNames
+      .filter((fileName) => fileName.endsWith('.mdx'))
+      .map((fileName) => fileName.replace(/\.mdx$/, ''));
+  } catch (error) {
+    console.error("Error reading seo directory:", error);
+    return [];
+  }
+}
+
+export function getSeoMeta(slug: string): GuideMeta | null {
+  try {
+    const fullPath = path.join(seoDirectory, `${slug}.mdx`);
+    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const { data } = matter(fileContents);
+
+    return {
+      slug,
+      title: data.title || slug,
+      description: data.description || '',
+    };
+  } catch (error) {
+    console.error(`Error reading seo meta for ${slug}:`, error);
+    return null;
+  }
 }
