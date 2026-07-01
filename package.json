@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/seo-validator.mjs",
+    "prebuild": "node scripts/generate-5k-seo-pages.js",
+    "build": "pnpm run prebuild && next build && node scripts/seo-validator.mjs",
     "start": "next start",
     "lint": "eslint",
     "validate-seo": "node scripts/seo-validator.mjs"
