@@ -1,4 +1,4 @@
-import { getAllGuideSlugs, getAllSeoSlugs } from '@/lib/mdx';
+import { getAllGuideSlugs, getAllSeoSlugs, getAllBlogSlugs, getAllPairingSlugs } from '@/lib/mdx';
 import { generateCanonicalUrl } from '@/lib/seo-utils';
 
 export const dynamic = 'force-static';
@@ -18,7 +18,21 @@ export async function GET() {
     priority: 0.6,
   }));
 
-  const allArticles = [...guides, ...seoPages];
+  const blogPosts = getAllBlogSlugs().map((slug) => ({
+    url: generateCanonicalUrl(`/blog/${slug}`),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  }));
+
+  const pairings = getAllPairingSlugs().map((slug) => ({
+    url: generateCanonicalUrl(`/pairings/${slug}`),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
+
+  const allArticles = [...guides, ...seoPages, ...blogPosts, ...pairings];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
