@@ -1,0 +1,26 @@
+
+> temp-app@0.1.0 dev /app
+> next dev
+
+▲ Next.js 16.2.7 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+✓ Ready in 558ms
+
+○ Compiling / ...
+ HEAD / 200 in 4.9s (next.js: 4.2s, application-code: 700ms)
+ GET / 200 in 295ms (next.js: 6ms, application-code: 289ms)
+ GET /blog/professional-font-pairing-guide 200 in 4.1s (next.js: 2.9s, generate-params: 1841ms, application-code: 1179ms)
+ GET /pairings/modern-serif-sans-serif 200 in 2.9s (next.js: 2.5s, generate-params: 1778ms, application-code: 380ms)
+ GET /pairings/vintage-typography 200 in 270ms (next.js: 42ms, generate-params: 35ms, application-code: 228ms)
+ GET /pairings/minimalist-fonts 200 in 166ms (next.js: 4ms, generate-params: 109µs, application-code: 161ms)
+ GET /pairings/body-text-headings 200 in 158ms (next.js: 31ms, generate-params: 27ms, application-code: 127ms)
+ GET /pairings/script-display 200 in 179ms (next.js: 4ms, generate-params: 47µs, application-code: 176ms)
+ GET /pairings/monospace-sans 200 in 281ms (next.js: 32ms, generate-params: 28ms, application-code: 248ms)
+ GET /pairings/elegant-wedding 200 in 125ms (next.js: 4ms, generate-params: 51µs, application-code: 121ms)
+ GET /pairings/tech-startup 200 in 143ms (next.js: 32ms, generate-params: 28ms, application-code: 110ms)
+ GET /pairings/luxury-brand 200 in 140ms (next.js: 3ms, generate-params: 44µs, application-code: 137ms)
+ GET /pairings/editorial-magazine 200 in 153ms (next.js: 31ms, generate-params: 29ms, application-code: 122ms)
+ GET /blog/professional-font-pairing-guide 200 in 235ms (next.js: 38ms, generate-params: 34ms, application-code: 197ms)
+ GET /guides/best-font-pairings 200 in 2.0s (next.js: 1834ms, generate-params: 1060ms, application-code: 194ms)
+ GET /pairings/modern-serif-sans-serif 200 in 172ms (next.js: 31ms, generate-params: 27ms, application-code: 141ms)
