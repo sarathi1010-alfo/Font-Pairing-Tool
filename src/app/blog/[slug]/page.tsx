@@ -55,6 +55,21 @@ export default async function BlogPage({ params }: { params: { slug: string } })
 
   const content = fileContent.replace(/---[\s\S]*?---/, '');
 
+  // Extract FAQs for Schema
+  const faqRegex = /<summary[^>]*>(.*?)<\/summary>[\s\S]*?<p[^>]*text[^>]*>(.*?)<\/p>/g;
+  const faqs = [];
+  let match;
+  while ((match = faqRegex.exec(content)) !== null) {
+    faqs.push({
+      "@type": "Question",
+      "name": match[1],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": match[2]
+      }
+    });
+  }
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -79,12 +94,24 @@ export default async function BlogPage({ params }: { params: { slug: string } })
     }
   };
 
+  const faqJsonLd = faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs
+  } : null;
+
   return (
     <article className="container mx-auto px-4 py-16 max-w-3xl">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       <header className="mb-12">
         <h1 className="text-5xl font-bold mb-4 tracking-tight">{meta.title}</h1>
         <p className="text-xl text-zinc-500">{meta.description}</p>

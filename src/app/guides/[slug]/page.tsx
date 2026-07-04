@@ -56,8 +56,27 @@ export default async function GuidePage({ params }: { params: { slug: string } }
   // We strip frontmatter manually for next-mdx-remote
   const content = fileContent.replace(/---[\s\S]*?---/, '');
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": meta.title,
+    "description": meta.description,
+    "author": {
+      "@type": "Organization",
+      "name": "FontFusion Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "FontFusion"
+    }
+  };
+
   return (
     <article className="container mx-auto px-4 py-16 max-w-3xl">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <header className="mb-12">
         <h1 className="text-5xl font-bold mb-4 tracking-tight">{meta.title}</h1>
         <p className="text-xl text-zinc-500">{meta.description}</p>

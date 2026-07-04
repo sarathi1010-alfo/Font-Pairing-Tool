@@ -1,0 +1,2 @@
+slug,entity_a,entity_b,use_case,verdict,features,entity_a_pros,entity_a_cons,entity_b_pros,entity_b_cons
+fontfusion-vs-fontpair,FontFusion,FontPair,Professional Branding,"FontFusion offers better live preview and CSS export capabilities for modern designers.","Live Preview|CSS Export|Google Fonts Sync","Faster workflow|Modern UI","None","Legacy tool","Clunky UI"

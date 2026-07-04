@@ -92,8 +92,41 @@ function GeneratorContent() {
     ? calculatePairingConfidence(headingFontData, bodyFontData)
     : 50;
 
+  const howToSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to use FontFusion Generator",
+    "description": "Learn how to find, compare, and export font pairings using our interactive generator.",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "text": "Choose a brand mood to filter the font recommendations.",
+        "name": "Select Mood"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Click 'Randomize Pair' to discover new typography combinations.",
+        "name": "Randomize"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Adjust font sizes and weights using the sliders to see live updates in the preview.",
+        "name": "Customize"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Save your favorite pairs to your local library for future reference.",
+        "name": "Save"
+      }
+    ]
+  };
+
   return (
     <div className="flex flex-col md:flex-row min-h-[calc(100vh-4rem)]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <DynamicFontLoader fontNames={fontNames} />
 
       {/* Sidebar Controls */}
