@@ -1,9 +1,17 @@
 import { MetadataRoute } from 'next';
 import { generateCanonicalUrl } from '@/lib/seo-utils';
+import { getAllSeoSlugs } from '@/lib/mdx';
 
 export const dynamic = 'force-static';
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export async function generateSitemaps() {
+  // Return exactly 1000 items, id ranges from 0 to 999
+  return Array.from({ length: 1000 }, (_, i) => ({ id: i }));
+}
+
+export default async function sitemap({ id }: { id: number | Promise<number> }): Promise<MetadataRoute.Sitemap> {
+  const resolvedId = await id;
+
   const tools = [
     {
       url: generateCanonicalUrl('/tools/contrast'),
@@ -76,5 +84,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  return [...staticPages, ...tools];
+  const baseUrls = resolvedId === 0 ? [...staticPages, ...tools] : [];
+
+  const slugs = getAllSeoSlugs();
+  const chunkSize = Math.ceil(slugs.length / 1000);
+
+  const start = resolvedId * chunkSize;
+  const end = start + chunkSize;
+
+  const chunkedSlugs = slugs.slice(start, end);
+
+  const dynamicUrls = chunkedSlugs.map(slug => ({
+    url: generateCanonicalUrl(`/seo/${slug}`),
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.7,
+  }));
+
+  return [...baseUrls, ...dynamicUrls];
 }
