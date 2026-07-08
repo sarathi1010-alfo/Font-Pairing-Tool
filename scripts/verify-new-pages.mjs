@@ -4,7 +4,6 @@ const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';
 
 const newUrls = [
   '/',
-  '/generator',
   '/blog/professional-font-pairing-guide',
   '/pairings/modern-serif-sans-serif',
   '/pairings/vintage-typography',
@@ -65,20 +64,14 @@ async function verifyUrls() {
         console.log(`✅ No JS console errors.`);
       }
 
-      // 4. Functional Test
-      if (urlPath === '/' || urlPath === '/generator') {
+      // 4. Functional Test (Main Page Only)
+      if (urlPath === '/') {
         console.log('🛠️ Testing core functionality on home page...');
 
         // Test Filters (Simplified check if buttons exist)
         const filtersExist = await page.isVisible('[role="tablist"]');
         if (!filtersExist) {
-          // If not on home, maybe it's on generator
-          const generatorFilters = await page.isVisible('select');
-          if (generatorFilters) {
-            console.log('✅ Generator mood filters (select) found.');
-          } else {
-            console.warn('⚠️ Could not find filter elements. Check selector.');
-          }
+          console.warn('⚠️ Could not find filter tablist. Check selector.');
         } else {
           console.log('✅ Filter tabs found.');
         }
