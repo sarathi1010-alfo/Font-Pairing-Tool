@@ -144,3 +144,4 @@ Get the CSS: https://fontfusion.alfo.online/pairings/minimalist-fonts
 Bring history to your design. 🕰️
 
 Discover vintage pairings: https://fontfusion.alfo.online/pairings/vintage-typography
+\n\n# Updated: 2026-07-09
