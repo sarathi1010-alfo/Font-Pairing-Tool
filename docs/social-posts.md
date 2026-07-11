@@ -1,52 +1,146 @@
-# Social Media Distribution Posts - 2026-07-11
+# Tier 3 Social Distribution Posts
 
-## Tier 1: "How to Pair Fonts Like a Professional Designer"
+These posts are adapted from the Tier 1 article: "How to Pair Fonts Like a Professional Designer".
 
-### Post 1: Twitter/X (Educational Thread)
-1/ Ever wonder why some websites just look... premium? 💎 It's usually the typography. Mastering font pairing is the "secret sauce" of professional design.
+## Twitter / X
 
-Here’s a quick guide on how to pair fonts like a pro. 🧵 #Typography #DesignTips #FontFusion
+### Post 1: The Golden Rule
+Stop guessing your font pairings. 🛑 The #1 rule? CONTRAST.
 
-### Post 2: Twitter/X (The Contrast Rule)
-2/ Rule #1: Contrast is King. 👑 If fonts are too similar, they clash. Pair a high-contrast Serif (like Playfair) with a clean Sans-Serif (like Inter) to create visual tension that works. #WebDesign #UIUX
+Pair a Serif (headings) with a Sans-Serif (body).
 
-### Post 3: LinkedIn (Professional Insight)
-Typography is the invisible hand of UX. Professional font pairing isn't just about aesthetics; it's about hierarchy, readability, and brand mood. Read our latest deep dive on mastering the art of the pair: https://fontfusion.alfo.online/blog/professional-font-pairing-guide #Typography #Branding #UXDesign
+Why? It creates dynamic tension and clear hierarchy.
 
-### Post 4: LinkedIn (The Brand Mood)
-Does your font match your brand's "voice"? Tech brands need geometric precision, while luxury brands thrive on elegant serifs. Don't let your typography send the wrong message. 🚀 #GraphicDesign #DigitalMarketing
+Read our full guide: https://fontfusion.alfo.online/blog/professional-font-pairing-guide
 
-### Post 5: Instagram (Visual Slide - Carousel)
-[Slide 1] How to Pair Fonts Like a Pro 🎨
-[Slide 2] The Golden Rule: Mix Styles. Pair Serifs with Sans-Serifs for instant balance.
-[Slide 3] Visual Hierarchy: Use weight and size to tell the reader where to look first.
-[Slide 4] Brand Mood: Match your typeface to your brand's personality.
-[Slide 5] Try it yourself at FontFusion.alfo.online! ✨ #DesignerLife #TypoDaily
+#Typography #DesignTips #FontFusion
 
-### Post 6: Instagram (Case Study)
-Check out this pairing: Playfair Display + Inter. It's the "Editorial Web" look that screams sophistication. 📖 Try it now on our generator! #FontPairing #WebDesigner
+---
 
-### Post 7: Pinterest (Infographic Style)
-Graphic: "4 Rules for Perfect Font Pairing"
-1. Establish Contrast
-2. Create Hierarchy
-3. Match the Brand Mood
-4. Limit to 2 Fonts
-[Link to Blog Post] #DesignInspiration #TypographyPoster
+### Post 2: Weights & Scales
+Want perfect "typographic color"? 🎨
 
-### Post 8: Pinterest (Specimen Card)
-Visual: A beautiful specimen card showing "Modern Serif + Geometric Sans" with CSS code snippets. #WebDesignTrends #UI
+Skip at least one weight level between your heading and body text.
 
-### Post 9: Twitter/X (Hierarchy Hack)
-Hierarchy Hack: Skip a weight level! If your header is Bold (700), use Regular (400) or Light (300) for your body text. It makes the structure undeniable. 🛠️ #DesignSystem #UI
+Heading: Bold (700)
+Body: Light (300)
 
-### Post 10: LinkedIn (The Palette Rule)
-Stop using 5 different fonts. 🛑 Professionals rarely use more than two. Consistency builds trust and makes your design feel intentional. #Minimalism #DesignPrinciples
+Instant professionalism.
 
-### Post 11: Instagram (Behind the Design)
-Why does spacing matter? Kerning, tracking, and leading are the "breathing room" of your design. Body text needs air (1.5x line height), while headers need to be tight and impactful. 💨 #TypographyDesign
+Try it now: https://fontfusion.alfo.online/generator
 
-### Post 12: Twitter/X (Direct Call to Action)
-Stop guessing and start generating. ⚡️ Preview thousands of professional font pairs in seconds with our live tool.
+---
 
-Try it here: https://fontfusion.alfo.online/generator #FontFusion #ProductHunt #WebDev
+### Post 3: Less is More
+The amateur mistake: Using 4+ fonts. ❌
+The pro move: Stick to 2. ✅
+
+Consistency builds trust. Limit your palette to 1 heading font and 1 body font.
+
+Details: https://fontfusion.alfo.online/blog/professional-font-pairing-guide
+
+---
+
+## LinkedIn
+
+### Post 4: Typography for Tech Founders
+Typography isn't just about "looking pretty"—it's about reducing cognitive friction.
+
+As a founder, your choice of font can define your brand's authority.
+
+The tech standard? Geometric sans-serifs like Inter or Manrope. They scream precision.
+
+Learn how to pair them like a pro: https://fontfusion.alfo.online/blog/professional-font-pairing-guide
+
+#SaaS #DesignThinking #Typography
+
+---
+
+### Post 5: The Invisible Workhorse
+Your body text should be invisible. 👻
+
+If a reader notices your body font, it’s usually because it’s hard to read.
+
+Pro designers look for:
+1. Large x-height
+2. Open counters
+3. 1.5x line height
+
+Maximize readability: https://fontfusion.alfo.online/blog/professional-font-pairing-guide
+
+---
+
+### Post 6: Brand Mood
+Is your brand Luxury or Innovation? 💎 vs 🚀
+
+Typography carries emotional weight.
+- High-contrast serifs = Premium
+- Clean sans-serifs = Efficiency
+
+Don't send the wrong signal. Choose your pair intentionally.
+
+Explore our collection: https://fontfusion.alfo.online/browse
+
+---
+
+## Instagram (Carousels)
+
+### Post 7: Carousel Slide 1 - How to Pair Fonts
+Slide 1: How to Pair Fonts Like a Pro ✍️
+Slide 2: Contrast is Key (Serif + Sans-Serif)
+Slide 3: Define Your Hierarchy (Heading vs Body)
+Slide 4: Match the Mood (Luxury, Tech, Friendly)
+Slide 5: Limit Your Palette (2 fonts max)
+
+Link in Bio for the full masterclass! 🔗
+
+#GraphicDesign #TypoDesign #FontPairing
+
+---
+
+### Post 8: Mood Board - The Modern Tech Look
+Visual Example: Inter + Inter
+Vibe: Minimalist, Startup, Reliable.
+
+Best for SaaS and Dashboards. 💻
+
+Check it out at FontFusion.alfo.online
+
+---
+
+### Post 9: Mood Board - The Premium Editorial
+Visual Example: Playfair Display + Source Sans 3
+Vibe: Expensive, Authoritative, Editorial.
+
+Best for luxury brands and portfolios. ✨
+
+Find your pair: https://fontfusion.alfo.online/pairings/modern-serif-sans-serif
+
+---
+
+## Pinterest
+
+### Post 10: Infographic - The Font Pairing Cheat Sheet
+[Visual: A split graphic showing Serif vs Sans-Serif characteristics]
+
+Save this for your next project! 📌
+
+Pairing Guide: https://fontfusion.alfo.online/blog/professional-font-pairing-guide
+
+---
+
+### Post 11: Style Guide - Minimalist Fonts
+[Visual: Example of a clean, white UI using Roboto and Manrope]
+
+Clean. Minimal. Effective.
+
+Get the CSS: https://fontfusion.alfo.online/pairings/minimalist-fonts
+
+---
+
+### Post 12: Style Guide - Vintage Soul
+[Visual: High-contrast slab serif heading with a wide sans-serif body]
+
+Bring history to your design. 🕰️
+
+Discover vintage pairings: https://fontfusion.alfo.online/pairings/vintage-typography
