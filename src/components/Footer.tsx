@@ -21,15 +21,16 @@ export function Footer() {
               <li><Link href="/generator" className="hover:text-zinc-900 dark:hover:text-zinc-50">Generator</Link></li>
               <li><Link href="/browse" className="hover:text-zinc-900 dark:hover:text-zinc-50">Browse Fonts</Link></li>
               <li><Link href="/compare" className="hover:text-zinc-900 dark:hover:text-zinc-50">Compare</Link></li>
-              <li><Link href="/favorites" className="hover:text-zinc-900 dark:hover:text-zinc-50">Saved Pairs</Link></li>
+              <li><Link href="/pairings" className="hover:text-zinc-900 dark:hover:text-zinc-50">Collections</Link></li>
             </ul>
           </div>
           <div>
-            <h3 className="font-semibold mb-4 text-sm uppercase tracking-wider text-zinc-900 dark:text-zinc-100">Resources</h3>
+            <h3 className="font-semibold mb-4 text-sm uppercase tracking-wider text-zinc-900 dark:text-zinc-100">Company</h3>
             <ul className="space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
-              <li><Link href="/guides" className="hover:text-zinc-900 dark:hover:text-zinc-50">Typography Guides</Link></li>
-              <li><Link href="/guides/typography-basics" className="hover:text-zinc-900 dark:hover:text-zinc-50">Basics of Pairing</Link></li>
-              <li><Link href="/guides/serif-vs-sans" className="hover:text-zinc-900 dark:hover:text-zinc-50">Serif vs Sans</Link></li>
+              <li><Link href="/about" className="hover:text-zinc-900 dark:hover:text-zinc-50">About Us</Link></li>
+              <li><Link href="/blog" className="hover:text-zinc-900 dark:hover:text-zinc-50">Blog</Link></li>
+              <li><Link href="/guides" className="hover:text-zinc-900 dark:hover:text-zinc-50">Guides</Link></li>
+              <li><Link href="/favorites" className="hover:text-zinc-900 dark:hover:text-zinc-50">Saved Pairs</Link></li>
             </ul>
           </div>
         </div>
