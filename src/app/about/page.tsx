@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, CheckCircle2, Heart, Shield, Zap } from "lucide-react";
+import { ArrowRight, Heart, Shield, Zap } from "lucide-react";
 import { constructMetadata } from "@/lib/seo";
 
 export const metadata = constructMetadata({
@@ -18,7 +18,7 @@ export default function AboutPage() {
           We believe great design starts with great typography.
         </h1>
         <p className="text-xl text-zinc-600 dark:text-zinc-400 mb-10 max-w-2xl mx-auto">
-          FontFusion was built to solve the "blank page" problem. We help designers, developers, and founders find the perfect font pairs in seconds, not hours.
+          FontFusion was built to solve the &quot;blank page&quot; problem. We help designers, developers, and founders find the perfect font pairs in seconds, not hours.
         </p>
       </section>
 

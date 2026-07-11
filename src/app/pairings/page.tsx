@@ -24,7 +24,7 @@ export default function PairingsIndexPage() {
         </div>
         <h1 className="text-5xl font-bold mb-6 tracking-tight">Typography Pairings</h1>
         <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-3xl">
-          Expertly selected font combinations for every use case. From modern tech startups to elegant luxury brands, we've done the work of finding fonts that look beautiful together.
+          Expertly selected font combinations for every use case. From modern tech startups to elegant luxury brands, we&apos;ve done the work of finding fonts that look beautiful together.
         </p>
       </header>
 
@@ -55,7 +55,7 @@ export default function PairingsIndexPage() {
       )}
 
       <div className="mt-20 p-12 bg-zinc-900 text-white rounded-3xl text-center">
-         <h3 className="text-3xl font-bold mb-4">Didn't find what you're looking for?</h3>
+         <h3 className="text-3xl font-bold mb-4">Didn&apos;t find what you&apos;re looking for?</h3>
          <p className="text-zinc-400 mb-10 text-lg">Use our interactive generator to create your own unique font pairings.</p>
          <Link href="/generator" className="inline-flex items-center justify-center px-10 py-4 bg-white text-black font-bold rounded-full hover:bg-zinc-200 transition-colors">
             Open Font Generator
