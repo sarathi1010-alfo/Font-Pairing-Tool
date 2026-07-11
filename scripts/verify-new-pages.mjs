@@ -4,7 +4,10 @@ const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';
 
 const newUrls = [
   '/',
+  '/about',
+  '/blog',
   '/blog/professional-font-pairing-guide',
+  '/pairings',
   '/pairings/modern-serif-sans-serif',
   '/pairings/vintage-typography',
   '/pairings/minimalist-fonts',
