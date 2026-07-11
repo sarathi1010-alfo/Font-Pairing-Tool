@@ -37,7 +37,7 @@ permissions:
   pull-requests: write
 
 env:
-  GH_TOKEN: ${{ secrets.PAT }}
+  GH_TOKEN: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
 
 jobs:
   # ── Incoming / upcoming: fires live on open, push, reopen ──
