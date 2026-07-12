@@ -9,8 +9,8 @@ export async function generateSitemaps() {
   return Array.from({ length: 1000 }, (_, i) => ({ id: i }));
 }
 
-export default async function sitemap({ id }: { id: number | Promise<number> | any }): Promise<MetadataRoute.Sitemap> {
-  const resolvedId = await id;
+export default async function sitemap({ id }: { id: number | Promise<number> }): Promise<MetadataRoute.Sitemap> {
+  const resolvedId = typeof id === 'number' ? id : await id;
 
   const tools = [
     {

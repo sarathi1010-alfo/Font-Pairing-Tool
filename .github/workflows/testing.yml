@@ -37,7 +37,7 @@ permissions:
   pull-requests: write
 
 env:
-  GH_TOKEN: ${{ secrets.PAT }}
+  GH_TOKEN: ${{ secrets.PAT || github.token }}
 
 jobs:
   # ── Incoming / upcoming: fires live on open, push, reopen ──
@@ -48,7 +48,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.PAT || github.token }}
           fetch-depth: 2
 
       - name: Run auto-fix
@@ -128,7 +128,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ steps.ref.outputs.headref }}
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.PAT || github.token }}
           fetch-depth: 2
 
       - name: Run auto-fix
