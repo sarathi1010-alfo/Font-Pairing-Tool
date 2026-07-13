@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 function getLuminance(hex: string) {
   const rgb = parseInt(hex.replace('#', ''), 16);
