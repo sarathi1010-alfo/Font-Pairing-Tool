@@ -76,7 +76,9 @@ export default async function BlogPage({ params }: { params: { slug: string } })
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": `${siteConfig.url}/blog/${slug}`
-    }
+    },
+    "datePublished": "2025-05-15T08:00:00+00:00",
+    "dateModified": new Date().toISOString()
   };
 
   return (
