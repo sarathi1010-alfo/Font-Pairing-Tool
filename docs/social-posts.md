@@ -1,4 +1,4 @@
-# Tier 3 Social Distribution Posts
+# Tier 3 Social Distribution Posts (Daily Schedule)
 
 These posts are adapted from the Tier 1 article: "How to Pair Fonts Like a Professional Designer".
 

@@ -72,7 +72,11 @@ export default async function PairingPage({ params }: { params: { slug: string }
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": faqs
+    "mainEntity": faqs,
+    "publisher": {
+      "@type": "Organization",
+      "name": "FontFusion"
+    }
   };
 
   return (
