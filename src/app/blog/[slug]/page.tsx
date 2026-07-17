@@ -77,7 +77,7 @@ export default async function BlogPage({ params }: { params: { slug: string } })
       "@type": "WebPage",
       "@id": `${siteConfig.url}/blog/${slug}`
     },
-    "datePublished": "2025-05-15T08:00:00+00:00",
+    "datePublished": slug === "accessibility-first-typography-guide" ? "2026-07-17T08:00:00+00:00" : "2025-05-15T08:00:00+00:00",
     "dateModified": new Date().toISOString()
   };
 
