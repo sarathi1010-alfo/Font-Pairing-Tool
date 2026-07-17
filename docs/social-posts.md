@@ -1,146 +1,129 @@
 # Tier 3 Social Distribution Posts (Daily Schedule)
 
-These posts are adapted from the Tier 1 article: "How to Pair Fonts Like a Professional Designer".
+These posts are adapted from the Tier 1 article: "Accessibility-First Typography: Designing for Every Reader".
 
 ## Twitter / X
 
-### Post 1: The Golden Rule
-Stop guessing your font pairings. 🛑 The #1 rule? CONTRAST.
+### Post 1: The Core Question
+Stop asking "Does this look good?" 🛑 Start asking "Can everyone read this easily?" ✅
 
-Pair a Serif (headings) with a Sans-Serif (body).
+Accessibility-first typography isn't just about compliance; it's about empathy and inclusivity.
 
-Why? It creates dynamic tension and clear hierarchy.
+Read our full guide: https://fontfusion.alfo.online/blog/accessibility-first-typography-guide
 
-Read our full guide: https://fontfusion.alfo.online/blog/professional-font-pairing-guide
-
-#Typography #DesignTips #FontFusion
+#Accessibility #Typography #A11y #WebDesign
 
 ---
 
-### Post 2: Weights & Scales
-Want perfect "typographic color"? 🎨
+### Post 2: WCAG Standards
+Contrast is key. 🔑
 
-Skip at least one weight level between your heading and body text.
+Did you know WCAG AA requires a 4.5:1 contrast ratio for normal text? Don't leave your users squinting.
 
-Heading: Bold (700)
-Body: Light (300)
-
-Instant professionalism.
+Check your contrast and explore accessible font pairings.
 
 Try it now: https://fontfusion.alfo.online/generator
 
 ---
 
-### Post 3: Less is More
-The amateur mistake: Using 4+ fonts. ❌
-The pro move: Stick to 2. ✅
+### Post 3: Common Mistake
+The amateur mistake: Using color as the ONLY way to convey information. ❌
 
-Consistency builds trust. Limit your palette to 1 heading font and 1 body font.
+If a user is color blind, your red "error" text might just look like normal text. Always supplement color with icons or underlining.
 
-Details: https://fontfusion.alfo.online/blog/professional-font-pairing-guide
+Details: https://fontfusion.alfo.online/blog/accessibility-first-typography-guide
 
 ---
 
 ## LinkedIn
 
-### Post 4: Typography for Tech Founders
-Typography isn't just about "looking pretty"—it's about reducing cognitive friction.
+### Post 4: Designing for Inclusivity
+Typography is the foundation of the web, but if it's not accessible, we're failing our users.
 
-As a founder, your choice of font can define your brand's authority.
+As designers, we must prioritize legibility, clear visual hierarchy, and high contrast. Accessibility-first typography creates a better experience for everyone.
 
-The tech standard? Geometric sans-serifs like Inter or Manrope. They scream precision.
+Learn how to implement these principles: https://fontfusion.alfo.online/blog/accessibility-first-typography-guide
 
-Learn how to pair them like a pro: https://fontfusion.alfo.online/blog/professional-font-pairing-guide
-
-#SaaS #DesignThinking #Typography
+#WebDesign #InclusiveDesign #UX
 
 ---
 
-### Post 5: The Invisible Workhorse
-Your body text should be invisible. 👻
+### Post 5: Serif vs Sans-Serif
+Are serif fonts bad for accessibility? Not anymore.
 
-If a reader notices your body font, it’s usually because it’s hard to read.
+While early monitors struggled to render serifs, modern high-res displays handle them beautifully. The key is choosing fonts with clear letterforms and appropriate proportions.
 
-Pro designers look for:
-1. Large x-height
-2. Open counters
-3. 1.5x line height
-
-Maximize readability: https://fontfusion.alfo.online/blog/professional-font-pairing-guide
+Read the guide: https://fontfusion.alfo.online/blog/accessibility-first-typography-guide
 
 ---
 
-### Post 6: Brand Mood
-Is your brand Luxury or Innovation? 💎 vs 🚀
+### Post 6: Empowering the User
+True accessibility means giving up some control.
 
-Typography carries emotional weight.
-- High-contrast serifs = Premium
-- Clean sans-serifs = Efficiency
+Users need the ability to adjust font sizes or swap in a dyslexia-friendly font. Build flexible, responsive typographic systems using relative units (`rem`/`em`).
 
-Don't send the wrong signal. Choose your pair intentionally.
-
-Explore our collection: https://fontfusion.alfo.online/browse
+Explore accessible pairings: https://fontfusion.alfo.online/pairings/high-contrast-serif-sans
 
 ---
 
 ## Instagram (Carousels)
 
-### Post 7: Carousel Slide 1 - How to Pair Fonts
-Slide 1: How to Pair Fonts Like a Pro ✍️
-Slide 2: Contrast is Key (Serif + Sans-Serif)
-Slide 3: Define Your Hierarchy (Heading vs Body)
-Slide 4: Match the Mood (Luxury, Tech, Friendly)
-Slide 5: Limit Your Palette (2 fonts max)
+### Post 7: Carousel Slide 1 - Accessible Typography
+Slide 1: Accessibility-First Typography 📖
+Slide 2: Prioritize Legibility (Distinct letterforms matter)
+Slide 3: High Contrast is Non-Negotiable (Aim for 4.5:1)
+Slide 4: Clear Visual Hierarchy (Use size and weight effectively)
+Slide 5: Respect User Preferences (Use relative units)
 
 Link in Bio for the full masterclass! 🔗
 
-#GraphicDesign #TypoDesign #FontPairing
+#A11y #GraphicDesign #UXDesign #WebDev
 
 ---
 
-### Post 8: Mood Board - The Modern Tech Look
-Visual Example: Inter + Inter
-Vibe: Minimalist, Startup, Reliable.
+### Post 8: Mood Board - The Clear Interface
+Visual Example: Atkinson Hyperlegible + Inter
+Vibe: Clear, Usable, Inclusive.
 
-Best for SaaS and Dashboards. 💻
+Best for complex UI and dashboards. 💻
 
 Check it out at FontFusion.alfo.online
 
 ---
 
-### Post 9: Mood Board - The Premium Editorial
-Visual Example: Playfair Display + Source Sans 3
-Vibe: Expensive, Authoritative, Editorial.
+### Post 9: Mood Board - Dyslexia-Friendly
+Visual Example: Lexend + Comic Sans
+Vibe: Approachable, Easy to read.
 
-Best for luxury brands and portfolios. ✨
+Best for educational platforms. 📚
 
-Find your pair: https://fontfusion.alfo.online/pairings/modern-serif-sans-serif
+Find your pair: https://fontfusion.alfo.online/pairings/dyslexia-friendly-fonts
 
 ---
 
 ## Pinterest
 
-### Post 10: Infographic - The Font Pairing Cheat Sheet
-[Visual: A split graphic showing Serif vs Sans-Serif characteristics]
+### Post 10: Infographic - The Accessibility Typography Cheat Sheet
+[Visual: A graphic showing common confusing characters (1, l, I) and how accessible fonts differentiate them]
 
-Save this for your next project! 📌
+Save this for your next project to ensure maximum legibility! 📌
 
-Pairing Guide: https://fontfusion.alfo.online/blog/professional-font-pairing-guide
-
----
-
-### Post 11: Style Guide - Minimalist Fonts
-[Visual: Example of a clean, white UI using Roboto and Manrope]
-
-Clean. Minimal. Effective.
-
-Get the CSS: https://fontfusion.alfo.online/pairings/minimalist-fonts
+Pairing Guide: https://fontfusion.alfo.online/blog/accessibility-first-typography-guide
 
 ---
 
-### Post 12: Style Guide - Vintage Soul
-[Visual: High-contrast slab serif heading with a wide sans-serif body]
+### Post 11: Style Guide - High Contrast Pairings
+[Visual: Example of a clean UI using high contrast serif and sans-serif fonts]
 
-Bring history to your design. 🕰️
+Clear. Contrast. Effective.
 
-Discover vintage pairings: https://fontfusion.alfo.online/pairings/vintage-typography
+Get the CSS: https://fontfusion.alfo.online/pairings/high-contrast-serif-sans
+
+---
+
+### Post 12: Style Guide - Variable Fonts
+[Visual: Graphic showing how variable fonts adapt weight for dark mode vs light mode]
+
+The future of accessible responsive typography. 🎛️
+
+Discover variable pairings: https://fontfusion.alfo.online/pairings/variable-fonts-accessibility

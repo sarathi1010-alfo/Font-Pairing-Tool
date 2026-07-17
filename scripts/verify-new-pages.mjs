@@ -4,17 +4,17 @@ const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';
 
 const newUrls = [
   '/',
-  '/blog/professional-font-pairing-guide',
-  '/pairings/modern-serif-sans-serif',
-  '/pairings/vintage-typography',
-  '/pairings/minimalist-fonts',
-  '/pairings/body-text-headings',
-  '/pairings/script-display',
-  '/pairings/monospace-sans',
-  '/pairings/elegant-wedding',
-  '/pairings/tech-startup',
-  '/pairings/luxury-brand',
-  '/pairings/editorial-magazine'
+  '/blog/accessibility-first-typography-guide',
+  '/pairings/high-contrast-serif-sans',
+  '/pairings/accessible-sans-serifs',
+  '/pairings/dyslexia-friendly-fonts',
+  '/pairings/large-x-height-pairings',
+  '/pairings/ui-accessibility-fonts',
+  '/pairings/inclusive-editorial-design',
+  '/pairings/variable-fonts-accessibility',
+  '/pairings/low-vision-pairings',
+  '/pairings/accessible-data-visualization',
+  '/pairings/high-legibility-monospaced'
 ];
 
 async function verifyUrls() {
@@ -25,7 +25,8 @@ async function verifyUrls() {
 
   for (const urlPath of newUrls) {
     const url = `${BASE_URL}${urlPath}`;
-    console.log(`\n📄 Testing: ${urlPath}`);
+    console.log(`
+📄 Testing: ${urlPath}`);
 
     const consoleErrors = [];
     page.on('console', msg => {
@@ -58,7 +59,7 @@ async function verifyUrls() {
 
       // 3. Check for JS Console Errors
       if (consoleErrors.length > 0) {
-        console.error(`❌ Console Errors: ${consoleErrors.join('\n')}`);
+        console.error(`❌ Console Errors: ${consoleErrors.join(", ")}`);
         hasErrors = true;
       } else {
         console.log(`✅ No JS console errors.`);
