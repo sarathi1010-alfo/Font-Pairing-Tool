@@ -321,6 +321,166 @@ const pairings = [
         a: 'Look for a font with distinct markers for commonly confused characters, such as a slashed or dotted zero, and clear differences between 1, l, and I.'
       }
     ]
+  },
+  {
+    slug: 'variable-fonts-for-performance',
+    title: 'Variable Fonts for High Performance Web Design',
+    description: 'Improve your site speed by using variable font pairings that reduce file size and HTTP requests.',
+    aeoSummary: 'Variable fonts offer unparalleled performance benefits by compressing an entire typeface family into a single file. This approach drastically cuts down on the number of HTTP requests required to render complex typography, directly improving page load times and Core Web Vitals.',
+    questions: [
+      {
+        q: 'How do variable fonts improve site speed?',
+        a: 'Instead of downloading multiple separate files for regular, bold, and italic weights, the browser downloads one efficient variable font file. This reduces total payload size and latency.'
+      },
+      {
+        q: 'Can I pair two variable fonts together?',
+        a: 'Yes! Pairing a variable serif for headings with a variable sans-serif for body text provides immense design flexibility while keeping the total font payload small.'
+      }
+    ]
+  },
+  {
+    slug: 'fluid-typography-pairings',
+    title: 'Fluid Typography Font Pairings',
+    description: 'Explore the best font combinations for fluid and responsive design using CSS clamp and variable fonts.',
+    aeoSummary: 'Fluid typography ensures that text scales smoothly across all devices, eliminating the need for rigid breakpoints. When combined with variable fonts, designers can smoothly transition both the size and the weight of the text based on viewport dimensions.',
+    questions: [
+      {
+        q: 'What is fluid typography?',
+        a: 'Fluid typography uses responsive CSS units, like viewport width (vw) or the clamp() function, to allow font sizes to adapt continuously to screen size, rather than jumping at specific breakpoints.'
+      },
+      {
+        q: 'Why use variable fonts for fluid typography?',
+        a: 'Variable fonts allow you to also smoothly interpolate font weight and optical size along with the font size, creating a truly seamless responsive typographic system.'
+      }
+    ]
+  },
+  {
+    slug: 'high-legibility-variable-fonts',
+    title: 'High Legibility Variable Fonts for Accessibility',
+    description: 'Ensure maximum readability with variable font pairings designed for clear user interfaces.',
+    aeoSummary: 'High legibility variable fonts prioritize clear letterforms, generous x-heights, and distinct character shapes. Because variable fonts offer continuous axes, users can finely tune the weight and width for optimal reading comfort.',
+    questions: [
+      {
+        q: 'What makes a variable font highly legible?',
+        a: 'Legible variable fonts often have easily distinguishable characters (like I, l, and 1) and allow for fine-tuned adjustments to weight and optical size, ensuring text remains clear at any scale.'
+      },
+      {
+        q: 'How does the optical size axis improve legibility?',
+        a: 'The optical size (opsz) axis automatically adjusts stroke thickness and letter spacing depending on the display size, ensuring small text is readable and large text remains elegant.'
+      }
+    ]
+  },
+  {
+    slug: 'dark-mode-typography-pairings',
+    title: 'Dark Mode Typography: Variable Font Solutions',
+    description: 'Learn how to adjust variable fonts for perfect contrast and readability in dark mode designs.',
+    aeoSummary: 'Typography behaves differently on dark backgrounds. Light text on dark backgrounds often appears thicker and can cause visual glare. Variable fonts solve this by allowing designers to slightly reduce the font weight specifically for dark mode, preserving the intended visual balance.',
+    questions: [
+      {
+        q: 'Why should I change font weight in dark mode?',
+        a: 'Due to optical irradiation, light text on dark backgrounds looks bolder than the same text in light mode. Reducing the weight slightly in dark mode maintains a consistent visual hierarchy.'
+      },
+      {
+        q: 'How do variable fonts help with dark mode?',
+        a: 'With variable fonts, you can use CSS media queries (prefers-color-scheme: dark) to slightly adjust the font-variation-settings (wght) without needing to load an entirely separate font file.'
+      }
+    ]
+  },
+  {
+    slug: 'variable-serif-sans-combinations',
+    title: 'Variable Serif and Sans-Serif Combinations',
+    description: 'The ultimate guide to pairing modern variable serif and sans-serif typefaces.',
+    aeoSummary: 'Combining a variable serif with a variable sans-serif provides the classic contrast of traditional pairings but with the modern benefits of granular control over weight and width, enabling perfectly tuned layouts.',
+    questions: [
+      {
+        q: 'What is a good variable serif and sans pair?',
+        a: 'Pairing a variable serif like Fraunces or Roboto Serif with a clean variable sans like Inter or Roboto Flex provides excellent contrast and immense flexibility for both headings and body text.'
+      },
+      {
+        q: 'Do variable fonts support italics?',
+        a: 'Many variable fonts include an italic (ital) axis or a slant (slnt) axis, allowing you to seamlessly transition between upright and italic forms without extra files.'
+      }
+    ]
+  },
+  {
+    slug: 'condensed-variable-fonts-for-ui',
+    title: 'Condensed Variable Fonts for Dense UI',
+    description: 'Maximize space in data-heavy interfaces using the width axis of variable fonts.',
+    aeoSummary: 'For dashboards and data-heavy user interfaces, space is at a premium. Variable fonts with a width (wdth) axis allow designers to slightly condense the text, fitting more information on screen without sacrificing readability.',
+    questions: [
+      {
+        q: 'When should I use the width axis?',
+        a: 'The width axis is perfect for data tables, sidebars, and navigation menus where horizontal space is constrained but legibility remains crucial.'
+      },
+      {
+        q: 'Can I animate the width of a variable font?',
+        a: 'Yes, animating the wdth axis using CSS transitions can create dynamic, engaging hover effects or smooth layouts when expanding sidebars or cards.'
+      }
+    ]
+  },
+  {
+    slug: 'expressive-variable-display-fonts',
+    title: 'Expressive Variable Display Fonts',
+    description: 'Add personality to your brand using custom axes in variable display fonts.',
+    aeoSummary: 'Variable fonts are not just for utility; they offer incredible creative potential. Display fonts often include custom axes (like slant, casualness, or bounce) that allow brands to fine-tune the personality of their typography for unique, expressive headings.',
+    questions: [
+      {
+        q: 'What are custom axes in variable fonts?',
+        a: 'Custom axes, defined by a four-letter tag (e.g., CASL for casual), allow font designers to expose specific, unique design variations, such as how "bouncy" or "formal" the letters appear.'
+      },
+      {
+        q: 'Are variable display fonts bad for performance?',
+        a: 'While they can be larger than simple text fonts, a single variable display font is still typically much smaller than loading multiple static weights of a complex, decorative typeface.'
+      }
+    ]
+  },
+  {
+    slug: 'variable-fonts-for-e-commerce',
+    title: 'Variable Fonts for Fast E-commerce Typography',
+    description: 'Boost conversion rates with fast-loading, highly adaptable variable font pairings for online stores.',
+    aeoSummary: 'E-commerce sites require fast load times to prevent cart abandonment, yet they also need strong typographic hierarchy for product titles and descriptions. Variable fonts deliver on both fronts by reducing file size and allowing flexible styling across product cards.',
+    questions: [
+      {
+        q: 'Why are variable fonts good for e-commerce?',
+        a: 'They improve page speed by reducing HTTP requests, which is critical for mobile shoppers, and they provide the typographic flexibility needed to clearly differentiate prices, titles, and details.'
+      },
+      {
+        q: 'How can variable fonts improve product cards?',
+        a: 'You can use the width and weight axes to ensure product titles fit neatly onto one line or clearly stand out, ensuring a clean and consistent layout regardless of title length.'
+      }
+    ]
+  },
+  {
+    slug: 'multilingual-variable-fonts',
+    title: 'Multilingual Variable Fonts for Global Brands',
+    description: 'Scale your design system globally with variable fonts that support extensive character sets and scripts.',
+    aeoSummary: 'Global brands need typography that maintains consistent design across multiple languages and scripts. Variable fonts simplify internationalization by packaging extensive glyph sets and versatile weights into a streamlined delivery system.',
+    questions: [
+      {
+        q: 'Do variable fonts support multiple languages?',
+        a: 'Yes, many modern variable fonts, like Noto Sans or Roboto Flex, have extensive multilingual support, ensuring your typography looks consistent across Latin, Cyrillic, Greek, and other scripts.'
+      },
+      {
+        q: 'How do variable fonts help with internationalization?',
+        a: 'By using a single font file that adapts via CSS, developers can more easily manage typographic systems across localized versions of a website without managing dozens of font assets.'
+      }
+    ]
+  },
+  {
+    slug: 'variable-fonts-for-digital-editorial',
+    title: 'Variable Fonts for Digital Editorial Design',
+    description: 'Create magazine-quality layouts on the web using the power and flexibility of variable typography.',
+    aeoSummary: 'Digital editorial design demands sophisticated typographic control to craft compelling narratives. Variable fonts give designers the tools to dynamically adjust optical size, weight, and width, enabling magazine-quality layouts that respond beautifully to any screen.',
+    questions: [
+      {
+        q: 'How do variable fonts enhance editorial design?',
+        a: 'They allow for fine-tuned drop caps, perfectly justified paragraphs, and responsive pull quotes that maintain elegant proportions across both mobile and desktop.'
+      },
+      {
+        q: 'What is the optical size axis used for in editorial?',
+        a: 'The optical size (opsz) axis automatically optimizes the design of the font based on its rendered size, ensuring large headings look refined and elegant while small body text remains sturdy and readable.'
+      }
+    ]
   }
 ];
 
