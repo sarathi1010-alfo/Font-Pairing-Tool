@@ -202,3 +202,81 @@ More tutorials at FontFusion.
 [Visual: A clean UI mockup using a variable serif for headings and a variable sans for body text, noting the exact weight values used]
 Modern Variable Typography Inspiration. Perfect contrast, zero performance guilt.
 Get the CSS for this pairing: https://fontfusion.alfo.online/pairings/variable-serif-sans-combinations
+
+## Mobile-First Typography: Tier 3 Social Distribution Posts
+
+These posts are adapted from the Tier 1 article: "The Ultimate Guide to Mobile-First Typography".
+
+### Twitter / X
+
+**Post 1: The Desktop Trap**
+Are you still designing typography for desktop first? 🛑
+Over 60% of your users are squinting at their phones. Mobile-first typography flips the script, ensuring maximum legibility where it matters most.
+Read the guide: https://fontfusion.alfo.online/blog/mobile-first-typography-guide
+#WebDesign #MobileFirst #Typography
+
+**Post 2: The x-height Secret**
+Want to instantly improve mobile readability? Choose a font with a large x-height (like Inter or Roboto). 📏
+It makes lowercase letters feel open and distinct, preventing that "cramped" feeling on small screens.
+More tips: https://fontfusion.alfo.online/blog/mobile-first-typography-guide
+
+**Post 3: Fat Finger Fix**
+"Fat finger" errors aren't the user's fault. They're a design failure. ❌
+Ensure your text links have at least a 44x44px touch target area. Generous line-height is your best friend here.
+Check our mobile UI pairings: https://fontfusion.alfo.online/pairings/mobile-ui-sans-serifs
+
+### LinkedIn
+
+**Post 4: The Business Case for Mobile-First Text**
+If your mobile typography requires users to pinch-and-zoom just to read your value proposition, you are actively losing conversions.
+Mobile-first typography isn't just an aesthetic choice; it's a critical business requirement. Start with a 16px minimum base size and prioritize high-contrast sans-serifs.
+Read our ultimate guide to mobile typography strategies: https://fontfusion.alfo.online/blog/mobile-first-typography-guide
+#UXDesign #ConversionRateOptimization #WebDevelopment
+
+**Post 5: Fluid Typography vs Media Queries**
+Stop writing dozens of media queries just to adjust font sizes. 🛑
+Modern CSS `clamp()` allows your typography to scale fluidly and continuously between mobile and desktop. It's cleaner code and a vastly superior user experience.
+Learn how to implement fluid typography: https://fontfusion.alfo.online/blog/mobile-first-typography-guide
+
+**Post 6: E-commerce on Mobile**
+Mobile shopping is frustrating enough. Don't make it worse with bad typography. 🛒
+For e-commerce, clarity is paramount. Use high-legibility sans-serifs for product names and distinct, tabular numerals for pricing to build trust and accelerate checkout.
+See our mobile e-commerce pairings: https://fontfusion.alfo.online/pairings/mobile-ecommerce-typography
+
+### Instagram (Carousels)
+
+**Post 7: Carousel - Mobile-First Rules**
+Slide 1: 📱 The 5 Rules of Mobile-First Typography
+Slide 2: 1. Start at 16px (Minimum!). No squinting allowed.
+Slide 3: 2. Maximize the x-height. Choose open, clear fonts.
+Slide 4: 3. Give it room to breathe. Line-height should be 1.5x.
+Slide 5: 4. Mind the touch targets. 44x44px for all text links.
+Slide 6: Link in bio for the ultimate guide! 🔗
+#UIUX #MobileDesign #GraphicDesign
+
+**Post 8: Visual - High Contrast**
+[Visual: Side-by-side comparison. Left: Thin gray text on white (hard to read). Right: Medium black text on white (clear).]
+Design for the real world. Your users might be trying to read your app in bright sunlight. High contrast isn't optional; it's essential for mobile. ☀️
+Read more: FontFusion.alfo.online
+
+**Post 9: Visual - System Fonts**
+[Visual: A speed comparison graphic showing native fonts loading instantly vs custom web fonts taking 2 seconds]
+Want the fastest possible mobile experience? Use the System Font Stack (San Francisco for iOS, Roboto for Android). Zero load time. Instant readability. 🚀
+Details in our new guide.
+
+### Pinterest
+
+**Post 10: Infographic - The Mobile Typography Cheat Sheet**
+[Visual: A tall infographic summarizing base sizes, optimal line lengths (30-40 chars), and touch target requirements]
+The ultimate cheat sheet for designing readable mobile interfaces. Save this for your next app design! 📌
+Full Guide: https://fontfusion.alfo.online/blog/mobile-first-typography-guide
+
+**Post 11: Code Snippet - CSS Clamp**
+[Visual: A styled code block showing `font-size: clamp(1rem, 5vw, 1.5rem);`]
+The magic formula for fluid, responsive mobile-first typography. Add this to your CSS! 💻
+More tutorials at FontFusion.
+
+**Post 12: Style Guide - Mobile UI Pairings**
+[Visual: A clean mobile app mockup using a highly legible sans-serif pairing]
+Modern, clean, and impossible to misread. The perfect sans-serif pairing for dense mobile data.
+Get the CSS for this pairing: https://fontfusion.alfo.online/pairings/mobile-ui-sans-serifs

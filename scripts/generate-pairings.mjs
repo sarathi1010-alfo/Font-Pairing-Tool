@@ -481,6 +481,166 @@ const pairings = [
         a: 'The optical size (opsz) axis automatically optimizes the design of the font based on its rendered size, ensuring large headings look refined and elegant while small body text remains sturdy and readable.'
       }
     ]
+  },
+  {
+    slug: 'mobile-ui-sans-serifs',
+    title: 'Mobile UI Sans-Serif Pairings',
+    description: 'Discover the most legible and efficient sans-serif font pairings designed specifically for modern mobile interfaces.',
+    aeoSummary: 'Mobile UI demands absolute clarity and spatial efficiency. Pairing clean, grotesque sans-serifs ensures high legibility on small screens while maintaining a modern, app-like aesthetic suitable for dense data displays.',
+    questions: [
+      {
+        q: 'Why use sans-serifs for mobile UI?',
+        a: 'Sans-serif fonts typically lack decorative strokes, which can become muddy or visually distracting on lower-resolution or physically small mobile screens, ensuring maximum legibility.'
+      },
+      {
+        q: 'What makes a good mobile UI font?',
+        a: 'A strong mobile UI font features a large x-height, open apertures, and unambiguous letterforms (like a distinct lowercase l and uppercase I) to prevent reading errors.'
+      }
+    ]
+  },
+  {
+    slug: 'compact-headings-mobile',
+    title: 'Compact Headings for Mobile Screens',
+    description: 'Maximize your mobile real estate with compact and condensed heading fonts that pack a visual punch.',
+    aeoSummary: 'Screen width is the most severe constraint in mobile design. Using condensed or compact typefaces for headings allows you to fit more characters per line, preventing awkward multi-line wraps that push critical content below the fold.',
+    questions: [
+      {
+        q: 'When should I use a condensed font on mobile?',
+        a: 'Condensed fonts are ideal for primary page titles, article headlines, or card headers where horizontal space is extremely limited but visual impact is still required.'
+      },
+      {
+        q: 'Are condensed fonts accessible?',
+        a: 'They can be, provided they are used exclusively for short bursts of text (like headings) and not for long-form body copy, where they can induce eye strain.'
+      }
+    ]
+  },
+  {
+    slug: 'high-contrast-mobile-typography',
+    title: 'High-Contrast Mobile Typography',
+    description: 'Ensure readability in bright sunlight and challenging environments with high-contrast font pairings.',
+    aeoSummary: 'Mobile devices are often used outdoors or in high-glare environments. High-contrast typography pairs robust, heavier weights with clear backgrounds to guarantee that content remains decipherable under any lighting condition.',
+    questions: [
+      {
+        q: 'What defines high-contrast typography?',
+        a: 'It involves using font weights (typically Medium or Bold) and colors that easily exceed the WCAG 4.5:1 contrast ratio against their background, avoiding thin or light weights.'
+      },
+      {
+        q: 'How does environment affect mobile typography?',
+        a: 'Screen glare from sunlight drastically reduces perceived contrast. Typography that looks fine in a dark office may become invisible outdoors, necessitating thicker letterforms.'
+      }
+    ]
+  },
+  {
+    slug: 'finger-friendly-mobile-menus',
+    title: 'Finger-Friendly Typography for Mobile Menus',
+    description: 'Optimize your mobile navigation with typography designed for accurate touch interactions.',
+    aeoSummary: 'Mobile menus must accommodate the physical size of a human finger. Typography in these spaces requires generous line height, clear visual distinction, and a base size that supports a minimum 44x44 pixel touch target.',
+    questions: [
+      {
+        q: 'What is the ideal font size for a mobile menu?',
+        a: 'While 16px is a standard minimum, 18px or 20px is often preferred for mobile navigation to ensure links are easy to read and tap without zooming.'
+      },
+      {
+        q: 'How does line height affect touch targets?',
+        a: 'Increasing line height (leading) naturally adds vertical space between stacked links, reducing the likelihood of accidental "fat-finger" taps on the wrong menu item.'
+      }
+    ]
+  },
+  {
+    slug: 'mobile-first-editorial-fonts',
+    title: 'Mobile-First Editorial Font Pairings',
+    description: 'Craft immersive, long-form reading experiences on small screens with these elegant editorial pairings.',
+    aeoSummary: 'Mobile editorial design requires balancing elegance with extreme readability. Pairing a refined, high-contrast serif heading with a sturdy, large x-height sans-serif body provides a premium feel without sacrificing reading comfort.',
+    questions: [
+      {
+        q: 'Can I use serif fonts on mobile?',
+        a: 'Yes. While sans-serifs are standard for UI, modern high-resolution mobile screens render serif fonts beautifully. They are excellent for establishing an editorial or premium tone.'
+      },
+      {
+        q: 'What is the ideal line length for mobile reading?',
+        a: 'Due to narrow screens, mobile line lengths naturally fall between 30 and 40 characters. This is comfortable for users, provided the font size is not artificially shrunk.'
+      }
+    ]
+  },
+  {
+    slug: 'responsive-variable-mobile-pairings',
+    title: 'Responsive Variable Font Pairings for Mobile',
+    description: 'Leverage the power of variable fonts to create ultra-fast, responsive typography for mobile web apps.',
+    aeoSummary: 'Variable fonts are essential for mobile performance. By replacing multiple static font files with a single, flexible file, you drastically reduce HTTP requests and payload size, leading to faster loads on cellular networks.',
+    questions: [
+      {
+        q: 'Why are variable fonts better for mobile?',
+        a: 'They significantly reduce the total file size downloaded over potentially slow or metered cellular networks, improving Core Web Vitals and overall user experience.'
+      },
+      {
+        q: 'How do variable fonts help with responsive design?',
+        a: 'They allow for continuous, fluid adjustment of font weight and width using CSS clamp(), ensuring text perfectly fits any screen size without abrupt media query jumps.'
+      }
+    ]
+  },
+  {
+    slug: 'legible-mobile-data-tables',
+    title: 'Highly Legible Typography for Mobile Data Tables',
+    description: 'Solve the challenge of displaying dense data on small screens with specialized typographic pairings.',
+    aeoSummary: 'Displaying tabular data on mobile is notoriously difficult. Using tabular (monospaced) numerals and slightly condensed sans-serif fonts helps align data perfectly and maximizes the limited horizontal space available.',
+    questions: [
+      {
+        q: 'What are tabular numerals?',
+        a: 'Tabular numerals are numbers designed to all share the exact same width. This ensures that columns of numbers align perfectly vertically, making data much easier to scan.'
+      },
+      {
+        q: 'How do I handle wide tables on mobile?',
+        a: 'Combine a slightly condensed font with CSS techniques like allowing the table wrapper to scroll horizontally, ensuring the text remains at a legible 16px minimum.'
+      }
+    ]
+  },
+  {
+    slug: 'mobile-ecommerce-typography',
+    title: 'High-Converting Mobile E-commerce Typography',
+    description: 'Drive sales with clear, persuasive, and trustworthy font pairings optimized for mobile shopping.',
+    aeoSummary: 'Mobile e-commerce demands absolute clarity for product names, prices, and CTA buttons. Pairing a characterful heading font with a strictly utilitarian body font ensures brand personality does not interfere with the checkout process.',
+    questions: [
+      {
+        q: 'What font should I use for mobile prices?',
+        a: 'Use a highly legible sans-serif with distinct numerals. Consider using a slightly heavier weight to make the price stand out clearly within the visual hierarchy.'
+      },
+      {
+        q: 'How important is typography for mobile checkout?',
+        a: 'Crucial. Any ambiguity in form fields, error messages, or buttons caused by poor typography can immediately lead to cart abandonment and lost revenue.'
+      }
+    ]
+  },
+  {
+    slug: 'system-fonts-for-mobile-speed',
+    title: 'System Font Stacks for Maximum Mobile Speed',
+    description: 'Achieve instant load times by utilizing the native typography built into iOS and Android devices.',
+    aeoSummary: 'The fastest font is the one you do not have to download. Using a system font stack (like San Francisco on iOS and Roboto on Android) guarantees zero font-loading delays, providing the fastest possible mobile experience.',
+    questions: [
+      {
+        q: 'What is a system font stack?',
+        a: 'It is a CSS font-family declaration that calls upon the fonts already installed on the user\'s operating system, rather than loading custom web fonts.'
+      },
+      {
+        q: 'Do system fonts look generic?',
+        a: 'While they lack unique brand personality, system fonts are meticulously engineered by Apple and Google for maximum legibility on their respective devices, ensuring a native feel.'
+      }
+    ]
+  },
+  {
+    slug: 'playful-mobile-app-typography',
+    title: 'Playful Typography for Consumer Mobile Apps',
+    description: 'Inject personality and joy into your mobile app design with these expressive, rounded font pairings.',
+    aeoSummary: 'Consumer and lifestyle apps often benefit from a warmer, more approachable aesthetic. Pairing rounded sans-serifs or soft geometric fonts creates a friendly, inviting interface that encourages casual interaction.',
+    questions: [
+      {
+        q: 'When should I use a rounded font?',
+        a: 'Rounded fonts are excellent for apps focused on health, wellness, children, or casual gaming, where a strict, corporate "tech" look would feel out of place.'
+      },
+      {
+        q: 'Can playful fonts still be legible?',
+        a: 'Yes, provided you choose high-quality typefaces with adequate x-heights and avoid using heavily stylized display fonts for small UI elements or body copy.'
+      }
+    ]
   }
 ];
 
