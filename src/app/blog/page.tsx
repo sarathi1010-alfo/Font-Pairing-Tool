@@ -10,6 +10,7 @@ export const metadata = constructMetadata({
 
 export default function BlogIndexPage() {
   const allSlugs = getAllBlogSlugs();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const allPosts = allSlugs.map(slug => getBlogMeta(slug)).filter(Boolean) as any[];
 
   // For demonstration, group by some rough logic
@@ -22,7 +23,7 @@ export default function BlogIndexPage() {
       <header className="mb-16 text-center max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">FontFusion Blog – Typography Guides, Font Pairings &amp; Design Inspiration</h1>
         <p className="text-lg text-zinc-600 dark:text-zinc-400">
-          Welcome to the FontFusion blog, your ultimate resource for mastering digital typography. Whether you're looking for the fundamental rules of font pairing, exploring industry-specific typographic guides, or diving deep into the technical implementation of web fonts, our expert articles have you covered. Let us help you elevate your design workflow with curated insights and actionable inspiration.
+          Welcome to the FontFusion blog, your ultimate resource for mastering digital typography. Whether you&apos;re looking for the fundamental rules of font pairing, exploring industry-specific typographic guides, or diving deep into the technical implementation of web fonts, our expert articles have you covered. Let us help you elevate your design workflow with curated insights and actionable inspiration.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="/" className="text-sm font-medium text-indigo-600 hover:text-indigo-500">
