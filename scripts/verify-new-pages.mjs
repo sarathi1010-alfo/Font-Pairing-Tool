@@ -4,17 +4,17 @@ const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';
 
 const newUrls = [
   '/',
-  '/blog/accessibility-first-typography-guide',
-  '/pairings/high-contrast-serif-sans',
-  '/pairings/accessible-sans-serifs',
-  '/pairings/dyslexia-friendly-fonts',
-  '/pairings/large-x-height-pairings',
-  '/pairings/ui-accessibility-fonts',
-  '/pairings/inclusive-editorial-design',
-  '/pairings/variable-fonts-accessibility',
-  '/pairings/low-vision-pairings',
-  '/pairings/accessible-data-visualization',
-  '/pairings/high-legibility-monospaced'
+  '/blog/mobile-first-typography-guide',
+  '/pairings/mobile-ui-sans-serifs',
+  '/pairings/compact-headings-mobile',
+  '/pairings/high-contrast-mobile-typography',
+  '/pairings/finger-friendly-mobile-menus',
+  '/pairings/mobile-first-editorial-fonts',
+  '/pairings/responsive-variable-mobile-pairings',
+  '/pairings/legible-mobile-data-tables',
+  '/pairings/mobile-ecommerce-typography',
+  '/pairings/system-fonts-for-mobile-speed',
+  '/pairings/playful-mobile-app-typography'
 ];
 
 async function verifyUrls() {
