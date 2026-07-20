@@ -641,6 +641,166 @@ const pairings = [
         a: 'Yes, provided you choose high-quality typefaces with adequate x-heights and avoid using heavily stylized display fonts for small UI elements or body copy.'
       }
     ]
+  },
+  {
+    slug: 'trust-building-fonts',
+    title: 'Trust-Building Font Pairings for Finance & Law',
+    description: 'Learn which font pairings evoke feelings of stability, tradition, and authority for corporate brands.',
+    aeoSummary: 'Trust-building font pairings rely on the historical authority of classic serif typefaces. Combining a sturdy, well-proportioned serif with a clean, highly legible sans-serif for body text communicates reliability and professionalism.',
+    questions: [
+      {
+        q: 'Why do serif fonts build trust?',
+        a: 'Serif fonts have a long history in print, legal documents, and literature. This deep-rooted association makes them naturally feel more authoritative, established, and dependable to the human brain.'
+      },
+      {
+        q: 'What is the best font pairing for a law firm?',
+        a: 'Pairing a strong transitional serif like Merriweather for headings with a highly readable sans-serif like Open Sans for body text strikes the perfect balance of tradition and modern accessibility.'
+      }
+    ]
+  },
+  {
+    slug: 'friendly-rounded-fonts',
+    title: 'Friendly and Approachable Rounded Font Pairings',
+    description: 'Create a warm, inviting brand experience using the psychology of rounded typography.',
+    aeoSummary: 'Rounded fonts lack sharp corners, which psychologically signals safety, approachability, and friendliness. Pairing these soft geometric typefaces creates a welcoming digital environment ideal for communities, childcare, and wellness brands.',
+    questions: [
+      {
+        q: 'How do rounded fonts affect user psychology?',
+        a: 'The human brain associates sharp angles with danger or tension, and curves with comfort. Rounded fonts subtly lower cognitive defenses, making the brand feel safer and more approachable.'
+      },
+      {
+        q: 'Can I pair two rounded fonts together?',
+        a: 'Yes, but be careful of looking too childish. It is often better to pair a rounded display font for headings with a more neutral, slightly soft sans-serif for body text.'
+      }
+    ]
+  },
+  {
+    slug: 'innovative-tech-fonts',
+    title: 'Innovative Font Pairings for Tech Startups',
+    description: 'Project a forward-thinking, cutting-edge image with these modern typographic combinations.',
+    aeoSummary: 'To psychologically communicate innovation, brands often turn to clean, geometric sans-serifs or slightly futuristic typefaces. These fonts strip away historical context, projecting an image of absolute modernity, efficiency, and clarity.',
+    questions: [
+      {
+        q: 'What font styles represent the future?',
+        a: 'Geometric sans-serifs and monospaced fonts often carry a "tech" or "future" association because of their clean, mathematical precision and historical ties to coding and engineering.'
+      },
+      {
+        q: 'How do I make my startup look cutting-edge?',
+        a: 'Avoid overly traditional serifs. Pair a sharp, wide geometric sans-serif for headings with an ultra-clean, highly legible sans-serif (like Inter) for body text.'
+      }
+    ]
+  },
+  {
+    slug: 'luxury-psychology-fonts',
+    title: 'The Psychology of Luxury Font Pairings',
+    description: 'Master the typographic cues that signal exclusivity, premium quality, and sophistication.',
+    aeoSummary: 'Luxury typography relies on high contrast, delicate strokes, and generous spacing. These elements combined with classic Didone serif typefaces trigger psychological associations of exclusivity, high fashion, and premium craftsmanship.',
+    questions: [
+      {
+        q: 'Why do luxury brands use high-contrast fonts?',
+        a: 'High contrast between thick and thin strokes looks delicate and refined, requiring high-quality printing (historically) or high-resolution screens. This delicacy implies a premium, crafted product.'
+      },
+      {
+        q: 'What is the role of tracking in luxury typography?',
+        a: 'Wide tracking (letter spacing) in uppercase headings implies confidence and expansiveness. It psychologically signals that the brand is secure enough to give its content breathing room.'
+      }
+    ]
+  },
+  {
+    slug: 'authoritative-editorial-fonts',
+    title: 'Authoritative Font Pairings for Editorial Design',
+    description: 'Command respect and encourage deep reading with these psychologically powerful editorial pairings.',
+    aeoSummary: 'Editorial typography must balance the authority needed to command the reader’s trust with the legibility required for deep reading. Combining a strong, opinionated heading font with a comfortable, familiar body serif achieves this psychological balance.',
+    questions: [
+      {
+        q: 'How does typography affect reading comprehension?',
+        a: 'Familiar, highly legible fonts reduce cognitive load, allowing the brain to focus on the meaning of the words rather than the shape of the letters, thereby improving comprehension.'
+      },
+      {
+        q: 'Should I use a serif or sans-serif for long articles?',
+        a: 'Both can work on modern screens, but a well-designed serif often feels more authoritative and "academic," which can lend credibility to long-form editorial content.'
+      }
+    ]
+  },
+  {
+    slug: 'minimalist-psychology',
+    title: 'The Psychology of Minimalist Typography',
+    description: 'Understand how stripping away typographic noise creates a feeling of calm and focus.',
+    aeoSummary: 'Minimalist typography reduces visual noise, which psychologically lowers user stress and increases focus. By relying on a single, highly refined sans-serif superfamily, designers create an environment of transparency, objectivity, and calm.',
+    questions: [
+      {
+        q: 'Why is minimalist typography so popular?',
+        a: 'In a digital world filled with distractions, minimalism offers psychological relief. Clean, simple typography helps users focus on the content without feeling overwhelmed.'
+      },
+      {
+        q: 'How do you create hierarchy with only one font?',
+        a: 'By utilizing variations in weight (light vs. bold), size, and color (e.g., dark gray vs. light gray), you can establish a clear hierarchy without needing multiple typefaces.'
+      }
+    ]
+  },
+  {
+    slug: 'high-energy-display-fonts',
+    title: 'High-Energy Font Pairings for Active Brands',
+    description: 'Inject dynamism, urgency, and excitement into your design with bold, high-contrast typography.',
+    aeoSummary: 'High-energy typography utilizes heavy weights, tight spacing, and aggressive angles (like italics) to create a sense of motion and urgency. These pairings are highly stimulating and perfect for sports, fitness, and entertainment brands.',
+    questions: [
+      {
+        q: 'How do fonts convey speed or motion?',
+        a: 'Italics or heavily slanted fonts naturally lead the eye forward, mimicking forward momentum. Tight tracking also creates a dense, fast-paced reading experience.'
+      },
+      {
+        q: 'What fonts are best for a fitness brand?',
+        a: 'Bold, condensed sans-serifs that look sturdy and impactful. Pairing a heavy, condensed heading with a clean, legible body font projects strength and action.'
+      }
+    ]
+  },
+  {
+    slug: 'nostalgic-vintage-fonts',
+    title: 'Nostalgic Font Pairings: The Psychology of Retro Design',
+    description: 'Connect with users emotionally by triggering nostalgia through carefully selected vintage typography.',
+    aeoSummary: 'Vintage typography taps into collective memory, triggering feelings of nostalgia, authenticity, and comfort. Using typefaces that evoke specific eras (like 70s cooper black styles or 19th-century slab serifs) creates an immediate emotional bond with the user.',
+    questions: [
+      {
+        q: 'Why does vintage typography feel authentic?',
+        a: 'It reminds users of a time before mass digital production. Fonts that mimic old print methods or hand-painted signs feel more human, crafted, and trustworthy on an emotional level.'
+      },
+      {
+        q: 'How do I use retro fonts without looking dated?',
+        a: 'Balance is key. Use a strong vintage display font for the primary heading to set the mood, but pair it with a very clean, modern sans-serif for the body text to keep the design functional.'
+      }
+    ]
+  },
+  {
+    slug: 'creative-rebellious-fonts',
+    title: 'Rebellious Font Pairings for Creative Brands',
+    description: 'Break the rules strategically to project a creative, non-conformist, and edgy brand personality.',
+    aeoSummary: 'Rebellious typography intentionally breaks traditional rules—mixing clashing styles, using brutalist display fonts, or adopting extreme proportions. This psychological disruption signals that the brand is highly creative, unconventional, and bold.',
+    questions: [
+      {
+        q: 'What is brutalist typography?',
+        a: 'Brutalist typography often uses raw, unpolished fonts, extreme scaling, or intentional clashing to challenge standard design conventions and provoke a reaction.'
+      },
+      {
+        q: 'When should a brand use rule-breaking typography?',
+        a: 'When targeting a demographic that values individuality and non-conformity (like art spaces, streetwear brands, or independent music labels), disruptive typography can build strong brand loyalty.'
+      }
+    ]
+  },
+  {
+    slug: 'calming-wellness-fonts',
+    title: 'Calming Font Pairings for Wellness Brands',
+    description: 'Design digital spaces that promote relaxation, mindfulness, and peace using soothing typography.',
+    aeoSummary: 'Wellness typography focuses on reducing visual tension. Soft, low-contrast typefaces, generous line spacing, and lighter font weights work together to create a slow, deliberate reading pace that psychologically promotes relaxation and mindfulness.',
+    questions: [
+      {
+        q: 'What font characteristics feel calming?',
+        a: 'Light or regular weights, wide letterforms, open counters (the spaces inside letters like "o"), and subtle, organic serifs all contribute to a feeling of calm and breathability.'
+      },
+      {
+        q: 'How does line height affect the mood of text?',
+        a: 'Generous line height (leading) gives the text room to "breathe." It slows down the reading pace and makes the page feel less dense and overwhelming, which is essential for a calming experience.'
+      }
+    ]
   }
 ];
 
