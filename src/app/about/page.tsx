@@ -16,13 +16,13 @@ export default function AboutPage() {
 
       <section className="prose prose-zinc dark:prose-invert max-w-none text-lg leading-relaxed">
         <p>
-          At FontFusion, our mission is to empower designers, founders, and creators to discover the perfect typography combinations effortlessly. Finding the right font pairing shouldn't be a tedious process of trial and error. We've built an intelligent, seamless tool that helps you instantly preview, compare, and save open-source fonts.
+          At FontFusion, our mission is to empower designers, founders, and creators to discover the perfect typography combinations effortlessly. Finding the right font pairing shouldn&apos;t be a tedious process of trial and error. We&apos;ve built an intelligent, seamless tool that helps you instantly preview, compare, and save open-source fonts.
         </p>
         <p>
           Typography is the foundational element of any digital experience. It communicates tone, establishes hierarchy, and ensures readability. Our curated collections of Google Fonts are categorized by mood, industry, and use case, allowing you to focus on what matters most—designing beautiful, impactful products.
         </p>
         <p>
-          Whether you're building a tech startup, a luxury brand, or a personal blog, FontFusion provides the typographic clarity you need. Our generator removes the guesswork, offering expertly crafted pairings and immediate CSS exports to streamline your workflow.
+          Whether you&apos;re building a tech startup, a luxury brand, or a personal blog, FontFusion provides the typographic clarity you need. Our generator removes the guesswork, offering expertly crafted pairings and immediate CSS exports to streamline your workflow.
         </p>
 
         <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
