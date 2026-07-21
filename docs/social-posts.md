@@ -357,3 +357,81 @@ Save this pairing: https://fontfusion.alfo.online/pairings/calming-wellness-font
 [Visual: A high-fashion UI mockup using an ultra-high-contrast Didone serif paired with an invisible sans-serif]
 Exclusivity is in the details. Master the high-contrast typography that defines luxury branding. ✨
 Get the CSS for this pairing: https://fontfusion.alfo.online/pairings/luxury-psychology-fonts
+
+## Accessibility-First Typography: Tier 3 Social Distribution Posts
+
+These posts are adapted from the Tier 1 article: "Accessibility-First Typography: Designing for Every Reader".
+
+### Twitter / X
+
+**Post 1: The Empathy of Design**
+Accessibility-first typography isn't just about compliance; it's about empathy. ♿
+If your content isn't legible to everyone, your design has failed its primary mission.
+Read the guide: https://fontfusion.alfo.online/blog/accessibility-first-typography-guide
+#A11y #WebDesign #Typography
+
+**Post 2: Contrast is Non-Negotiable**
+Still using light gray text on a white background? Stop. 🛑
+WCAG AA requires a 4.5:1 contrast ratio for a reason. High contrast benefits everyone, especially users on mobile devices in bright sunlight.
+Learn more: https://fontfusion.alfo.online/blog/accessibility-first-typography-guide
+
+**Post 3: The Danger of "I" and "l"**
+Can you tell the difference between a capital I and a lowercase l in your font? 🤔
+If not, it's not accessible. Choose fonts with distinct character shapes to support users with dyslexia.
+Check our accessible pairings: https://fontfusion.alfo.online/pairings/dyslexia-friendly-fonts
+
+### LinkedIn
+
+**Post 4: The Business Case for Accessible Typography**
+When you ignore accessibility in typography, you are actively excluding a massive percentage of your potential market.
+Accessibility-first design often leads to cleaner, more professional, and higher-converting interfaces because it fundamentally relies on clarity.
+Read our ultimate guide to inclusive digital experiences: https://fontfusion.alfo.online/blog/accessibility-first-typography-guide
+#InclusiveDesign #UXDesign #WebDevelopment
+
+**Post 5: Variable Fonts for Inclusion**
+Variable fonts are the secret weapon for accessibility in 2026.
+By offering dynamic control over weight, width, and optical size, a single font file can automatically adjust to user preferences and screen sizes, ensuring maximum legibility.
+Learn how to implement them: https://fontfusion.alfo.online/pairings/variable-fonts-accessibility
+
+**Post 6: Never Rely Solely on Color**
+Red means error, right? Not for the 300 million people worldwide with color vision deficiency. 🔴🟢
+Always supplement color cues with clear text labels or icons. Your typography must communicate effectively on its own.
+See accessible UI pairings: https://fontfusion.alfo.online/pairings/ui-accessibility-fonts
+
+### Instagram (Carousels)
+
+**Post 7: Carousel - A11y Type Rules**
+Slide 1: ♿ The 4 Rules of Accessible Typography
+Slide 2: 1. Choose Legible Fonts. Distinct characters are a must.
+Slide 3: 2. Master Contrast. Aim for WCAG AA (4.5:1) at minimum.
+Slide 4: 3. Establish Clear Hierarchy. Headings must guide the reader.
+Slide 5: 4. Give It Space. 1.5x line-height prevents visual crowding.
+Slide 6: Link in bio for the complete guide! 🔗
+#Accessibility #UIUX #GraphicDesign
+
+**Post 8: Visual - High vs Low Contrast**
+[Visual: Side-by-side comparison. Left: Low contrast gray text (Fails WCAG). Right: High contrast dark text (Passes WCAG AAA).]
+Design for the real world. Contrast isn't an aesthetic choice; it's a functional requirement. 👁️
+Read more: FontFusion.alfo.online
+
+**Post 9: Visual - Distinct Letterforms**
+[Visual: Comparison of the characters 1, I, and l in a poor font vs a highly accessible font like Inter or Atkinson Hyperlegible]
+The ultimate test for an accessible font. Can your users tell these apart at a glance? 🔍
+Details in our new guide.
+
+### Pinterest
+
+**Post 10: Infographic - Accessible Typography Cheat Sheet**
+[Visual: A tall infographic summarizing WCAG contrast ratios, optimal line lengths (45-75 chars), and recommended line-heights]
+The ultimate cheat sheet for designing inclusive digital spaces. Save this for your next project! 📌
+Full Guide: https://fontfusion.alfo.online/blog/accessibility-first-typography-guide
+
+**Post 11: Code Snippet - Accessible Contrast**
+[Visual: A styled CSS code block showing a high-contrast color variable setup]
+Never guess your contrast ratios again. Start with accessible color palettes. 💻
+More tutorials at FontFusion.
+
+**Post 12: Style Guide - Dyslexia-Friendly UI**
+[Visual: A clean app mockup using an open, high-legibility sans-serif pairing with generous spacing]
+Modern, clean, and impossible to misread. A perfect sans-serif pairing designed for cognitive accessibility.
+Get the CSS for this pairing: https://fontfusion.alfo.online/pairings/dyslexia-friendly-fonts
