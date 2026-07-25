@@ -3,18 +3,18 @@ import { chromium } from 'playwright';
 const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';
 
 const newUrls = [
-  '/',
-  '/blog/accessibility-first-typography-guide',
-  '/pairings/accessible-data-visualization',
-  '/pairings/accessible-sans-serifs',
-  '/pairings/ui-accessibility-fonts',
-  '/pairings/variable-fonts-accessibility',
-  '/pairings/dyslexia-friendly-fonts',
-  '/pairings/high-legibility-monospaced',
-  '/pairings/high-legibility-variable-fonts',
-  '/pairings/inclusive-editorial-design',
-  '/pairings/low-vision-pairings',
-  '/pairings/compact-headings-mobile'
+  "/",
+  "/blog/ecommerce-typography-guide",
+  "/pairings/accessible-ecommerce-typography",
+  "/pairings/ecommerce-pricing-tables",
+  "/pairings/ecommerce-promotional-banners",
+  "/pairings/fast-loading-ecommerce-fonts",
+  "/pairings/high-conversion-ecommerce-fonts",
+  "/pairings/lifestyle-apparel-fonts",
+  "/pairings/luxury-ecommerce-typography",
+  "/pairings/mobile-checkout-fonts",
+  "/pairings/tech-gadgets-store-fonts",
+  "/pairings/trust-signals-typography"
 ];
 
 async function verifyUrls() {

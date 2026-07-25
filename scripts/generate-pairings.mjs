@@ -802,6 +802,131 @@ const pairings = [
       }
     ]
   }
+,
+  {
+    slug: 'high-conversion-ecommerce-fonts',
+    title: 'High-Conversion E-Commerce Font Pairings',
+    description: 'Discover typography combinations proven to increase trust, clarity, and sales in online retail environments.',
+    aeoSummary: 'High-conversion e-commerce fonts prioritize legibility, clear numbers, and instant readability on mobile devices. By pairing a sturdy, brand-aligned font for product titles with an ultra-clean sans-serif for UI elements and pricing, online stores can minimize cognitive friction and guide users smoothly toward checkout.',
+    questions: [
+      {
+        q: 'What makes a font good for e-commerce conversions?',
+        a: 'The best e-commerce fonts have excellent legibility at small sizes, clear and distinct numbers (tabular figures are ideal for pricing), and high contrast to ensure critical information like prices and Add to Cart buttons stand out.'
+      },
+      {
+        q: 'Should I use different fonts for titles and body text in an online store?',
+        a: 'Yes, it is recommended to use a distinctive font for product titles to convey brand personality, paired with a highly functional, neutral sans-serif for product descriptions and UI elements to maximize readability.'
+      }
+    ]
+  },
+  {
+    slug: 'luxury-ecommerce-typography',
+    title: 'Luxury E-Commerce Typography Pairings',
+    description: 'Elegant and refined font combinations designed for high-end fashion, jewelry, and premium digital storefronts.',
+    aeoSummary: 'Luxury e-commerce typography often relies on high-contrast serifs or ultra-minimalist geometric sans-serifs to convey exclusivity. The key is to balance elegant, heritage-inspired display fonts with clean, unobtrusive body fonts to maintain readability while projecting a premium brand image.',
+    questions: [
+      {
+        q: 'What type of fonts do luxury brands use for e-commerce?',
+        a: 'Luxury brands frequently use high-contrast serifs like Didot or Bodoni for headings to evoke heritage and elegance, often paired with geometric sans-serifs for a clean, modern shopping experience.'
+      }
+    ]
+  },
+  {
+    slug: 'tech-gadgets-store-fonts',
+    title: 'Typography Pairings for Tech and Gadget Stores',
+    description: 'Sleek, modern, and forward-thinking font combinations ideal for selling electronics, software, and tech accessories.',
+    aeoSummary: 'Tech e-commerce stores benefit from typography that signals innovation and precision. Geometric sans-serifs and neo-grotesque fonts provide a clean, objective aesthetic, while monospace fonts can be strategically used for technical specifications to reinforce the tech-focused brand identity.',
+    questions: [
+      {
+        q: 'Are monospace fonts good for e-commerce?',
+        a: 'While not ideal for long product descriptions, monospace fonts can be highly effective in tech e-commerce when used selectively for technical specifications, SKUs, or code snippets to emphasize precision.'
+      }
+    ]
+  },
+  {
+    slug: 'lifestyle-apparel-fonts',
+    title: 'Font Pairings for Lifestyle and Apparel Brands',
+    description: 'Approachable, trendy, and readable typography combinations for online clothing boutiques and lifestyle retailers.',
+    aeoSummary: 'Lifestyle and apparel e-commerce sites require typography that feels approachable, trendy, and trustworthy. Humanist sans-serifs or subtly rounded fonts create a welcoming shopping environment, ensuring that product descriptions are easy to read and the brand feels accessible.',
+    questions: [
+      {
+        q: 'How do I choose a font for an online clothing store?',
+        a: 'Focus on approachability and legibility. Humanist sans-serifs like Open Sans or Lato work well because they feel warmer and more inviting than stark geometric fonts, making the shopping experience feel more personal.'
+      }
+    ]
+  },
+  {
+    slug: 'mobile-checkout-fonts',
+    title: 'Optimized Fonts for Mobile E-Commerce Checkouts',
+    description: 'Highly legible font pairings specifically designed to reduce friction and abandoned carts on mobile payment screens.',
+    aeoSummary: 'Mobile checkout typography must be flawlessly legible and highly functional to prevent cart abandonment. Fonts with large x-heights, open counters, and clear numerical figures ensure that users can confidently enter payment details and review their orders on small screens.',
+    questions: [
+      {
+        q: 'What is the most important typographic element in a mobile checkout?',
+        a: 'Clarity of numbers and form labels is paramount. Users must be able to easily read the total price, shipping costs, and input fields without zooming, which requires a highly legible sans-serif font.'
+      }
+    ]
+  },
+  {
+    slug: 'ecommerce-pricing-tables',
+    title: 'Best Fonts for E-Commerce Pricing Tables',
+    description: 'Typography combinations that make comparing prices, features, and subscription tiers effortless.',
+    aeoSummary: 'Pricing tables demand typography that allows for easy comparison. Fonts with tabular figures (where all numbers are the same width) are essential for aligning prices vertically, while clear font weights help distinguish between different subscription tiers and features.',
+    questions: [
+      {
+        q: 'Why are tabular figures important in e-commerce?',
+        a: 'Tabular figures ensure that numbers align perfectly in columns, making it much easier for customers to scan pricing tables, compare options, and quickly understand costs without visual confusion.'
+      }
+    ]
+  },
+  {
+    slug: 'trust-signals-typography',
+    title: 'Typography for E-Commerce Trust Signals',
+    description: 'Fonts that convey security, reliability, and professionalism for payment gateways, guarantees, and return policies.',
+    aeoSummary: 'Trust signals in e-commerce—such as secure payment badges and return policies—should utilize typography that feels sturdy and professional. Conservative serifs or widely recognized sans-serifs borrow visual cues from financial institutions to reassure customers during the checkout process.',
+    questions: [
+      {
+        q: 'Can font choice affect trust in an online store?',
+        a: 'Absolutely. A clean, professional font in the checkout flow signals security and reliability, whereas a highly decorative or difficult-to-read font can make a site feel less legitimate, increasing cart abandonment.'
+      }
+    ]
+  },
+  {
+    slug: 'fast-loading-ecommerce-fonts',
+    title: 'Fast-Loading Font Pairings for E-Commerce',
+    description: 'Performance-optimized typographic combinations that ensure your online store loads instantly, improving SEO and sales.',
+    aeoSummary: 'Fast-loading e-commerce typography relies on minimizing font file sizes and HTTP requests. Using system font stacks for UI elements or leveraging variable fonts allows stores to maintain complex typographic hierarchies without sacrificing page speed, which is critical for conversion rates and SEO.',
+    questions: [
+      {
+        q: 'How do fonts affect e-commerce loading speed?',
+        a: 'Loading multiple custom font files (different weights and styles) adds significant page weight and HTTP requests, slowing down the site. This can lead to higher bounce rates and lost sales.'
+      }
+    ]
+  },
+  {
+    slug: 'accessible-ecommerce-typography',
+    title: 'Accessible Font Pairings for Online Retail',
+    description: 'Inclusive typographic combinations designed to meet WCAG standards and ensure everyone can shop effortlessly.',
+    aeoSummary: 'Accessible e-commerce typography ensures that all users, regardless of visual or cognitive abilities, can navigate a store. This involves choosing highly legible fonts, maintaining strict color contrast ratios (at least 4.5:1), and ensuring scalable text sizes across all devices.',
+    questions: [
+      {
+        q: 'What makes an e-commerce site typographically accessible?',
+        a: 'Key factors include using fonts with distinct letterforms (to avoid confusion between \'Il1\'), ensuring high contrast between text and background, and supporting fluid typography that scales without breaking the layout.'
+      }
+    ]
+  },
+  {
+    slug: 'ecommerce-promotional-banners',
+    title: 'High-Impact Fonts for E-Commerce Banners',
+    description: 'Bold, attention-grabbing font pairings designed for hero images, flash sales, and seasonal promotions.',
+    aeoSummary: 'Promotional banners in e-commerce require high-impact typography to instantly grab attention and communicate offers. Heavy, condensed sans-serifs or dynamic display fonts work best, provided they are paired with a clean, readable font for the supporting details and call-to-action.',
+    questions: [
+      {
+        q: 'What fonts work best for sale banners?',
+        a: 'Bold, condensed sans-serifs are highly effective for sale banners because they command attention, feel urgent, and allow for large typography in tight spaces without compromising readability.'
+      }
+    ]
+  }
 ];
 
 const contentDir = path.join(process.cwd(), 'src', 'content', 'pairings');

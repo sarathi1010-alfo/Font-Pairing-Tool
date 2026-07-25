@@ -435,3 +435,95 @@ More tutorials at FontFusion.
 [Visual: A clean app mockup using an open, high-legibility sans-serif pairing with generous spacing]
 Modern, clean, and impossible to misread. A perfect sans-serif pairing designed for cognitive accessibility.
 Get the CSS for this pairing: https://fontfusion.alfo.online/pairings/dyslexia-friendly-fonts
+
+## E-Commerce Typography Campaign
+
+### Twitter / X
+
+### Post 1: The E-commerce Reality
+Most designers focus on checkout colors, but forget that typography is how customers actually interact with pricing. 💸
+
+If they can't read it easily, they won't buy it. Read our new guide on E-Commerce Typography.
+
+https://fontfusion.alfo.online/blog/ecommerce-typography-guide
+#Ecommerce #WebDesign #Typography #CRO
+
+---
+
+### Post 2: Pricing Tables
+Are your prices lining up perfectly? 🔢
+
+If you're not using Tabular Figures for your pricing tables, you're making it harder for users to compare options. Cognitive friction kills conversions.
+
+Learn how to fix this: https://fontfusion.alfo.online/blog/ecommerce-typography-guide
+
+---
+
+### Post 3: Trust Signals
+Think fonts don't matter for trust? 💳
+
+Try using a playful display font on your checkout page and watch your cart abandonment skyrocket. Use clean, professional sans-serifs to signal security.
+
+#ConversionRateOptimization #DesignTips
+
+---
+
+### LinkedIn
+
+### Post 4: The CRO Angle
+Conversion Rate Optimization isn't just about moving the "Add to Cart" button. It's about removing cognitive friction.
+
+In e-commerce, typography is your primary communication tool. If your product titles are hard to scan on mobile, or your pricing numbers don't align properly, you are losing sales.
+
+Our latest guide explores how to choose fonts specifically for high-conversion online stores.
+
+Read more: https://fontfusion.alfo.online/blog/ecommerce-typography-guide
+
+### Post 5: Luxury Branding
+Selling premium products? Your typography needs to reflect that exclusivity. 💎
+
+Luxury brands often utilize high-contrast serifs (like Didot) to evoke heritage, paired with ultra-minimalist geometric sans-serifs for the shopping experience.
+
+Learn how to balance elegance and readability in our new E-Commerce Typography Guide.
+
+### Post 6: Mobile Checkout
+The most critical part of your mobile store isn't the hero image. It's the checkout flow typography. 🛒
+
+If numbers and labels aren't flawlessly legible on small screens, you will see cart abandonment spike. Choose fonts with large x-heights and clear figures.
+
+Read the guide: https://fontfusion.alfo.online/blog/ecommerce-typography-guide
+
+---
+
+### Instagram
+
+### Post 7: Carousel (The E-Commerce Font Formula)
+**Slide 1 (Cover):** Is your typography killing your sales?
+**Slide 2 (The Hook):** Product Titles need to grab attention. Use a brand-aligned font (Bold/Semi-bold).
+**Slide 3 (The Details):** Descriptions need to be invisible. Use a highly readable sans-serif (Inter/Roboto).
+**Slide 4 (The Decision):** Pricing needs clarity. Always use Tabular Figures so numbers align perfectly.
+**Slide 5 (CTA):** Read the Ultimate E-Commerce Typography Guide at the link in our bio.
+
+### Post 8: Reel
+**Video Idea:** Screen recording showing a bad mobile checkout (tiny, hard-to-read font) transitioning to an optimized, fluid typography checkout.
+**Caption:** Cognitive friction kills conversions. Make shopping effortless with the right typography. Link in bio for the full guide. #Ecommerce #Typography
+
+### Post 9: Single Image
+**Visual:** High-quality mockups showing a luxury fashion site vs. a tech gadget site, highlighting the different typographic approaches.
+**Caption:** Your typography must match what you sell. Luxury demands elegant serifs, while tech requires precise geometrics. How are you designing for conversions? Read our guide.
+
+### Post 10: Story
+**Visual:** Poll sticker: "Have you ever abandoned a cart because a site was hard to use?" Yes / No
+**Follow-up Story:** Don't let bad typography be the reason you lose a sale. Check out our new guide. (Link sticker to blog)
+
+---
+
+### Pinterest
+
+### Post 11: Long-Tail Infographic
+**Visual:** Vertical infographic titled "The Anatomy of a High-Converting Product Page." Highlighting font sizes, weights, and styles for titles, descriptions, and pricing.
+**Pin Description:** Learn how to optimize your e-commerce product pages with the perfect typography to increase sales and build trust. #EcommerceDesign #WebTypography #CRO
+
+### Post 12: Inspirational Pairings
+**Visual:** A graphic showing 4 different e-commerce font pairings (Luxury, Tech, Lifestyle, Minimalist) with font names listed.
+**Pin Description:** Professional font pairings specifically chosen for e-commerce websites. Find the perfect combination for your online store. #FontPairing #TypographyInspiration
