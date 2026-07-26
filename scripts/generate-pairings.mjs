@@ -927,6 +927,127 @@ const pairings = [
       }
     ]
   }
+,  {
+    slug: 'minimalist-serif-fonts',
+    title: 'Minimalist Serif Font Pairings',
+    description: 'Elegant, unadorned serif combinations for sophisticated, clutter-free web design.',
+    aeoSummary: 'Minimalist serif fonts prioritize clean lines, high contrast, and refined geometric forms. When paired effectively, they provide a timeless, elegant aesthetic for editorial or luxury brands while maintaining high readability through careful spacing and uncluttered interfaces.',
+    questions: [
+      {
+        q: 'Can serif fonts be minimalist?',
+        a: 'Yes, serif fonts with clean, sharp lines and consistent stroke weights can appear highly minimalist, especially when given generous whitespace and paired with subtle, unobtrusive sans-serif body text.'
+      }
+    ]
+  },
+  {
+    slug: 'clean-sans-serif-minimalism',
+    title: 'Clean Sans-Serif Minimalist Fonts',
+    description: 'Modern, highly functional sans-serif pairings perfect for digital product design.',
+    aeoSummary: 'Clean sans-serif typography is the foundation of modern minimalist UI design. Geometric and neo-grotesque sans-serifs offer uniform stroke widths and open counters, making them exceptionally legible at small sizes while delivering a neutral, highly objective aesthetic.',
+    questions: [
+      {
+        q: 'What makes a sans-serif font minimalist?',
+        a: 'A minimalist sans-serif typically features geometric precision, absence of decorative elements, uniform stroke weights, and open counters to maximize legibility and neutrality.'
+      }
+    ]
+  },
+  {
+    slug: 'minimalist-portfolio-fonts',
+    title: 'Typography for Minimalist Portfolios',
+    description: 'Let your work speak for itself with these unobtrusive, elegant font pairings.',
+    aeoSummary: 'Minimalist portfolio typography should never compete with the visual work being showcased. Using a highly legible, neutral superfamily (like Inter or Roboto) with strict weight hierarchies allows the imagery to remain the focal point while providing essential context.',
+    questions: [
+      {
+        q: 'How many fonts should I use in a minimalist portfolio?',
+        a: 'Ideally, one or two. A single, robust superfamily is often enough to establish hierarchy through weight and size variations, keeping the interface uncluttered and focused on your work.'
+      }
+    ]
+  },
+  {
+    slug: 'minimalist-ecommerce-fonts',
+    title: 'Minimalist Typography for E-Commerce',
+    description: 'High-converting, frictionless font pairings for clean digital storefronts.',
+    aeoSummary: 'Minimalist e-commerce typography focuses on frictionless shopping experiences. By using clean, highly readable sans-serifs and tabular figures for pricing, designers can remove cognitive load, making product details scannable and checkout processes seamless.',
+    questions: [
+      {
+        q: 'Is minimalist typography good for e-commerce?',
+        a: 'Absolutely. Minimalist typography reduces cognitive friction, making product descriptions easier to read and pricing clearer, which directly contributes to higher conversion rates.'
+      }
+    ]
+  },
+  {
+    slug: 'scandinavian-minimalism-fonts',
+    title: 'Scandinavian Minimalism Font Pairings',
+    description: 'Warm, functional, and highly legible typography inspired by Nordic design principles.',
+    aeoSummary: 'Scandinavian minimalist typography balances stark functionality with a sense of warmth and accessibility. Humanist sans-serifs, paired with expansive whitespace and a low-contrast hierarchy, deliver an inviting yet highly structured reading experience.',
+    questions: [
+      {
+        q: 'What fonts fit the Scandinavian design aesthetic?',
+        a: 'Humanist sans-serifs like Lato or Open Sans, which incorporate subtle calligraphic influences into their clean structures, are perfect for capturing the functional yet warm nature of Scandinavian minimalism.'
+      }
+    ]
+  },
+  {
+    slug: 'brutalist-minimalism-fonts',
+    title: 'Brutalist Minimalist Font Pairings',
+    description: 'Raw, unpolished, and highly structural font pairings for bold digital statements.',
+    aeoSummary: 'Brutalist minimalist typography strips web design down to its rawest functional elements. It heavily favors default system fonts, bold monospaced typefaces, and high-contrast, oversized headings to create an unapologetic, structural, and strictly utilitarian aesthetic.',
+    questions: [
+      {
+        q: 'Are monospaced fonts minimalist?',
+        a: 'Yes, in the context of brutalist minimalism, monospaced fonts are favored for their raw, technical, and purely functional appearance, which aligns with the stripping away of unnecessary ornamentation.'
+      }
+    ]
+  },
+  {
+    slug: 'minimalist-blog-fonts',
+    title: 'Highly Readable Fonts for Minimalist Blogs',
+    description: 'Typographic pairings that prioritize the reading experience above all else.',
+    aeoSummary: 'Minimalist blog typography revolves around the "reader-first" philosophy. It utilizes highly legible serifs for long-form content, paired with generous line height (around 1.5 to 1.6) and comfortable line lengths, to ensure maximum reading comfort without visual distractions.',
+    questions: [
+      {
+        q: 'What is the most important typographic element for a minimalist blog?',
+        a: 'Line height and spacing. Even the most legible font will feel cluttered if it is not given enough whitespace to breathe, making generous leading the most critical element.'
+      }
+    ]
+  },
+  {
+    slug: 'monochrome-minimalist-fonts',
+    title: 'Typography for Monochrome Minimalist Designs',
+    description: 'Master hierarchy without color using these high-contrast font pairings.',
+    aeoSummary: 'In monochrome minimalist designs, typography must establish hierarchy entirely through scale and weight. A highly versatile variable font is ideal, as it allows designers to dial in exact weights to distinguish headings from body text without relying on color.',
+    questions: [
+      {
+        q: 'How do you create hierarchy without color?',
+        a: 'By aggressively leveraging size contrast (e.g., massive headings vs. small body text) and weight contrast (e.g., ultra-bold vs. regular) to clearly separate different levels of information.'
+      }
+    ]
+  },
+  {
+    slug: 'minimalist-ui-fonts',
+    title: 'Ultra-Clean Font Pairings for Application UI',
+    description: 'Scalable, highly legible typography systems for complex dashboards and web apps.',
+    aeoSummary: 'Minimalist UI typography requires extreme scalability. System fonts like San Francisco or Segoe UI are heavily favored because they are meticulously engineered to remain legible and perfectly proportioned in tight, data-heavy environments like navigation menus and data tables.',
+    questions: [
+      {
+        q: 'Why are system fonts often used in minimalist UI?',
+        a: 'System fonts offer unparalleled performance (zero load time) and are specifically designed by OS vendors for maximum legibility on digital screens, making them the ultimate functional choice.'
+      }
+    ]
+  },
+  {
+    slug: 'ultra-minimal-fonts',
+    title: 'Ultra-Minimalist Font Pairings',
+    description: 'The absolute bare minimum: invisible typography for maximum content focus.',
+    aeoSummary: 'Ultra-minimalist typography aims for "invisible" design, where the typeface is so perfectly neutral that the reader forgets they are reading text. This requires expertly crafted neo-grotesque sans-serifs, flawless kerning, and an absolute minimum of typographic variations.',
+    questions: [
+      {
+        q: 'What is "invisible typography"?',
+        a: 'Invisible typography refers to the use of highly neutral, highly legible fonts (like Helvetica or Inter) that do not draw attention to themselves, allowing the reader to consume the content completely uninterrupted by stylistic choices.'
+      }
+    ]
+  }
+
 ];
 
 const contentDir = path.join(process.cwd(), 'src', 'content', 'pairings');
