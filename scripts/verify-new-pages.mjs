@@ -4,17 +4,17 @@ const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';
 
 const newUrls = [
   "/",
-  "/blog/ecommerce-typography-guide",
-  "/pairings/accessible-ecommerce-typography",
-  "/pairings/ecommerce-pricing-tables",
-  "/pairings/ecommerce-promotional-banners",
-  "/pairings/fast-loading-ecommerce-fonts",
-  "/pairings/high-conversion-ecommerce-fonts",
-  "/pairings/lifestyle-apparel-fonts",
-  "/pairings/luxury-ecommerce-typography",
-  "/pairings/mobile-checkout-fonts",
-  "/pairings/tech-gadgets-store-fonts",
-  "/pairings/trust-signals-typography"
+  "/blog/minimalist-typography-guide",
+  "/pairings/minimalist-serif-fonts",
+  "/pairings/clean-sans-serif-minimalism",
+  "/pairings/minimalist-portfolio-fonts",
+  "/pairings/minimalist-ecommerce-fonts",
+  "/pairings/scandinavian-minimalism-fonts",
+  "/pairings/brutalist-minimalism-fonts",
+  "/pairings/minimalist-blog-fonts",
+  "/pairings/monochrome-minimalist-fonts",
+  "/pairings/minimalist-ui-fonts",
+  "/pairings/ultra-minimal-fonts"
 ];
 
 async function verifyUrls() {
