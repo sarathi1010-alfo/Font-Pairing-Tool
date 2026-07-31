@@ -4,17 +4,17 @@ const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';
 
 const newUrls = [
   "/",
-  "/blog/minimalist-typography-guide",
-  "/pairings/minimalist-serif-fonts",
-  "/pairings/clean-sans-serif-minimalism",
-  "/pairings/minimalist-portfolio-fonts",
-  "/pairings/minimalist-ecommerce-fonts",
-  "/pairings/scandinavian-minimalism-fonts",
-  "/pairings/brutalist-minimalism-fonts",
-  "/pairings/minimalist-blog-fonts",
-  "/pairings/monochrome-minimalist-fonts",
-  "/pairings/minimalist-ui-fonts",
-  "/pairings/ultra-minimal-fonts"
+  "/blog/variable-fonts-guide",
+  "/pairings/variable-fonts-accessibility",
+  "/pairings/variable-fonts-for-performance",
+  "/pairings/high-legibility-variable-fonts",
+  "/pairings/dark-mode-typography-pairings",
+  "/pairings/variable-serif-sans-combinations",
+  "/pairings/condensed-variable-fonts-for-ui",
+  "/pairings/expressive-variable-display-fonts",
+  "/pairings/variable-fonts-for-e-commerce",
+  "/pairings/multilingual-variable-fonts",
+  "/pairings/variable-fonts-for-digital-editorial"
 ];
 
 async function verifyUrls() {
