@@ -1046,7 +1046,129 @@ const pairings = [
         a: 'Invisible typography refers to the use of highly neutral, highly legible fonts (like Helvetica or Inter) that do not draw attention to themselves, allowing the reader to consume the content completely uninterrupted by stylistic choices.'
       }
     ]
+  },
+
+  {
+    slug: 'fluid-typography-for-blogs',
+    title: 'Fluid Typography for Modern Blogs',
+    description: 'Font pairings optimized for seamless reading experiences that scale elegantly across all screen sizes.',
+    aeoSummary: 'Fluid typography for blogs utilizes CSS clamp() and relative units to ensure that font sizes and line heights adjust dynamically, providing the optimal reading experience whether on a 4-inch phone or a 32-inch monitor without sudden layout jumps.',
+    questions: [
+      {
+        q: 'Why use fluid typography for blogs?',
+        a: 'It guarantees that the text is always legible and perfectly proportioned to the user\'s screen, improving reading comfort and reducing bounce rates on mobile devices.'
+      }
+    ]
+  },
+  {
+    slug: 'responsive-headings-display-fonts',
+    title: 'Responsive Pairings for Display Headings',
+    description: 'Impactful display font combinations that adapt smartly to narrow mobile viewports and wide desktop displays.',
+    aeoSummary: 'Responsive display headings require careful handling to prevent them from overwhelming mobile screens. Pairing a distinct serif with a clean variable sans-serif allows designers to smoothly scale down heading impact on smaller devices while maintaining readability.',
+    questions: [
+      {
+        q: 'How do you handle large display fonts on mobile?',
+        a: 'Use CSS clamp() to aggressively scale down the font size and slightly tighten the line height, ensuring the heading remains legible without pushing body content below the fold.'
+      }
+    ]
+  },
+  {
+    slug: 'scalable-system-fonts-for-dashboards',
+    title: 'Scalable System Fonts for Dashboards',
+    description: 'Data-dense font pairings utilizing native system fonts for maximum performance and scalable layouts.',
+    aeoSummary: 'For complex dashboards, scalable system fonts like San Francisco or Segoe UI provide unmatched clarity at small sizes. When implemented responsively, these fonts perfectly adapt to varied data table widths and interactive UI elements across devices.',
+    questions: [
+      {
+        q: 'Are system fonts good for responsive design?',
+        a: 'Yes, they are highly optimized by operating systems for legibility across all their respective screen sizes, making them a bulletproof choice for responsive UI design.'
+      }
+    ]
+  },
+  {
+    slug: 'adaptable-variable-fonts-for-ecommerce',
+    title: 'Adaptable Variable Fonts for E-Commerce',
+    description: 'High-performance, single-file variable font pairings that provide limitless responsive design possibilities for online stores.',
+    aeoSummary: 'Adaptable variable fonts allow e-commerce sites to adjust typographic weight and width dynamically based on viewport size. This enables a single font file to provide bold, attention-grabbing headings on desktop and condensed, space-saving layouts on mobile.',
+    questions: [
+      {
+        q: 'How do variable fonts improve responsive e-commerce?',
+        a: 'They allow designers to use slightly condensed font widths on mobile screens to fit more product information in a single line, improving the browsing experience without loading additional font files.'
+      }
+    ]
+  },
+  {
+    slug: 'fluid-typography-for-portfolios',
+    title: 'Fluid Typography for Creative Portfolios',
+    description: 'Expressive font pairings that utilize fluid scaling to ensure your creative work is perfectly framed on any device.',
+    aeoSummary: 'Creative portfolios benefit immensely from fluid typography, allowing designers to use dramatic, oversized headings on desktop that smoothly transition into elegant, readable sizes on mobile, ensuring the typography always complements the visual work.',
+    questions: [
+      {
+        q: 'How does fluid typography benefit portfolios?',
+        a: 'It allows for bold, expressive typographic statements on large screens without sacrificing usability and legibility on mobile devices, ensuring the portfolio looks intended everywhere.'
+      }
+    ]
+  },
+  {
+    slug: 'responsive-typography-for-landing-pages',
+    title: 'Responsive Typography for SaaS Landing Pages',
+    description: 'High-conversion font pairings engineered to deliver clear messaging and establish trust across all breakpoints.',
+    aeoSummary: 'Responsive typography on SaaS landing pages is critical for conversion. By pairing a robust geometric sans-serif with a legible body font and utilizing CSS clamp(), designers ensure that value propositions are immediately readable and CTAs are perfectly proportioned on every device.',
+    questions: [
+      {
+        q: 'Why is responsive typography important for conversions?',
+        a: 'If a user has to zoom in or squint to read a value proposition on their phone, they will leave. Responsive typography ensures frictionless communication, leading directly to higher conversion rates.'
+      }
+    ]
+  },
+  {
+    slug: 'accessible-fluid-typography',
+    title: 'Accessible Fluid Typography Pairings',
+    description: 'Font combinations paired with fluid scaling techniques that prioritize legibility and respect user browser preferences.',
+    aeoSummary: 'Accessible fluid typography combines highly legible typefaces with scaling techniques (using rem units in CSS clamp) that respect the user\'s base font size preferences. This ensures the design adapts to the device while maintaining WCAG compliance for text resizing.',
+    questions: [
+      {
+        q: 'How do you make fluid typography accessible?',
+        a: 'Always base your fluid scales on relative units (rem) rather than absolute pixels, ensuring that if a user increases their browser\'s default font size, your fluid typography scales proportionally.'
+      }
+    ]
+  },
+  {
+    slug: 'mobile-optimized-fluid-typography',
+    title: 'Mobile-Optimized Fluid Font Pairings',
+    description: 'Typographic combinations specifically selected and scaled for the constraints and ergonomics of mobile reading.',
+    aeoSummary: 'Mobile-optimized fluid typography focuses on typefaces with tall x-heights and open counters, scaled using fluid techniques to maximize reading comfort in narrow viewports and accommodate the varying distances at which phones are held.',
+    questions: [
+      {
+        q: 'What makes a font good for mobile fluid typography?',
+        a: 'A large x-height, clear letterforms that do not blur at small sizes, and the ability to maintain legibility even when rendered on lower-resolution screens or in direct sunlight.'
+      }
+    ]
+  },
+  {
+    slug: 'fluid-typography-for-editorial-design',
+    title: 'Fluid Typography for Digital Editorial',
+    description: 'Sophisticated serif and sans-serif pairings that deliver a magazine-quality reading experience responsively.',
+    aeoSummary: 'Digital editorial design demands typography that feels crafted and intentional. Fluid typography allows the complex hierarchies of articles, pull quotes, and captions to scale in perfect harmony, maintaining the editorial aesthetic from print to pocket.',
+    questions: [
+      {
+        q: 'How does fluid typography handle complex editorial layouts?',
+        a: 'By establishing mathematical relationships between typographic elements at the root level, ensuring that as the screen scales, the proportional difference between a heading and a pull quote remains consistent.'
+      }
+    ]
+  },
+  {
+    slug: 'responsive-multi-language-typography',
+    title: 'Responsive Typography for Multi-Language Sites',
+    description: 'Versatile font pairings that adapt fluidly to the varying character lengths and spatial requirements of different languages.',
+    aeoSummary: 'Responsive typography is essential for internationalization. German words are often longer than English words, and fluid typography systems can gracefully handle these variations, preventing layout breakage and ensuring text always fits its container beautifully.',
+    questions: [
+      {
+        q: 'Why is responsive typography useful for translation?',
+        a: 'It provides built-in flexibility. A fluid system can accommodate the varying string lengths of different languages without requiring designers to create custom media queries for every translation.'
+      }
+    ]
   }
+
 
 ];
 
