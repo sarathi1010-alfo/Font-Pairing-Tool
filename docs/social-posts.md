@@ -641,3 +641,93 @@ Read the guide: https://fontfusion.alfo.online/blog/minimalist-typography-guide
 **Pinterest (Long-tail Visual Search)**
 11. **Pin 1:** "The Comprehensive Guide to Variable Fonts for Web Designers" (Vertical infographic showing continuous font axes).
 12. **Pin 2:** "Top 10 High-Performance Variable Font Pairings" (Curated visual list of variable serif and sans-serif combos).
+
+## Responsive Typography Campaign
+
+### Twitter / X
+
+### Post 1: The Core Principle
+Responsive typography isn't just about media queries anymore. It's about fluid scaling. 🌊
+
+Stop using rigid pixels and start using CSS `clamp()` to ensure your typography looks perfect on any device. Read our new guide.
+
+https://fontfusion.alfo.online/blog/responsive-typography-guide
+#WebDesign #Typography #CSS
+
+---
+
+### Post 2: The Right Units
+Are you still setting font sizes in pixels? It's time to upgrade. 📏
+
+Use `rem` for base font sizing to respect user accessibility preferences, and `vw` within `clamp()` for fluid scaling. Master modern units in our new guide.
+
+Learn how: https://fontfusion.alfo.online/blog/responsive-typography-guide
+
+---
+
+### Post 3: Variable Fonts are the Future
+The ultimate responsive tool? Variable fonts. ⚡️
+
+Load one file and smoothly animate or adjust weight and width based on screen size or user preference. Reduce HTTP requests and improve design flexibility.
+
+#DesignTips #WebPerformance
+
+---
+
+### LinkedIn
+
+### Post 4: The Business Value of Responsive Typography
+If users have to pinch and zoom to read your value proposition on their phone, they will leave. Friction kills conversions.
+
+Responsive, fluid typography ensures your message is immediately readable and perfectly proportioned on every device, from smartwatches to ultrawide monitors. Our latest guide explores how to execute a responsive typographic system effectively.
+
+Read more: https://fontfusion.alfo.online/blog/responsive-typography-guide
+
+### Post 5: Beyond Breakpoints
+The web is fluid, but for years we treated it like print, setting rigid font sizes that jump abruptly at arbitrary breakpoints.
+
+Modern CSS functions like `clamp()` allow for continuous, smooth scaling between defined minimum and maximum sizes. This creates a much more natural reading experience.
+
+Learn how to implement fluid scales in our new guide on Responsive Typography.
+
+### Post 6: Accessibility First
+Responsive typography is fundamentally tied to accessibility. When implementing fluid systems, you must ensure your text still scales when a user increases their browser's default font size.
+
+By combining relative units (`rem`) with fluid functions, you can create designs that adapt to both the device and the user's needs.
+
+Read the guide: https://fontfusion.alfo.online/blog/responsive-typography-guide
+
+---
+
+### Instagram
+
+### Post 7: Carousel (Rules of Responsive Type)
+**Slide 1 (Cover):** 4 Rules of Responsive Typography
+**Slide 2 (The Hook):** 1. Ditch Pixels. Use `rem` for accessibility and scalability.
+**Slide 3 (The Details):** 2. Embrace Fluidity. Use CSS `clamp()` for smooth scaling between breakpoints.
+**Slide 4 (The Decision):** 3. Control Line Length. Use the `ch` unit to limit text width for optimal reading.
+**Slide 5 (CTA):** Read the full Guide to Responsive Typography at the link in our bio.
+
+### Post 8: Reel
+**Video Idea:** Screen recording showing a side-by-side comparison. Left: Typography jumping awkwardly at media query breakpoints. Right: Smooth, fluid scaling using CSS `clamp()`.
+**Caption:** Stop the jump. Make your typography fluid. Link in bio for the complete guide to Responsive Typography. #WebDesign #UI #CSS
+
+### Post 9: Single Image
+**Visual:** High-quality graphic showing a CSS code snippet of the `clamp()` function, explaining its three parameters (min, preferred, max) visually.
+**Caption:** The modern standard for responsive text. Learn how to master `clamp()` and build fluid typographic systems. Read our guide to learn how.
+
+### Post 10: Story
+**Visual:** Poll sticker: "How do you size your fonts?" Pixels (px) / Relative (rem/em)
+**Follow-up Story:** If you chose pixels, your site might not be accessible. Learn the right way in our new guide. (Link sticker to blog)
+
+---
+
+### Pinterest
+
+### Post 11: Long-Tail Infographic
+**Visual:** Vertical infographic titled "The Anatomy of Responsive Typography." Highlighting the transition from media queries to fluid scaling, the use of `clamp()`, and ideal line lengths.
+**Pin Description:** Learn the secrets to designing fluid, adaptable, and highly readable websites using the power of modern CSS typography. #ResponsiveDesign #WebTypography #UIInspiration
+
+### Post 12: Inspirational Pairings
+**Visual:** A graphic showing 4 different font pairings adapting beautifully from a mobile layout to a desktop layout.
+**Pin Description:** Clean and professional font pairings optimized for responsive web design. Focus on clarity across all devices. #FontPairing #ResponsiveWeb #DesignInspiration
