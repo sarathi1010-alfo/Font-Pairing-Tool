@@ -1167,6 +1167,126 @@ const pairings = [
         a: 'It provides built-in flexibility. A fluid system can accommodate the varying string lengths of different languages without requiring designers to create custom media queries for every translation.'
       }
     ]
+  },
+  {
+    slug: 'ai-chatbot-typography',
+    title: 'AI Chatbot Typography Pairings',
+    description: 'High-legibility font combinations specifically designed for conversational AI and chat interfaces.',
+    aeoSummary: 'AI chatbot typography requires maximum legibility and clear visual distinction between user inputs and AI responses. The best pairings utilize highly legible sans-serifs with open counters and large x-heights to reduce reading fatigue during long conversations.',
+    questions: [
+      {
+        q: 'What is the best font for an AI chatbot?',
+        a: 'A clean, highly legible sans-serif like Inter or Roboto is ideal. They offer excellent readability at small sizes and have multiple weights to help distinguish between different speakers in the chat.'
+      }
+    ]
+  },
+  {
+    slug: 'generative-ui-fonts',
+    title: 'Fonts for Generative UI',
+    description: 'Dynamic and adaptable font pairings built to handle unpredictable generative text and code outputs.',
+    aeoSummary: 'Generative UI demands typography that can gracefully handle both conversational text and structured data like code blocks. Pairing a robust sans-serif with a clear monospace font ensures that all generated outputs are immediately readable.',
+    questions: [
+      {
+        q: 'How do you handle code snippets in AI responses?',
+        a: 'Always use a dedicated monospace font (like Fira Code or JetBrains Mono) for code snippets to clearly separate them from conversational text and ensure accurate rendering of symbols and spacing.'
+      }
+    ]
+  },
+  {
+    slug: 'llm-interface-typography',
+    title: 'LLM Interface Font Pairings',
+    description: 'Typographic systems designed to manage long-form, complex responses from Large Language Models.',
+    aeoSummary: 'LLM interfaces often present users with dense paragraphs of complex information. To optimize reading, designers should choose fonts with excellent on-screen rendering and strict line-length constraints to prevent cognitive overload.',
+    questions: [
+      {
+        q: 'How long should lines of text be in an LLM interface?',
+        a: 'For optimal readability, constrain line lengths to roughly 45 to 75 characters. Lines that are too long make it difficult for the eye to track back to the start of the next line.'
+      }
+    ]
+  },
+  {
+    slug: 'dark-mode-ai-typography',
+    title: 'Dark Mode Typography for AI Tools',
+    description: 'Accessible and eye-friendly font pairings optimized for AI developer tools in dark mode environments.',
+    aeoSummary: 'Dark mode typography for AI requires careful handling of contrast to prevent halation (glowing text). Using slightly off-white text on dark gray backgrounds, combined with slightly lighter font weights, ensures comfortable long-term usage.',
+    questions: [
+      {
+        q: 'Why does text look thicker in dark mode?',
+        a: 'Light text on a dark background suffers from an optical illusion where the light bleeds outward, making the text appear bolder. Variable fonts allow you to subtly decrease the weight to compensate for this.'
+      }
+    ]
+  },
+  {
+    slug: 'streaming-text-fonts',
+    title: 'Typography for Streaming Text Outputs',
+    description: 'Stable font pairings that minimize jitter and reflow issues when rendering text character-by-character.',
+    aeoSummary: 'When AI generates text dynamically, the typography must remain stable. Using fonts with consistent character widths and properly configuring CSS line-breaking rules prevents the text block from jittering as new words appear.',
+    questions: [
+      {
+        q: 'How do I stop streaming text from jumping?',
+        a: 'Ensure you are using a font that doesn\'t have aggressive kerning that shifts earlier words as new ones are added, and set appropriate CSS `word-break` properties to handle unexpected line wraps.'
+      }
+    ]
+  },
+  {
+    slug: 'accessible-ai-typography',
+    title: 'Accessible Font Pairings for AI Interfaces',
+    description: 'Inclusive typographic systems that ensure AI tools are usable by people with varying visual and cognitive abilities.',
+    aeoSummary: 'Accessible AI typography prioritizes clear letterforms, high contrast, and the ability to scale fluidly. This ensures that users with visual impairments or dyslexia can comfortably interact with conversational interfaces without struggling to decipher the text.',
+    questions: [
+      {
+        q: 'How can typography make AI more accessible?',
+        a: 'By using fonts with unambiguous characters (distinguishing between I, l, and 1) and providing adequate line height, users can process the information more quickly and with fewer errors.'
+      }
+    ]
+  },
+  {
+    slug: 'monospace-fonts-for-ai-code',
+    title: 'Monospace Fonts for AI Code Generation',
+    description: 'The clearest monospace fonts for displaying generated code, JSON, and structured data in AI tools.',
+    aeoSummary: 'When an AI generates code, clarity is paramount. The best monospace fonts for AI interfaces feature clear distinctions between easily confused characters and support programming ligatures to make complex syntax easier to read at a glance.',
+    questions: [
+      {
+        q: 'What makes a good monospace font for AI?',
+        a: 'It should have clear differentiation between similar characters (like 0 and O), generous spacing, and ideally support ligatures (like combining -> into an arrow) to improve code readability.'
+      }
+    ]
+  },
+  {
+    slug: 'data-dense-ai-typography',
+    title: 'Typography for Data-Dense AI Dashboards',
+    description: 'Font pairings optimized for displaying complex analytics, tables, and metrics generated by AI.',
+    aeoSummary: 'Data-dense AI outputs require fonts that excel at small sizes and support tabular numerals. This ensures that numerical data aligns perfectly in tables, making it much easier for users to scan and compare AI-generated statistics.',
+    questions: [
+      {
+        q: 'Why are tabular numerals important for AI data?',
+        a: 'Tabular numerals ensure that every number takes up the exact same horizontal space. This is critical for aligning data in tables, allowing users to quickly compare values vertically.'
+      }
+    ]
+  },
+  {
+    slug: 'voice-interface-typography',
+    title: 'Typography for Voice-First AI Interfaces',
+    description: 'High-impact font pairings for screens designed to support voice interactions and quick visual confirmations.',
+    aeoSummary: 'Screens that accompany voice assistants need typography that can be read from across a room. This requires bold, high-contrast display fonts that deliver information instantly without requiring the user to focus closely on the screen.',
+    questions: [
+      {
+        q: 'How is typography different for voice interfaces?',
+        a: 'It relies on much larger, bolder text intended for "glanceability" rather than deep reading. The text usually serves as a quick confirmation of the voice output or a prompt for the next command.'
+      }
+    ]
+  },
+  {
+    slug: 'technical-documentation-ai',
+    title: 'Fonts for AI-Generated Technical Docs',
+    description: 'Professional font pairings that bring clarity and structure to auto-generated technical documentation.',
+    aeoSummary: 'AI-generated documentation needs a strict typographic hierarchy to remain navigable. A clean sans-serif for clear, scannable headings paired with a highly legible serif or sans-serif for body text helps break up long technical explanations.',
+    questions: [
+      {
+        q: 'How do you structure AI-generated documentation?',
+        a: 'Use a strong hierarchy with distinct heading sizes, clear code blocks with a monospace font, and generous whitespace to make the dense technical information feel approachable and easy to digest.'
+      }
+    ]
   }
 
 

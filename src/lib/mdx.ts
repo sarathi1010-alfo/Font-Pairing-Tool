@@ -11,6 +11,7 @@ export interface GuideMeta {
   slug: string;
   title: string;
   description: string;
+  lastModified?: string;
 }
 
 export function getAllGuideSlugs(): string[] {
@@ -65,6 +66,7 @@ export function getBlogMeta(slug: string): GuideMeta | null {
       slug,
       title: data.title || slug,
       description: data.description || '',
+      lastModified: data.lastModified,
     };
   } catch (error) {
     console.error(`Error reading blog meta for ${slug}:`, error);

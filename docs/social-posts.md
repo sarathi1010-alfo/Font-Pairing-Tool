@@ -731,3 +731,25 @@ Read the guide: https://fontfusion.alfo.online/blog/responsive-typography-guide
 ### Post 12: Inspirational Pairings
 **Visual:** A graphic showing 4 different font pairings adapting beautifully from a mobile layout to a desktop layout.
 **Pin Description:** Clean and professional font pairings optimized for responsive web design. Focus on clarity across all devices. #FontPairing #ResponsiveWeb #DesignInspiration
+
+## AI Interface Typography Campaign
+
+### X / Twitter (Quick Typography Tips)
+1. "Designing an AI chatbot? Ditch the display fonts. You need a sans-serif with a massive x-height so the text remains readable when it's streaming token-by-token. ⚡️ #WebDesign #UI"
+2. "The easiest way to improve your AI tool's UX? Use a monospace font for code snippets and tabular numerals for data tables. Structure matters. 📊"
+3. "Dark mode isn't just inverting colors. If your AI tool uses pure white text on pure black, you're causing halation (glowing text) for users with astigmatism. Soften the contrast. 🌙 #Accessibility"
+
+### LinkedIn (Professional Strategy)
+4. "As generative AI becomes the standard interface for software, typography is no longer just an aesthetic choice—it *is* the interface. If your users are struggling to read the outputs, your product will fail. Prioritize legibility over branding."
+5. "One of the biggest challenges in conversational UI is establishing hierarchy without clutter. Use subtle weight variations (e.g., Medium for user, Regular for AI) to distinguish speakers instead of relying on bulky avatars."
+6. "Streaming text from LLMs can cause severe jitter if your typography system isn't robust. Prevent layout reflows by choosing fonts with consistent character widths and strict CSS line-breaking rules. Smooth reading equals better UX."
+
+### Instagram (Visual & Educational)
+7. **Carousel:** Slide 1: "Typography Rules for AI Interfaces." Slide 2: "1. Distinguish the Speaker (Use font weight for contrast)." Slide 3: "2. Maximize X-Height (Improves rapid scanning)." Slide 4: "3. Monospace the Code (Fira Code or JetBrains)." Slide 5: "Learn the rest in our new guide. Link in bio."
+8. **Reel:** Screen recording of a generative AI interface. First half shows text jittering and poorly aligned tables. Second half shows smooth text streaming and perfectly aligned tabular numerals. Caption: "The details make the difference in AI design."
+9. **Static Post:** Graphic showing "User Prompt" in Inter Medium and "AI Response" in Inter Regular. Caption: "Subtle hierarchy is the secret to clean conversational UI. Avoid the clutter. #UIUX #DesignSystem"
+10. **Story:** Poll: "What's harder to design?" Marketing Pages / AI Interfaces. + link to the guide.
+
+### Pinterest (Long-tail Visual Search)
+11. **Pin 1:** "The Ultimate Guide to Typography for AI Interfaces" (Vertical infographic showing font weight hierarchy, monospace code, and dark mode contrast rules).
+12. **Pin 2:** "Top 10 Monospace Fonts for Generative AI and Coding Tools" (Curated visual list of high-legibility monospace typefaces).
