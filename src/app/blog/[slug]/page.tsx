@@ -77,7 +77,7 @@ export default async function BlogPage({ params }: { params: { slug: string } })
       "@type": "WebPage",
       "@id": `${siteConfig.url}/blog/${slug}`
     },
-    "datePublished": slug === "responsive-typography-guide" ? "2026-08-03T08:00:00+00:00" : (slug === "variable-fonts-guide" ? "2026-07-26T08:00:00+00:00" : (slug === "ecommerce-typography-guide" ? "2026-07-25T08:00:00+00:00" : (slug === "accessibility-first-typography-guide" ? "2026-07-21T08:00:00+00:00" : (slug === "typography-psychology-guide" ? "2026-07-20T08:00:00+00:00" : (slug === "mobile-first-typography-guide" ? "2026-07-19T08:00:00+00:00" : "2025-05-15T08:00:00+00:00"))))),
+    "datePublished": meta.lastModified || (slug === "ai-interface-typography-guide" ? "2026-08-04T08:00:00+00:00" : (slug === "responsive-typography-guide" ? "2026-08-03T08:00:00+00:00" : (slug === "variable-fonts-guide" ? "2026-07-26T08:00:00+00:00" : (slug === "ecommerce-typography-guide" ? "2026-07-25T08:00:00+00:00" : (slug === "accessibility-first-typography-guide" ? "2026-07-21T08:00:00+00:00" : (slug === "typography-psychology-guide" ? "2026-07-20T08:00:00+00:00" : (slug === "mobile-first-typography-guide" ? "2026-07-19T08:00:00+00:00" : "2025-05-15T08:00:00+00:00"))))))),
     "dateModified": new Date().toISOString()
   };
 
