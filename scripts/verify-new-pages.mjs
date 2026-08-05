@@ -4,17 +4,17 @@ const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';
 
 const newUrls = [
   "/",
-  "/blog/ai-interface-typography-guide",
-  "/pairings/ai-chatbot-typography",
-  "/pairings/generative-ui-fonts",
-  "/pairings/llm-interface-typography",
-  "/pairings/dark-mode-ai-typography",
-  "/pairings/streaming-text-fonts",
-  "/pairings/accessible-ai-typography",
-  "/pairings/monospace-fonts-for-ai-code",
-  "/pairings/data-dense-ai-typography",
-  "/pairings/voice-interface-typography",
-  "/pairings/technical-documentation-ai"
+  "/blog/variable-fonts-guide",
+  "/pairings/adaptable-variable-fonts-for-ecommerce",
+  "/pairings/condensed-variable-fonts-for-ui",
+  "/pairings/expressive-variable-display-fonts",
+  "/pairings/high-legibility-variable-fonts",
+  "/pairings/multilingual-variable-fonts",
+  "/pairings/responsive-variable-mobile-pairings",
+  "/pairings/variable-fonts-accessibility",
+  "/pairings/variable-fonts-for-digital-editorial",
+  "/pairings/variable-fonts-for-e-commerce",
+  "/pairings/variable-fonts-for-performance"
 ];
 
 async function verifyUrls() {
