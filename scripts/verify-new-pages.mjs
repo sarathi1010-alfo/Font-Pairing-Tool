@@ -14,7 +14,13 @@ const newUrls = [
   "/pairings/variable-fonts-accessibility",
   "/pairings/variable-fonts-for-digital-editorial",
   "/pairings/variable-fonts-for-e-commerce",
-  "/pairings/variable-fonts-for-performance"
+  "/pairings/variable-fonts-for-performance",
+  "/blog/ultimate-guide-to-font-pairing-2026",
+  "/blog/what-is-font-pairing",
+  "/blog/what-is-contrast-in-typography",
+  "/blog/what-is-a-serif-font",
+  "/blog/what-is-a-sans-serif-font",
+  "/blog/what-is-leading"
 ];
 
 async function verifyUrls() {
