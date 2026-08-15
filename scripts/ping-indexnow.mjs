@@ -7,8 +7,8 @@ import fetch from 'node-fetch';
  */
 
 const SITE_URL = 'https://fontfusion.alfo.online';
-// In a real environment, this key would be stored in a file at the root (e.g., /86950f5308b2a836fd804730ef0e5e7d.txt)
-const API_KEY = '86950f5308b2a836fd804730ef0e5e7d';
+// In a real environment, this key would be stored in a file at the root (e.g., /e146ebfe7c264a28b577bd51da603a1d.txt)
+const API_KEY = 'e146ebfe7c264a28b577bd51da603a1d';
 
 const newUrls = [
   `${SITE_URL}/blog/professional-font-pairing-guide`,
