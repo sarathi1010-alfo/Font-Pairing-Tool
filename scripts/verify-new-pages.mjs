@@ -3,15 +3,17 @@ import { chromium } from 'playwright';
 const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';
 
 const newUrls = [
-  "/",
-  "/about",
-  "/blog",
-  "/blog/ultimate-guide-to-font-pairing-2026",
-  "/blog/what-is-font-pairing",
-  "/blog/what-is-contrast-in-typography",
-  "/blog/what-is-a-serif-font",
-  "/blog/what-is-a-sans-serif-font",
-  "/blog/what-is-leading"
+  '/blog/accessibility-first-typography-guide',
+  '/pairings/accessible-sans-serifs',
+  '/pairings/dyslexia-friendly-fonts',
+  '/pairings/large-x-height-pairings',
+  '/pairings/ui-accessibility-fonts',
+  '/pairings/inclusive-editorial-design',
+  '/pairings/variable-fonts-accessibility',
+  '/pairings/low-vision-pairings',
+  '/pairings/accessible-data-visualization',
+  '/pairings/accessible-ecommerce-typography',
+  '/pairings/accessible-fluid-typography'
 ];
 
 async function verifyUrls() {

@@ -829,3 +829,24 @@ Description: Master the anatomy of variable fonts and take your digital typograp
 Graphic: "How to use font-variation-settings in CSS" with a clean code snippet example.
 Title: CSS Guide: Implementing Variable Fonts
 Description: A simple, actionable guide to using variable fonts in your CSS for responsive, high-performance web design.
+
+### Accessibility-First Typography Guide
+#### X (Twitter)
+1. Accessibility isn't an afterthought; it's the foundation of good design. Here’s why your font choices matter more than you think. 🖋️ #Accessibility #WebDesign
+2. Did you know that generous x-heights improve legibility? Learn the rules of accessibility-first typography in our latest guide. 🎯 #A11y
+3. Stop relying on color alone to convey meaning! Discover essential typography tips to make your site usable for everyone. Read more. #InclusiveDesign
+
+#### LinkedIn
+1. In digital design, empathy is key. Designing with accessibility-first typography means considering legibility, contrast, and visual hierarchy from day one. Read our comprehensive guide on how to build inclusive digital experiences.
+2. The debate between serif and sans-serif for accessibility is nuanced. Modern high-resolution displays have changed the rules. Dive into the details in our new guide on accessibility-first typography.
+3. Proper line height (leading) can make or break the reading experience for users with cognitive or visual impairments. Learn how to master spacing and layout in our latest article on accessible typography.
+
+#### Instagram
+1. Carousel: Slide 1 (Accessible vs Inaccessible Fonts) → Slide 2 (Contrast Ratios) → Slide 3 (Visual Hierarchy) → Slide 4 (Line Height Basics). CTA: Link in bio to read our guide.
+2. Reel: Quick tips on checking color contrast for text using WCAG standards.
+3. Static Post: "Accessibility-first typography is not just about compliance with legal standards; it is about empathy and inclusivity."
+4. Story: Poll: "Do you use a contrast checker for your designs?" + link to the guide.
+
+#### Pinterest
+1. Pin 1: "The Ultimate Guide to Accessibility-First Typography" (infographic on font characteristics).
+2. Pin 2: "10 Rules for Accessible Typography Every Designer Should Know" (curated list pin).
