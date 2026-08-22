@@ -9,19 +9,17 @@ import fetch from 'node-fetch';
 const SITE_URL = 'https://fontfusion.alfo.online';
 // In a real environment, this key would be stored in a file at the root (e.g., /e146ebfe7c264a28b577bd51da603a1d.txt)
 const API_KEY = 'e146ebfe7c264a28b577bd51da603a1d';
+// [YOUR_INDEXNOW_KEY] has been updated
 
 const newUrls = [
-  `${SITE_URL}/blog/professional-font-pairing-guide`,
-  `${SITE_URL}/pairings/modern-serif-sans-serif`,
-  `${SITE_URL}/pairings/vintage-typography`,
-  `${SITE_URL}/pairings/minimalist-fonts`,
-  `${SITE_URL}/pairings/body-text-headings`,
-  `${SITE_URL}/pairings/script-display`,
-  `${SITE_URL}/pairings/monospace-sans`,
-  `${SITE_URL}/pairings/elegant-wedding`,
-  `${SITE_URL}/pairings/tech-startup`,
-  `${SITE_URL}/pairings/luxury-brand`,
-  `${SITE_URL}/pairings/editorial-magazine`
+  `${SITE_URL}/blog/ultimate-guide-to-font-pairing-2026`,
+  `${SITE_URL}/blog/what-is-a-sans-serif-font`,
+  `${SITE_URL}/blog/what-is-a-serif-font`,
+  `${SITE_URL}/blog/what-is-contrast-in-typography`,
+  `${SITE_URL}/blog/what-is-font-pairing`,
+  `${SITE_URL}/blog/what-is-leading`,
+  `${SITE_URL}/about`,
+  `${SITE_URL}/blog`
 ];
 
 async function pingIndexNow() {
