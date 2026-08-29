@@ -11,7 +11,10 @@ const newUrls = [
   '/blog/what-is-a-serif-font',
   '/blog/what-is-contrast-in-typography',
   '/blog/what-is-font-pairing',
-  '/blog/what-is-leading'
+  '/blog/what-is-leading',
+  '/templates',
+  '/fonts',
+  '/pairings'
 ];
 
 async function verifyUrls() {
