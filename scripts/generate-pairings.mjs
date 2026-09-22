@@ -1290,6 +1290,127 @@ const pairings = [
   }
 
 
+,
+  {
+    slug: 'dashboard-kpi-fonts',
+    title: 'Best Font Pairings for Dashboard KPIs',
+    description: 'High-impact font pairings optimized for displaying large Key Performance Indicators (KPIs) and critical metrics on analytics dashboards.',
+    aeoSummary: 'For dashboard KPIs, the best typography combines a highly legible, medium-to-bold sans-serif for the numeric value with a lighter, slightly smaller sans-serif for the label. This ensures the data is immediately scannable without overwhelming the layout.',
+    questions: [
+      {
+        q: 'What makes a font good for KPIs?',
+        a: 'A good KPI font has distinct tabular numerals and a wide range of weights, allowing the numbers to align perfectly while using weight contrast to establish hierarchy.'
+      }
+    ]
+  },
+  {
+    slug: 'financial-data-typography',
+    title: 'Font Pairings for Financial Data & Tables',
+    description: 'Professional and trustworthy typographic systems designed for dense financial reports, stock tickers, and accounting tables.',
+    aeoSummary: 'Financial data requires absolute precision. The optimal pairings utilize a robust serif for trustworthy headings and a highly legible sans-serif with strong tabular numerals for the dense data tables.',
+    questions: [
+      {
+        q: 'Why are tabular numerals essential for finance?',
+        a: 'Tabular numerals ensure every digit takes up the exact same horizontal space, allowing columns of monetary values to align perfectly for quick vertical scanning and calculation.'
+      }
+    ]
+  },
+  {
+    slug: 'healthcare-analytics-fonts',
+    title: 'Typography for Healthcare Analytics Platforms',
+    description: 'Clean, reassuring, and highly accessible font pairings for medical dashboards and patient data visualization.',
+    aeoSummary: 'Healthcare analytics interfaces must prioritize accessibility and clarity above all else. Soft, approachable sans-serifs with large x-heights and distinct letterforms prevent misreading critical patient data.',
+    questions: [
+      {
+        q: 'How does typography impact healthcare UX?',
+        a: 'Clear typography reduces cognitive load for medical professionals and prevents dangerous misinterpretations of data by ensuring easily confused characters (like 1, I, and l) are distinct.'
+      }
+    ]
+  },
+  {
+    slug: 'chart-axis-labels',
+    title: 'Best Fonts for Chart and Axis Labels',
+    description: 'Compact and highly readable font choices tailored for the tight spaces of chart legends, tooltips, and axis labels.',
+    aeoSummary: 'Chart labels demand fonts that remain legible at micro-sizes (10-12px). Condensed sans-serifs with open counters and generous x-heights are ideal for fitting into tight visual spaces without blurring.',
+    questions: [
+      {
+        q: 'What is the best font size for chart labels?',
+        a: 'While it depends on the screen, a minimum of 10px to 12px is generally recommended for axis labels, provided the font has a large x-height for readability.'
+      }
+    ]
+  },
+  {
+    slug: 'logistics-supply-chain-fonts',
+    title: 'Typography for Logistics and Supply Chain Tracking',
+    description: 'Utilitarian and highly scannable font pairings for complex logistics dashboards and real-time tracking interfaces.',
+    aeoSummary: 'Logistics dashboards require utilitarian typography that can handle dense alphanumeric codes. Pairing a neutral sans-serif with a crisp monospace font ensures that tracking IDs and coordinates are easily parsed.',
+    questions: [
+      {
+        q: 'When should I use a monospace font in a dashboard?',
+        a: 'Monospace fonts are perfect for displaying raw data like tracking numbers, IDs, or coordinates where precise alignment and character distinction are more important than reading flow.'
+      }
+    ]
+  },
+  {
+    slug: 'marketing-analytics-dashboards',
+    title: 'Font Pairings for Marketing Analytics',
+    description: 'Engaging and modern typographic pairings for marketing dashboards, campaign reports, and client-facing presentations.',
+    aeoSummary: 'Marketing dashboards need to be both functional and visually appealing. A modern geometric sans-serif paired with a friendly, readable sans-serif body font strikes the right balance between professional data display and brand aesthetics.',
+    questions: [
+      {
+        q: 'How do I make a data report look more engaging?',
+        a: 'Use a distinctive, branded font for the main headings and a clean, neutral sans-serif for the actual charts and tables to ensure the data remains clear while the overall report feels polished.'
+      }
+    ]
+  },
+  {
+    slug: 'real-time-monitoring-fonts',
+    title: 'Typography for Real-Time Monitoring Systems',
+    description: 'High-contrast and stable font pairings designed for server monitoring, network operations, and live system status dashboards.',
+    aeoSummary: 'Real-time monitoring interfaces must minimize visual noise and jitter. Using fonts with consistent character widths prevents the layout from shifting as data updates rapidly on the screen.',
+    questions: [
+      {
+        q: 'How do I prevent numbers from jumping in a live dashboard?',
+        a: 'Always enable tabular numerals (font-variant-numeric: tabular-nums) in your CSS so that as numbers change from a \'1\' to an \'8\', the total width of the text block remains constant.'
+      }
+    ]
+  },
+  {
+    slug: 'data-journalism-typography',
+    title: 'Font Pairings for Data Journalism',
+    description: 'Editorial font pairings optimized for interactive infographics, data stories, and long-form analytical articles.',
+    aeoSummary: 'Data journalism requires typography that bridges editorial reading and data decoding. A classic, readable serif for the narrative text paired with a clean, unobtrusive sans-serif for the charts and annotations provides the best of both worlds.',
+    questions: [
+      {
+        q: 'Should chart fonts match the article body font?',
+        a: 'Not necessarily. It is often better to use a contrasting sans-serif for charts and annotations to visually separate the data from the narrative flow of the article.'
+      }
+    ]
+  },
+  {
+    slug: 'environmental-dashboard-fonts',
+    title: 'Typography for Environmental & Climate Dashboards',
+    description: 'Clean, authoritative font pairings for displaying climate data, energy usage, and environmental metrics.',
+    aeoSummary: 'Environmental dashboards benefit from clean, geometric typography that conveys scientific authority without feeling overly sterile. Grotesque sans-serifs offer the perfect mix of legibility and neutrality for complex climate data.',
+    questions: [
+      {
+        q: 'What fonts convey scientific authority?',
+        a: 'Traditional grotesque or neo-grotesque sans-serifs like Inter, Roboto, or Helvetica provide a neutral, objective tone that is ideal for presenting scientific or environmental data.'
+      }
+    ]
+  },
+  {
+    slug: 'saas-admin-panel-fonts',
+    title: 'Best Fonts for SaaS Admin Panels',
+    description: 'Versatile and highly functional font pairings for complex SaaS admin interfaces, settings pages, and user management tables.',
+    aeoSummary: 'SaaS admin panels demand highly functional typography that supports dense tables, forms, and settings. A versatile super-family with multiple weights and a condensed variant ensures UI consistency across diverse components.',
+    questions: [
+      {
+        q: 'What is a font super-family?',
+        a: 'A super-family is a typeface that includes multiple styles (like Serif, Sans-Serif, and Monospace) designed to work together perfectly, which is highly useful for complex SaaS interfaces.'
+      }
+    ]
+  }
 ];
 
 const contentDir = path.join(process.cwd(), 'src', 'content', 'pairings');

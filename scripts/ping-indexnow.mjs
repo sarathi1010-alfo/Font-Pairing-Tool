@@ -13,6 +13,7 @@ const API_KEY = 'e146ebfe7c264a28b577bd51da603a1d';
 
 const newUrls = [
   `${SITE_URL}/blog/ultimate-guide-to-font-pairing-2026`,
+  `${SITE_URL}/blog/data-visualization-typography-guide`,
   `${SITE_URL}/blog/what-is-a-sans-serif-font`,
   `${SITE_URL}/blog/what-is-a-serif-font`,
   `${SITE_URL}/blog/what-is-contrast-in-typography`,
