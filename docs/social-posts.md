@@ -850,3 +850,25 @@ Description: A simple, actionable guide to using variable fonts in your CSS for 
 #### Pinterest
 1. Pin 1: "The Ultimate Guide to Accessibility-First Typography" (infographic on font characteristics).
 2. Pin 2: "10 Rules for Accessible Typography Every Designer Should Know" (curated list pin).
+
+## Data Visualization Typography Campaign
+
+### X / Twitter (Quick Typography Tips)
+1. "If your dashboard numbers don't align perfectly, you're doing it wrong. Always use tabular numerals for financial data and tables. 📊 #WebDesign #DataViz"
+2. "Designing a chart? Skip the display fonts. You need a sans-serif with a massive x-height so axis labels remain readable at 10px. 📈 #UI #Typography"
+3. "The 'Il1' test for data viz: Can you distinguish the uppercase 'I', lowercase 'l', and number '1'? If not, find a new font. Accuracy is everything. 🎯"
+
+### LinkedIn (Professional Strategy)
+4. "Data visualization is about clarity, not decoration. If users can't read your axis labels or align your data tables, the dashboard fails. Here's why tabular numerals are your best friend in UI design."
+5. "One of the most common mistakes in dashboard design: using too many font sizes to establish hierarchy. Instead, try using a single font family and utilizing weight contrast (e.g., Bold for labels, Light for giant KPIs)."
+6. "When designing data visualizations for dark mode, avoid pure white text on pure black backgrounds. It causes halation (glowing text) that strains the user's eyes over time. Soften the contrast for better accessibility."
+
+### Instagram (Visual & Educational)
+7. **Carousel:** Slide 1: "Typography Rules for Data Visualization." Slide 2: "1. Use Tabular Numerals (Shows aligned vs misaligned numbers)." Slide 3: "2. Maximize X-Height (Shows 10px font comparison)." Slide 4: "3. Disambiguate Characters (Shows Il1 test)." Slide 5: "Read the full guide. Link in bio."
+8. **Reel:** Screen recording of a dashboard table. First half shows proportional numerals looking jagged and misaligned. Second half shows `font-variant-numeric: tabular-nums;` being applied, snapping everything into perfect columns. Caption: "The one CSS line every data designer needs."
+9. **Static Post:** Graphic showing "18,450.00" in proportional vs tabular numerals. Caption: "Stop using proportional numbers in your data tables. Alignment is everything. #UIUX #DataDesign"
+10. **Story:** Poll: "What's harder to design?" Marketing Sites / Data Dashboards. + link to the guide.
+
+### Pinterest (Long-tail Visual Search)
+11. **Pin 1:** "The Ultimate Guide to Typography for Data Visualization" (Vertical infographic showing tabular numerals, x-height, and hierarchy rules).
+12. **Pin 2:** "Top 10 Fonts for Analytics Dashboards and Financial Data" (Curated visual list of high-legibility sans-serifs with tabular figures).
