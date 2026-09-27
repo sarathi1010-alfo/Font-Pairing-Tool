@@ -15,7 +15,18 @@ const newUrls = [
   '/blog/what-is-leading',
   '/templates',
   '/fonts',
-  '/pairings'
+  '/pairings',
+  '/blog/accessibility-first-typography-guide',
+  '/pairings/accessible-ai-typography',
+  '/pairings/accessible-data-visualization',
+  '/pairings/accessible-ecommerce-typography',
+  '/pairings/accessible-fluid-typography',
+  '/pairings/accessible-sans-serifs',
+  '/pairings/dyslexia-friendly-fonts',
+  '/pairings/inclusive-editorial-design',
+  '/pairings/low-vision-pairings',
+  '/pairings/ui-accessibility-fonts',
+  '/pairings/variable-fonts-accessibility'
 ];
 
 async function verifyUrls() {
