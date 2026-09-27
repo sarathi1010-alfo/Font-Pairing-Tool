@@ -872,3 +872,31 @@ Description: A simple, actionable guide to using variable fonts in your CSS for 
 ### Pinterest (Long-tail Visual Search)
 11. **Pin 1:** "The Ultimate Guide to Typography for Data Visualization" (Vertical infographic showing tabular numerals, x-height, and hierarchy rules).
 12. **Pin 2:** "Top 10 Fonts for Analytics Dashboards and Financial Data" (Curated visual list of high-legibility sans-serifs with tabular figures).
+
+### Campaign: Accessibility-First Typography
+**Focus:** Inclusive design, legibility, high contrast, and accessible typography best practices.
+
+#### X / Twitter (Quick Tips & Insights)
+1. "Accessibility isn’t optional. When choosing fonts, contrast is just as important as style. WCAG AA requires at least 4.5:1. 🔍 #AccessibilityFirst #WebDesign"
+2. "Designers: Stop using color alone to convey meaning in your UI! Accessible typography relies on distinct shapes and varied font weights to establish hierarchy. ✍️"
+3. "Are your fonts dyslexia-friendly? Look for clear differences between ‘I’, ‘l’, and ‘1’. Generous x-heights make reading so much easier. Learn more in our new guide."
+
+#### LinkedIn (Professional Strategy)
+4. "Is your brand accidentally excluding users? Accessible typography is about empathy and inclusivity. It ensures everyone, regardless of visual or cognitive ability, can connect with your message. Read our comprehensive Accessibility-First Typography Guide today."
+5. "The ROI of accessible design is clear. By choosing legible typefaces and mastering contrast, you improve UX, decrease bounce rates, and serve a wider audience. Here’s how professional designers handle accessible font pairings."
+6. "From variable fonts to fluid typography, modern web capabilities have made inclusive design more powerful than ever. We just published a deep dive into how to build accessible typographic systems."
+
+#### Instagram (Visual & Educational)
+7. **Carousel Post:**
+   - Slide 1: "Is your typography accessible?" (High contrast text)
+   - Slide 2: "Look for distinct letterforms (1, I, l)."
+   - Slide 3: "Check your contrast ratio (WCAG AA/AAA)."
+   - Slide 4: "Avoid relying solely on color."
+   - CTA: "Read the full Accessibility-First Guide in our bio."
+8. **Reel:** A quick screen recording demonstrating how to use a contrast checker tool with a beautifully paired serif and sans-serif on FontFusion.
+9. **Static Post:** A graphic showing bad vs. good line height (leading) for readability. "Give your text room to breathe."
+10. **Story:** A poll: "Do you test your typography for color contrast?" -> (Yes/No) + link to the guide.
+
+#### Pinterest (Long-tail Visual Search)
+11. **Pin 1:** Vertical graphic titled "10 Best Accessible Font Pairings for Inclusive Design" (showing high-contrast examples).
+12. **Pin 2:** Infographic: "The Typography Accessibility Checklist: Contrast, Legibility, and Hierarchy."

@@ -20,7 +20,18 @@ const newUrls = [
   `${SITE_URL}/blog/what-is-font-pairing`,
   `${SITE_URL}/blog/what-is-leading`,
   `${SITE_URL}/about`,
-  `${SITE_URL}/blog`
+  `${SITE_URL}/blog`,
+  `${SITE_URL}/blog/accessibility-first-typography-guide`,
+  `${SITE_URL}/pairings/accessible-ai-typography`,
+  `${SITE_URL}/pairings/accessible-data-visualization`,
+  `${SITE_URL}/pairings/accessible-ecommerce-typography`,
+  `${SITE_URL}/pairings/accessible-fluid-typography`,
+  `${SITE_URL}/pairings/accessible-sans-serifs`,
+  `${SITE_URL}/pairings/dyslexia-friendly-fonts`,
+  `${SITE_URL}/pairings/inclusive-editorial-design`,
+  `${SITE_URL}/pairings/low-vision-pairings`,
+  `${SITE_URL}/pairings/ui-accessibility-fonts`,
+  `${SITE_URL}/pairings/variable-fonts-accessibility`
 ];
 
 async function pingIndexNow() {
