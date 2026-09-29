@@ -31,7 +31,17 @@ const newUrls = [
   `${SITE_URL}/pairings/inclusive-editorial-design`,
   `${SITE_URL}/pairings/low-vision-pairings`,
   `${SITE_URL}/pairings/ui-accessibility-fonts`,
-  `${SITE_URL}/pairings/variable-fonts-accessibility`
+  `${SITE_URL}/pairings/variable-fonts-accessibility`,
+  `${SITE_URL}/blog/variable-fonts-guide`,
+  `${SITE_URL}/pairings/adaptable-variable-fonts-for-ecommerce`,
+  `${SITE_URL}/pairings/condensed-variable-fonts-for-ui`,
+  `${SITE_URL}/pairings/expressive-variable-display-fonts`,
+  `${SITE_URL}/pairings/fluid-typography-pairings`,
+  `${SITE_URL}/pairings/high-legibility-variable-fonts`,
+  `${SITE_URL}/pairings/multilingual-variable-fonts`,
+  `${SITE_URL}/pairings/responsive-variable-mobile-pairings`,
+  `${SITE_URL}/pairings/variable-fonts-for-digital-editorial`,
+  `${SITE_URL}/pairings/variable-fonts-for-e-commerce`
 ];
 
 async function pingIndexNow() {
