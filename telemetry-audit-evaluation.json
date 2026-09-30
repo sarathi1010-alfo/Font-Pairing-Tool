@@ -67,5 +67,48 @@
       "Automated WCAG AAA typography contrast checker",
       "One-click CSS / Tailwind snippet generation & export"
     ]
+  },
+  "eval_harness": {
+    "framework": "promptfoo",
+    "version": "0.98.0",
+    "suites": [
+      {
+        "name": "typography_pairing_aesthetic_eval",
+        "type": "multimodal_eval",
+        "description": "Validates font pairing harmony, contrast compliance (WCAG AAA), and font load performance",
+        "metrics": [
+          "contrast_ratio_score",
+          "layout_shift_impact",
+          "render_time_ms"
+        ],
+        "thresholds": {
+          "min_contrast_ratio": 4.5,
+          "max_render_time_ms": 50
+        },
+        "test_cases_path": "tests/evals/font_pairings_fixture.json"
+      },
+      {
+        "name": "search_engine_llm_citation_eval",
+        "type": "search_engine_eval",
+        "description": "Evaluates Answer Engine extraction for typography recommendations & CSS codes",
+        "metrics": [
+          "citation_density",
+          "groundedness",
+          "code_snippet_parseability"
+        ],
+        "thresholds": {
+          "min_groundedness": 0.95,
+          "code_snippet_parseability": 1.0
+        }
+      }
+    ],
+    "ci_cd": {
+      "run_on_pull_request": true,
+      "block_on_failure": true,
+      "report_format": [
+        "json",
+        "markdown"
+      ]
+    }
   }
 }
