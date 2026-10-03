@@ -135,7 +135,6 @@ Programmatic Pages	25–50 (5-10/day)
 Micro-Answer Pages	~35 (5/day)
 Total New Pages/Week	80–120
 New Indexed Pages (Est.)	50–100
-
 DELIVERABLE 5: PRIORITY TOPIC QUEUE (FIRST 4 WEEKS)
 Week 1 (Fundamentals):
 
@@ -263,3 +262,39 @@ Pacifico + Lato
 Architects Daughter + Open Sans
 
 Gaegu + Noto Sans
+
+CRITICAL TASKS - DAY 1 (BEFORE STARTING CONTENT)
+URGENT FIX REQUIRED (2 Items):
+
+About Page Missing: The /about page currently returns an error. Create this critical page immediately:
+
+H1: "About FontFusion – Your Typography Pairing Partner"
+
+200-word mission statement explaining the tool's purpose, features, and commitment to helping designers find perfect font pairings.
+
+Link to the homepage and generator.
+
+Blog Page Missing: The /blog page currently returns an error. Create this critical landing page:
+
+H1: "FontFusion Blog – Typography Guides, Font Pairings & Design Inspiration"
+
+150-word intro explaining the blog's value
+
+Category sections: Typography Fundamentals, Font Pairings, Industry Guides, Technical Implementation
+
+Links to each Week 1 pillar and guide
+
+Internal links to /, /generator, and /browse
+
+FINAL EXECUTION STATUS
+Append-Only Rule enforced.
+
+GA4 (G-HZQ3QT11QC) preserved globally.
+
+4xx Zombie Audit scheduled for Saturdays.
+
+Sitemap/IndexNow Automation scripted.
+
+All 6 Deliverables generated with specific examples from the FontFusion niche.
+
+ACTION: Copy this blueprint. Update [YOUR_INDEXNOW_KEY]. Create the /about and /blog pages immediately. Start Week 1 - Monday (publish the "Ultimate Guide to Font Pairing" pillar + 5 Micros). Run the Saturday audit strictly to catch any 4xx pages before they degrade your GSC coverage. Proceed properly.
