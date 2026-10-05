@@ -925,3 +925,25 @@ Description: A simple, actionable guide to using variable fonts in your CSS for 
 #### Pinterest
 10. **Pin 1:** "Top 10 Variable Fonts for UI Design in 2026" (Curated list featuring Roboto Flex, Inter, and Fraunces).
 11. **Pin 2:** "How to Write CSS for Variable Fonts" (Visual code snippet showing `@font-face` and `font-variation-settings`).
+
+### Dark Mode Typography Campaign (2026-10-05)
+
+**For X/Twitter:**
+1. "The most common mistake in dark mode design? Pure white text on a pure black background. It causes halation and eye strain. Drop your text to 87% opacity white for a massive readability boost. 🌙"
+2. "Designers: when switching to dark mode, your fonts will optically look thicker. Compensate by dropping the font weight slightly using variable fonts. #UIUX 🖋️"
+3. "Typography in dark mode isn't just inverting colors. It requires increased tracking, specific font weights, and avoiding high-contrast serifs. Read our new guide to master it."
+
+**For LinkedIn:**
+4. "Is your app's dark mode causing eye strain? The problem might be your typography. Halation causes light text to bleed into dark backgrounds, making letters appear bolder and muddier. Here's how to fix it by leveraging variable fonts."
+5. "Accessibility isn't just for light mode. If you are using pure #FFFFFF text on #000000, you are creating a painful reading experience. Learn how to soften your palette and establish hierarchy through opacity."
+6. "From adjusting tracking to selecting fonts with open counters—our ultimate guide to Dark Mode Typography covers everything you need to build inclusive, premium digital products."
+
+**For Instagram:**
+7. Carousel: Slide 1 (The Halation Effect) → Slide 2 (Why pure black is bad) → Slide 3 (Adjusting font weights) → Slide 4 (Variable font solutions). CTA: Read the full guide.
+8. Reel: Screen recording showing how variable fonts smoothly adjust weight as the UI toggles between light and dark mode.
+9. Static Post: "Stop using pure white text in dark mode. Your users' eyes will thank you."
+
+**For Pinterest:**
+10. Pin 1: "Ultimate Dark Mode Typography Cheat Sheet" (infographic comparing good vs bad contrast).
+11. Pin 2: "10 Best Google Fonts for Dark Mode Interfaces" (curated visual list).
+12. Pin 3: "How to fix blurry text in dark mode" (tutorial preview).

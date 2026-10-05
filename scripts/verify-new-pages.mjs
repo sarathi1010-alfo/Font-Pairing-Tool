@@ -36,7 +36,18 @@ const newUrls = [
   '/pairings/multilingual-variable-fonts',
   '/pairings/responsive-variable-mobile-pairings',
   '/pairings/variable-fonts-for-digital-editorial',
-  '/pairings/variable-fonts-for-e-commerce'
+  '/pairings/variable-fonts-for-e-commerce',
+  '/blog/dark-mode-typography-guide',
+  '/pairings/dark-mode-typography-pairings',
+  '/pairings/dark-mode-ai-typography',
+  '/pairings/accessible-sans-serifs',
+  '/pairings/dyslexia-friendly-fonts',
+  '/pairings/innovative-tech-fonts',
+  '/pairings/ui-accessibility-fonts',
+  '/pairings/mobile-checkout-fonts',
+  '/pairings/calming-wellness-fonts',
+  '/pairings/generative-ui-fonts',
+  '/pairings/minimalist-ui-fonts'
 ];
 
 async function verifyUrls() {
