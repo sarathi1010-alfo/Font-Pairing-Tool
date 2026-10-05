@@ -47,7 +47,9 @@ export default function Home() {
           <div className="flex items-center justify-between mb-10">
             <div>
               <h2 className="text-3xl font-bold mb-2">Featured Pairings</h2>
-              <p className="text-zinc-600 dark:text-zinc-400">Curated combinations for your next project.</p>
+              <p className="text-zinc-600 dark:text-zinc-400">
+                Curated combinations for your next project. When implementing these styles, especially in low-light environments, contrast behaves differently. Read our comprehensive <Link href="/blog/dark-mode-typography-guide" className="text-indigo-600 hover:underline">Dark Mode Typography Guide</Link> to learn how to perfectly adjust weights and spacing for your digital products, preventing eye strain and improving overall readability for all your users.
+              </p>
             </div>
             <Button asChild variant="ghost" className="hidden sm:flex">
               <Link href="/browse">View all <ArrowRight className="ml-2 h-4 w-4" /></Link>
