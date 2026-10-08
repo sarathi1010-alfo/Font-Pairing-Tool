@@ -947,3 +947,25 @@ Description: A simple, actionable guide to using variable fonts in your CSS for 
 10. Pin 1: "Ultimate Dark Mode Typography Cheat Sheet" (infographic comparing good vs bad contrast).
 11. Pin 2: "10 Best Google Fonts for Dark Mode Interfaces" (curated visual list).
 12. Pin 3: "How to fix blurry text in dark mode" (tutorial preview).
+
+### AI Interface Typography Campaign
+
+**For X/Twitter:**
+1. "The most critical challenge in AI interface design is ensuring the user always knows *who* is speaking. Use subtle typography contrasts, like weight and color, to establish conversational hierarchy. 🤖"
+2. "Designing for generative AI? Remember that users don't read AI outputs like a novel; they scan them. Maximize legibility with high x-height sans-serifs and strict line-length limits. 📖"
+3. "Typography for streaming text requires stability. Avoid fonts with aggressive kerning pairs and configure your CSS line-breaking rules properly to prevent text from jittering as it's generated. 💻"
+
+**For LinkedIn:**
+4. "Artificial Intelligence is reshaping how we interact with software, making typography more important than ever. In AI interfaces, typography isn't just an aesthetic choice; it IS the interface. Learn how to design robust typography systems for conversational UI."
+5. "One of the biggest mistakes in AI tool design is poor handling of structured data. If your LLM outputs code or tables, a strong monospace font with tabular numerals is non-negotiable. Here's how to integrate them smoothly."
+6. "As LLMs become deeply integrated into enterprise workflows, integrating their typography into existing design systems is crucial. You must maintain brand consistency while clearly differentiating machine-generated content from human input. Check out our comprehensive guide."
+
+**For Instagram:**
+7. Carousel: Slide 1 (Typography for AI) → Slide 2 (Establishing Hierarchy) → Slide 3 (Handling Code Snippets) → Slide 4 (Preventing Jitter). CTA: Read the full guide.
+8. Reel: Screen recording showing how streaming text reflows beautifully when proper CSS line-breaking rules and stable fonts are applied.
+9. Static Post: "Typography in the era of AI is about engineering clear, frictionless communication."
+
+**For Pinterest:**
+10. Pin 1: "The Ultimate Guide to Typography for AI Interfaces" (vertical infographic).
+11. Pin 2: "10 Best Fonts for Chatbots and Conversational UI" (curated list pin).
+12. Pin 3: "How to fix jittery streaming text in LLM UIs" (tutorial preview).

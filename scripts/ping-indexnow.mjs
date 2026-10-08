@@ -52,7 +52,17 @@ const newUrls = [
   `${SITE_URL}/pairings/mobile-checkout-fonts`,
   `${SITE_URL}/pairings/calming-wellness-fonts`,
   `${SITE_URL}/pairings/generative-ui-fonts`,
-  `${SITE_URL}/pairings/minimalist-ui-fonts`
+  `${SITE_URL}/pairings/minimalist-ui-fonts`,
+  `${SITE_URL}/blog/ai-interface-typography-guide`,
+  `${SITE_URL}/pairings/ai-chatbot-typography`,
+  `${SITE_URL}/pairings/dark-mode-ai-typography`,
+  `${SITE_URL}/pairings/data-dense-ai-typography`,
+  `${SITE_URL}/pairings/generative-ui-fonts`,
+  `${SITE_URL}/pairings/large-x-height-pairings`,
+  `${SITE_URL}/pairings/llm-interface-typography`,
+  `${SITE_URL}/pairings/monospace-fonts-for-ai-code`,
+  `${SITE_URL}/pairings/technical-documentation-ai`,
+  `${SITE_URL}/pairings/voice-interface-typography`,
 ];
 
 async function pingIndexNow() {

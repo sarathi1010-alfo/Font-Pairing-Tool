@@ -47,7 +47,16 @@ const newUrls = [
   '/pairings/mobile-checkout-fonts',
   '/pairings/calming-wellness-fonts',
   '/pairings/generative-ui-fonts',
-  '/pairings/minimalist-ui-fonts'
+  '/pairings/minimalist-ui-fonts',
+  '/blog/ai-interface-typography-guide',
+  '/pairings/ai-chatbot-typography',
+  '/pairings/dark-mode-ai-typography',
+  '/pairings/data-dense-ai-typography',
+  '/pairings/large-x-height-pairings',
+  '/pairings/llm-interface-typography',
+  '/pairings/monospace-fonts-for-ai-code',
+  '/pairings/technical-documentation-ai',
+  '/pairings/voice-interface-typography'
 ];
 
 async function verifyUrls() {
