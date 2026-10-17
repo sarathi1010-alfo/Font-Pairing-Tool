@@ -969,3 +969,29 @@ Description: A simple, actionable guide to using variable fonts in your CSS for 
 10. Pin 1: "The Ultimate Guide to Typography for AI Interfaces" (vertical infographic).
 11. Pin 2: "10 Best Fonts for Chatbots and Conversational UI" (curated list pin).
 12. Pin 3: "How to fix jittery streaming text in LLM UIs" (tutorial preview).
+
+### Accessibility-First Typography Campaign Follow-Up (2026-10-17)
+#### X (Twitter)
+1. "Accessibility isn't an afterthought; it's the foundation of good design. Here’s why your font choices matter more than you think. 🖋️ #Accessibility #WebDesign"
+2. "Did you know that generous x-heights improve legibility? Learn the rules of accessibility-first typography in our latest guide. 🎯 #A11y"
+3. "Stop relying on color alone to convey meaning! Discover essential typography tips to make your site usable for everyone. Read more. #InclusiveDesign"
+
+#### LinkedIn
+4. "Is your brand accidentally excluding users? Accessible typography is about empathy and inclusivity. It ensures everyone, regardless of visual or cognitive ability, can connect with your message. Read our comprehensive Accessibility-First Typography Guide today."
+5. "The ROI of accessible design is clear. By choosing legible typefaces and mastering contrast, you improve UX, decrease bounce rates, and serve a wider audience. Here’s how professional designers handle accessible font pairings."
+6. "From variable fonts to fluid typography, modern web capabilities have made inclusive design more powerful than ever. We just published a deep dive into how to build accessible typographic systems."
+
+#### Instagram (Visual & Educational)
+7. **Carousel Post:**
+   - Slide 1: "Is your typography accessible?" (High contrast text)
+   - Slide 2: "Look for distinct letterforms (1, I, l)."
+   - Slide 3: "Check your contrast ratio (WCAG AA/AAA)."
+   - Slide 4: "Avoid relying solely on color."
+   - CTA: "Read the full Accessibility-First Guide in our bio."
+8. **Reel:** A quick screen recording demonstrating how to use a contrast checker tool with a beautifully paired serif and sans-serif on FontFusion.
+9. **Static Post:** A graphic showing bad vs. good line height (leading) for readability. "Give your text room to breathe."
+
+#### Pinterest (Long-tail Visual Search)
+10. **Pin 1:** "Top 10 Accessible Font Pairings for 2026" (vertical typography inspiration graphic).
+11. **Pin 2:** "How to Test Typography for Accessibility" (curated list pin of contrast checker tools).
+12. **Pin 3:** "Accessible Web Design: Serif vs Sans-Serif Fonts" (infographic).
