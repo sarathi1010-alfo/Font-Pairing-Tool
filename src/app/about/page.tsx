@@ -2,7 +2,7 @@ import { constructMetadata } from "@/lib/seo";
 import Link from "next/link";
 
 export const metadata = constructMetadata({
-  title: "About FontFusion - Your Typography Pairing Partner",
+  title: "About FontFusion – Your Typography Pairing Partner",
   description: "Learn more about FontFusion's mission to help designers and founders find the perfect typography combinations.",
   path: "/about",
 });
@@ -16,13 +16,10 @@ export default function AboutPage() {
 
       <section className="prose prose-zinc dark:prose-invert max-w-none text-lg leading-relaxed">
         <p>
-          At FontFusion, our mission is to empower designers, founders, and creators to discover the perfect typography combinations effortlessly. Finding the right font pairing shouldn&apos;t be a tedious process of trial and error. We&apos;ve built an intelligent, seamless tool that helps you instantly preview, compare, and save open-source fonts. Our purpose goes beyond simply displaying typefaces; we aim to educate and inspire our users to make informed, confident design decisions that elevate their digital projects.
+          At FontFusion, our core mission is simple yet powerful: we are dedicated to helping designers, founders, and developers find the perfect font pairings for their digital projects. We understand that typography is the bedrock of visual communication, and selecting the right combination can elevate a good design into a great one. We offer an intuitive, powerful tool designed to eliminate the guesswork and frustration typically associated with typographic selection. Our platform enables users to instantly preview, compare, and save high-quality, open-source fonts tailored to their specific needs.
         </p>
         <p>
-          Typography is the foundational element of any digital experience. It communicates tone, establishes hierarchy, and ensures readability across all devices. Our curated collections of Google Fonts are categorized by mood, industry, and use case, allowing you to focus on what matters most—designing beautiful, impactful products. We are deeply committed to providing an accessible, robust platform where creativity thrives. Our features include live previews, extensive filtering options, and instant CSS/Google Fonts code generation to seamlessly integrate chosen typography into your codebase. Understanding how fonts adapt to different contexts is vital; for instance, see our <Link href="/blog/dark-mode-typography-guide" className="text-indigo-600 hover:underline">Dark Mode Typography Guide</Link> to learn how to optimize your interface for low-light environments by fine-tuning weights and contrast.
-        </p>
-        <p>
-          Whether you&apos;re building a tech startup, a luxury brand, or a personal blog, FontFusion provides the typographic clarity you need. Our comprehensive font generator removes the guesswork, offering expertly crafted pairings and immediate exports to streamline your daily workflow. By bridging the gap between aesthetic beauty and technical implementation, we ensure that every designer has the resources they need to create cohesive, stunning digital environments.
+          We believe that excellent design should be accessible to everyone. By curating extensive collections of fonts based on mood, industry, and practical use case, we provide a streamlined workflow that saves you time and sparks creativity. We are committed to maintaining a robust, continuously updated library of typographic resources and educational guides. Whether you are building a modern SaaS dashboard, a luxury e-commerce brand, or an elegant editorial blog, FontFusion equips you with the insights and tools necessary to make confident, professional design decisions.
         </p>
 
         <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
