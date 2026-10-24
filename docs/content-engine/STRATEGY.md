@@ -297,4 +297,4 @@ Sitemap/IndexNow Automation scripted.
 
 All 6 Deliverables generated with specific examples from the FontFusion niche.
 
-ACTION: Copy this blueprint. Update [YOUR_INDEXNOW_KEY]. Create the /about and /blog pages immediately. Start Week 1 - Monday (publish the "Ultimate Guide to Font Pairing" pillar + 5 Micros). Run the Saturday audit strictly to catch any 4xx pages before they degrade your GSC coverage. Proceed properly.
+ACTION: Copy this blueprint. Update e146ebfe7c264a28b577bd51da603a1d. Create the /about and /blog pages immediately. Start Week 1 - Monday (publish the "Ultimate Guide to Font Pairing" pillar + 5 Micros). Run the Saturday audit strictly to catch any 4xx pages before they degrade your GSC coverage. Proceed properly.
