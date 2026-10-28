@@ -12,8 +12,10 @@ import { constructMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = constructMetadata({
-  title: "FontFusion - Best Font Combinations for Designers",
-  description: "Find font pairs that look premium, readable, and ready to ship. A fast, beautiful font pairing tool that helps designers and founders discover, compare, and save the perfect typography combinations.",
+  title: "FontFusion - Free Font Pairing Tool & Typography",
+  description: "Discover harmonious font pairings and typography combinations in seconds. Free font pairing tool with live UI previews, contrast checks, and CSS export.",
+  image: "https://fontfusion.alfo.online/og-image.png",
+  path: "",
 });
 
 export default function RootLayout({
@@ -31,9 +33,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebApplication",
-              "name": siteConfig.name,
-              "url": siteConfig.url,
-              "description": siteConfig.description,
+              "name": "FontFusion",
+              "url": "https://fontfusion.alfo.online/",
+              "description": "Free font pairing tool and typography combination generator.",
               "applicationCategory": "DesignApplication",
               "operatingSystem": "All",
             }),
@@ -56,6 +58,13 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={`${inter.className} min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50 flex flex-col`}>
+        <a
+          href="#main-content"
+          id="skip-link"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-primary focus:text-primary-foreground focus:rounded-md focus:shadow-lg focus:outline-none"
+        >
+          Skip to main content
+        </a>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
@@ -63,13 +72,11 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
-          <main className="flex-1 flex flex-col">
+          <main id="main-content" className="flex-1 flex flex-col">
             {children}
           </main>
           <Footer />
         </ThemeProvider>
-        {/* Placeholder for future lightweight analytics like Plausible or Umami */}
-        {/* <Script defer data-domain="fontfusion.alfo.online" src="https://plausible.io/js/script.js" strategy="afterInteractive" /> */}
       </body>
     </html>
   );
