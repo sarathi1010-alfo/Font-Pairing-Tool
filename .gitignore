@@ -42,3 +42,8 @@ next-env.d.ts
 node_modules/
 out/
 src/content/seo/
+
+# playwright
+test-results/
+playwright-report/
+

@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 import createMDX from "@next/mdx";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  // output: "export",
   pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
 };
 

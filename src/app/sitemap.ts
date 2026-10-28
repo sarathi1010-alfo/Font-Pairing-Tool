@@ -4,14 +4,7 @@ import { getAllSeoSlugs } from '@/lib/mdx';
 
 export const dynamic = 'force-static';
 
-export async function generateSitemaps() {
-  // Return exactly 1000 items, id ranges from 0 to 999
-  return Array.from({ length: 1000 }, (_, i) => ({ id: i }));
-}
-
-export default async function sitemap({ id }: { id: number }): Promise<MetadataRoute.Sitemap> {
-  const resolvedId = await id;
-
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const tools = [
     {
       url: generateCanonicalUrl('/tools/contrast'),
@@ -84,22 +77,13 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     },
   ];
 
-  const baseUrls = resolvedId === 0 ? [...staticPages, ...tools] : [];
-
   const slugs = getAllSeoSlugs();
-  const chunkSize = Math.ceil(slugs.length / 1000);
-
-  const start = resolvedId * chunkSize;
-  const end = start + chunkSize;
-
-  const chunkedSlugs = slugs.slice(start, end);
-
-  const dynamicUrls = chunkedSlugs.map(slug => ({
+  const dynamicUrls = slugs.map((slug) => ({
     url: generateCanonicalUrl(`/seo/${slug}`),
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.7,
   }));
 
-  return [...baseUrls, ...dynamicUrls];
+  return [...staticPages, ...tools, ...dynamicUrls];
 }
