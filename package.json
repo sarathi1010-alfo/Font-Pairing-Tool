@@ -8,7 +8,8 @@
     "build": "pnpm run prebuild && next build && node scripts/seo-validator.mjs",
     "start": "next start",
     "lint": "eslint",
-    "validate-seo": "node scripts/seo-validator.mjs"
+    "validate-seo": "node scripts/seo-validator.mjs",
+    "postbuild": "node scripts/indexnow-ping.mjs"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",

@@ -54,7 +54,6 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: "@alfo_online",
     },
     icons,
     robots: {
