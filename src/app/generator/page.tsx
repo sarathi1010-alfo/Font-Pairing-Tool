@@ -8,10 +8,11 @@ import { Badge } from "@/components/ui/badge";
 import { getAllFonts, getAllPairs, FontPair, Font } from "@/lib/fonts";
 import { DynamicFontLoader } from "@/components/DynamicFontLoader";
 import { useFavorites } from "@/lib/storage";
-import { RefreshCw, Heart, Share, SlidersHorizontal, ArrowLeftRight, Sparkles, ExternalLink } from "lucide-react";
+import { RefreshCw, Heart, Share, SlidersHorizontal, ArrowLeftRight, Sparkles, ExternalLink, Copy, Check } from "lucide-react";
 import { LiveWebsitePreview } from "@/components/LiveWebsitePreview";
 import { generateTypographySystem } from "@/lib/typography-system";
 import { calculatePairingConfidence } from "@/lib/recommendation";
+import { trackEvent } from "@/lib/gtag";
 import Link from "next/link";
 
 function GeneratorContent() {
@@ -32,6 +33,7 @@ function GeneratorContent() {
   const [headingWeight, setHeadingWeight] = useState([700]);
   const [bodyWeight, setBodyWeight] = useState([400]);
   const [selectedMood, setSelectedMood] = useState<string>("all");
+  const [cssCopied, setCssCopied] = useState(false);
 
   const uniqueMoods = Array.from(new Set(allFonts.flatMap(f => f.mood))).sort();
 
@@ -40,6 +42,26 @@ function GeneratorContent() {
     setCurrentPair(pair);
     setHeadingFontData(allFonts.find(f => f.name === pair.headingFont));
     setBodyFontData(allFonts.find(f => f.name === pair.bodyFont));
+  };
+
+  const handleCopyCss = () => {
+    const css = `/* Headings */
+font-family: "${currentPair.headingFont}", sans-serif;
+font-weight: ${headingWeight[0]};
+
+/* Body */
+font-family: "${currentPair.bodyFont}", sans-serif;
+font-weight: ${bodyWeight[0]};`;
+    navigator.clipboard.writeText(css);
+    setCssCopied(true);
+    setTimeout(() => setCssCopied(false), 2000);
+    trackEvent('copy_css', {
+      heading: currentPair.headingFont,
+      body: currentPair.bodyFont,
+      headingWeight: headingWeight[0],
+      bodyWeight: bodyWeight[0],
+      slug: currentPair.slug,
+    });
   };
 
   const randomize = () => {
@@ -61,7 +83,14 @@ function GeneratorContent() {
       nextIndex = (nextIndex + 1) % validPairs.length;
     }
 
-    handleSetPair(validPairs[nextIndex]);
+    const nextPair = validPairs[nextIndex];
+    handleSetPair(nextPair);
+    trackEvent('pair_font', {
+      heading: nextPair.headingFont,
+      body: nextPair.bodyFont,
+      mood: selectedMood,
+      slug: nextPair.slug,
+    });
   };
 
   if (!currentPair) return null;
@@ -221,6 +250,14 @@ function GeneratorContent() {
               <div className="font-semibold">{currentPair.bodyFont}</div>
               <div className="text-xs text-zinc-500 mt-1 capitalize">{bodyFontData?.category}</div>
             </div>
+            <Button
+              onClick={handleCopyCss}
+              className="w-full mt-2 h-11 text-sm font-semibold gap-2"
+              variant="outline"
+            >
+              {cssCopied ? <Check className="h-4 w-4 text-emerald-500" /> : <Copy className="h-4 w-4" />}
+              {cssCopied ? "CSS Specs Copied!" : "Copy CSS Specs"}
+            </Button>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-zinc-200 dark:border-zinc-800">

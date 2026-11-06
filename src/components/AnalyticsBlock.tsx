@@ -6,9 +6,7 @@ interface AnalyticsBlockProps {
   gaId?: string;
 }
 
-export function AnalyticsBlock({ gaId = "G-XXXXXXXXXX" }: AnalyticsBlockProps) {
-  if (process.env.NODE_ENV !== "production") return null;
-
+export function AnalyticsBlock({ gaId = "G-HZQ3QT11QC" }: AnalyticsBlockProps) {
   return (
     <>
       <Script
@@ -18,10 +16,18 @@ export function AnalyticsBlock({ gaId = "G-XXXXXXXXXX" }: AnalyticsBlockProps) {
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
+          function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', '${gaId}');
+          if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+            window['ga-disable-${gaId}'] = true;
+          } else {
+            gtag('config', '${gaId}', {
+              cookie_domain: 'auto',
+              linker: { domains: ['alfo.online', 'sm-clinics.vercel.app', 'pdfutility.app'] },
+              cookie_flags: 'SameSite=None;Secure'
+            });
+          }
         `}
       </Script>
     </>

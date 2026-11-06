@@ -22,7 +22,7 @@ export function ToolTemplate({
   return (
     <div className="container mx-auto px-4 py-12 md:py-20 max-w-4xl">
       <div className="mb-12">
-        <Link href="/tools" className="text-sm text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 flex items-center mb-6">
+        <Link href="/browse" className="text-sm text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100 flex items-center mb-6">
           ← Back to all tools
         </Link>
         <h1 className="text-4xl md:text-5xl font-bold mb-4">{title}</h1>

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { getAllPairs, FontPair } from "@/lib/fonts";
 import { DynamicFontLoader } from "@/components/DynamicFontLoader";
+import { trackEvent } from "@/lib/gtag";
 
 export default function ComparePage() {
   const allPairs = getAllPairs();
@@ -27,7 +28,11 @@ export default function ComparePage() {
           <div className="flex flex-col gap-6">
             <select
               value={leftPair.slug}
-              onChange={(e) => setLeftPair(allPairs.find(p => p.slug === e.target.value) || allPairs[0])}
+              onChange={(e) => {
+                const selected = allPairs.find(p => p.slug === e.target.value) || allPairs[0];
+                setLeftPair(selected);
+                trackEvent('pair_font', { heading: selected.headingFont, body: selected.bodyFont, slug: selected.slug, side: 'left' });
+              }}
               className="w-full p-3 bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-md font-medium"
             >
               {allPairs.map(pair => (
@@ -71,7 +76,11 @@ export default function ComparePage() {
           <div className="flex flex-col gap-6">
             <select
               value={rightPair.slug}
-              onChange={(e) => setRightPair(allPairs.find(p => p.slug === e.target.value) || allPairs[1])}
+              onChange={(e) => {
+                const selected = allPairs.find(p => p.slug === e.target.value) || allPairs[1];
+                setRightPair(selected);
+                trackEvent('pair_font', { heading: selected.headingFont, body: selected.bodyFont, slug: selected.slug, side: 'right' });
+              }}
               className="w-full p-3 bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-md font-medium"
             >
               {allPairs.map(pair => (
